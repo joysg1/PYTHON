@@ -49,6 +49,9 @@ while opcion != 0:
         resultado = multi(num1, num2)
         print(f"{num1} * {num2} = {resultado}\n")  
     elif opcion ==4:
+        while num2 ==0:
+            print(f"El segundo numero no puede ser 0 en la division\n")
+            num2 = int(input("Por favor ingrese el segundo numero \n"))
         resultado = divi(num1, num2)
         print(f"{num1} / {num2} = {resultado} \n")
     else:
