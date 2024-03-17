@@ -1,5 +1,4 @@
 
-'''
 
 cadena = 'Hola'
 numero = 77
@@ -33,7 +32,7 @@ print(f"Comprobacion de tipo = {type(numero)}")
 print("*"*80)
 print("\n")
 
-'''
 
 
+print("Ejemplo extra, multiplicacion de cadena")
 print("Hola"*5)
