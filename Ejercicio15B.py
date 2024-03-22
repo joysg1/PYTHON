@@ -1,10 +1,12 @@
 #Archivo principal (empleado para llamar al modulo con las funciones)
 
-import Ejercicio15   # Importe del Ejercicio15 que es el archivo modulo (aquel que tiene las funciones)
+import Ejercicio15 as Operacion  # Importe del Ejercicio15 que es el archivo modulo (aquel que tiene las funciones)
+
+# Uso del alias Operacion
 
 # Llamado de las funciones del Ejercicio15
 
-print(Ejercicio15.suma(2,2))
-print(Ejercicio15.resta(3,3))
-print(Ejercicio15.multi(7,7))
-print(Ejercicio15.divi(10,5))
+print(Operacion.suma(2,2))
+print(Operacion.resta(3,3))
+print(Operacion.multi(7,7))
+print(Operacion.divi(10,5))
