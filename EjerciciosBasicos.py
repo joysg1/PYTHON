@@ -9,4 +9,7 @@ while True:
     elif numero %2 ==0:
         print(f"El {numero} es par, fin del programa")
         break
+    
+    
+ # 2.    
         
