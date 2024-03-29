@@ -102,6 +102,7 @@ print(f"Sumatoria = {suma}")
 # 6. Genera una lista con numeros al azar e indicar cuantas veces aparece 
 # un numero en la lista
 
+'''
 
 listaR = []
 
@@ -123,3 +124,4 @@ print("*"*80)
 r = int(input("Ingrese el numero que desea verificar si se repite: "))
 print(f"El numero = {r} se repite = {listaR.count(r)} veces")
 
+'''
