@@ -63,6 +63,7 @@ print(f"Listado de numeros impares [11-31]: {listaImpar}")
 
 # 4. Genera una lista con los multiplos del 7 del 10 al 80
 
+'''
 
 listaI = []
 
@@ -71,3 +72,21 @@ for i in range(10,81):
     if i%7==0:
         listaI.append(i)
 print(f"Multiplos del 7 [10-80]: {listaI}")        
+
+'''
+
+
+# 5. Sumar todos los numeros enteros pares del 50 al 100
+
+suma = 0
+listaP = []
+
+
+for i in range(50,101):
+    if i%2 ==0:
+        listaP.append(i)
+        suma = suma + i
+print(f"Listado de pares [50-100]: {listaP}") 
+print("\n")
+print("*"*80) 
+print(f"Sumatoria = {suma}")      
