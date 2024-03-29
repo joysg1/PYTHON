@@ -1,5 +1,7 @@
 import statistics
 
+import random
+
 
 # 1. Leer un numero por teclado, comprobar que sea impar
 # repetir el proceso hasta que sea par
@@ -78,6 +80,8 @@ print(f"Multiplos del 7 [10-80]: {listaI}")
 
 # 5. Sumar todos los numeros enteros pares del 50 al 100
 
+'''
+
 suma = 0
 listaP = []
 
@@ -90,3 +94,32 @@ print(f"Listado de pares [50-100]: {listaP}")
 print("\n")
 print("*"*80) 
 print(f"Sumatoria = {suma}")      
+
+
+'''
+
+
+# 6. Genera una lista con numeros al azar e indicar cuantas veces aparece 
+# un numero en la lista
+
+
+listaR = []
+
+cR = 0
+
+
+while cR <=0:
+ cR = int(input("Ingrese la cantidad de numeros al azar que desea: "))
+
+print("\n")
+print("*"*80)
+
+for i in range(0,cR):
+    listaR.append(random.randint(0,cR))
+print(f"Listado de numeros aleatorios = {listaR}")
+
+print("\n")
+print("*"*80)
+r = int(input("Ingrese el numero que desea verificar si se repite: "))
+print(f"El numero = {r} se repite = {listaR.count(r)} veces")
+
