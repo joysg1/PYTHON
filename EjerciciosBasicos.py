@@ -17,7 +17,8 @@ while True:
 '''    
  # 2. Realiza la media de los numeros que ingrese el usuario
  
- 
+''' 
+
 listaNumeros = []
 
 numUsuario = 0
@@ -40,5 +41,16 @@ print(f"Listado de numeros = {listaNumeros}")
 print("\n")
 print("*"*80)
 print(f"Media del listado = {statistics.mean(listaNumeros)}") 
-    
-        
+
+''' 
+
+
+# 3. Generar una lista con los numeros impares del 11 al 31
+
+listaImpar = []
+
+for i in range(11,32):
+    if i%2 !=0:
+     listaImpar.append(i)
+
+print(f"Listado de numeros impares [11-31]: {listaImpar}")    
