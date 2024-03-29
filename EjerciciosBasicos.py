@@ -47,6 +47,9 @@ print(f"Media del listado = {statistics.mean(listaNumeros)}")
 
 # 3. Generar una lista con los numeros impares del 11 al 31
 
+
+'''
+
 listaImpar = []
 
 for i in range(11,32):
@@ -54,3 +57,17 @@ for i in range(11,32):
      listaImpar.append(i)
 
 print(f"Listado de numeros impares [11-31]: {listaImpar}")    
+
+'''
+
+
+# 4. Genera una lista con los multiplos del 7 del 10 al 80
+
+
+listaI = []
+
+
+for i in range(10,81):
+    if i%7==0:
+        listaI.append(i)
+print(f"Multiplos del 7 [10-80]: {listaI}")        
