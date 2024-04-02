@@ -4,7 +4,7 @@
 def numParesR(i,f):
     nump = []
     
-    for c in range(i,f):
+    for c in range(i,f+1):
         if c%2 ==0:
             nump.append(c)
     return nump       
