@@ -1,0 +1,19 @@
+def mayorEdad(e):
+    if e >=18:
+        mensaje = "Si es mayor de edad"
+    else:
+        mensaje = "No es mayor de edad"
+
+    return mensaje    
+
+
+edadU = 0
+
+while edadU <=0:
+ edadU = int(input("Por favor ingrese su edad: "))
+
+resultU = mayorEdad(edadU)
+
+
+print("\t\t ---  RESULTADOS  --- \n")
+print(f"Edad ingresada = {edadU} --- {resultU}")
