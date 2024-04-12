@@ -39,12 +39,51 @@ def IA():
     lista_opciones = ['Piedra', 'Papel', 'Tijera']   
     opcion_IA = random.choice(lista_opciones)
     return opcion_IA
+
+def comprobar(opcion_usuario, opcion_maquina):
+    global partidas, ganadas, perdidas, empatadas
+    partidas = partidas + 1
+    print("\n")
+    if (opcion_usuario == opcion_maquina):
+        print("Hemos empatado")
+        empatadas = empatadas + 1
+    elif (opcion_usuario == 'Piedra') and  (opcion_maquina =='Tijera'):
+        print("Haz ganado")  
+        ganadas = ganadas +1
+    elif (opcion_usuario == 'Papel') and  (opcion_maquina =='Piedra'):
+        print("Haz ganado")  
+        ganadas = ganadas +1
+    elif (opcion_usuario == 'Tijera') and  (opcion_maquina =='Papel'):
+        print("Haz ganado")  
+        ganadas = ganadas +1
+    else:
+        print("Haz perdido")
+        perdidas = perdidas +1
+    print("\n")   
+    print("*"*20)  
+    print(f"Opcion IA = {opcion_maquina}")
+    print(f"Opcion USUARIO = {opcion_usuario}")
+    print(f"Llevamos {partidas} partidas")  
+    print(f"Llevamos {ganadas} partidas ganadas")   
+    print(f"Llevamos {perdidas} partidas perdidas") 
+    print(f"Llevamos {ganadas} partidas ganadas")  
+     
+     
+     
+     
+            
+           
             
                 
     
 def main():
     iniciar()
-    menu()
+    opcion_usuario = menu()
+    while True:
+        if opcion_usuario != None:
+            opcion_maquina = IA()
+            comprobar(opcion_usuario,IA)
+        opcion_usuario = menu()    
     
 if __name__ =='__main__':
      main()
