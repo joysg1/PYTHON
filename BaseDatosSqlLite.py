@@ -24,5 +24,38 @@ def crearTabla():
         print("No se pudo crear la tabla")    
     conexion.close()
 
+
+def insertar(datos):
+    conexion, cursor = conectar()
+
+    sql = """
+           INSERT INTO agenda(nombre,telefono) VALUES(?,?)
+           
+
+
+         """
+    if(cursor.execute(sql,datos)):
+        print("Datos guardados")
+    else:
+        print("No se pudieron guardar los datos ") 
+
+    conexion.commit()      
+    conexion.close()  
+
+def consultar():
+    conexion, cursor = conectar()
+    cursor.execute("SELECT id,nombre,telefono from agenda")   
+    for fila in cursor:
+        print("ID = ", fila[0])
+        print("Nombre ", fila[1])
+        print("Telefono ", fila[2], '\n')
+    conexion.close()    
+
 crearTabla()
+datos = "Luis", "6543-2188"
+datos2 = "Jose", "6457-9821"
+insertar(datos)
+insertar(datos2)
+
+consultar()
 
