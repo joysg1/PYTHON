@@ -44,6 +44,11 @@ def consultar():
     
 if __name__=='__main__':    
  
- crear_tabla()      
+ crear_tabla() 
+
+ #Prueba de ingreso de datos
+
+ alumno1 = (1, "Carlos Garcia",5)
+ insertar(alumno1)     
     
     
