@@ -48,7 +48,12 @@ if __name__=='__main__':
 
  #Prueba de ingreso de datos
 
+"""
  alumno1 = (1, "Carlos Garcia",5)
- insertar(alumno1)     
+ insertar(alumno1)  
+ 
+"""    
     
+alumno2 = (2, "Raul Fernandez",10)
+insertar(alumno2)     
     
