@@ -48,12 +48,39 @@ if __name__=='__main__':
 
  #Prueba de ingreso de datos
 
+
+
+# Bucle para ingresar tres registros a la base de datos
+
+
 """
- alumno1 = (1, "Carlos Garcia",5)
- insertar(alumno1)  
+
+i = 0
+
+print("INGRESO DE 3 ALUMNOS A LA BASE DE DATOS\n")
+print("*"*80)
+while i <3:
+ i = i + 1
+ nombre = str(input(f"Ingrese el nombre del estudiante #{i}: "))
+ calificacion = -1
+ while calificacion <0:
+  calificacion = int(input(f"Ingrese la calificacion del estudiante #{i}: "))
+ alumno = (i,nombre,calificacion)
+ insertar(alumno)
+
+"""
+
+
+# Consultar la base de datos tras el ingreso
  
-"""    
-    
-alumno2 = (2, "Raul Fernandez",10)
-insertar(alumno2)     
+consultar()
+                    
+
+Alumnos = consultar() 
+
+
+print("Lista de los nombres de los alumnos")
+for Alumno in Alumnos:
+    print(f"Nombre del alumno: {Alumno[1]}, Calificacion: {Alumno[2]}")
+
     
