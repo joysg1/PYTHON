@@ -14,7 +14,6 @@ import sqlite3
 def conectar():
     conexion = sqlite3.connect('alumnos.db')
     cursor = conexion.cursor()
-    print('Conectado a la base de datos')
     return conexion, cursor
 
 def cerrar_conexion(conexion):
@@ -30,6 +29,7 @@ def crear_tabla():
 def insertar(alumno):
     conexion, cursor = conectar()
     cursor.execute('INSERT INTO ALUMNO VALUES (?,?,?)',alumno)
+    print("Alumno insertado")
     conexion.commit()
     cerrar_conexion(conexion) 
     
@@ -39,7 +39,6 @@ def consultar():
     cursor.execute('SELECT * FROM alumno')
     alumnos = cursor.fetchall()
     cerrar_conexion(conexion) 
-    print("CONSULTA REALIZADA") 
     return alumnos    
 
 def actualizar(identificador, nombre, notas):
@@ -58,14 +57,15 @@ def borrar(identificador):
     conexion.commit()
     print("Alumno borrado")
     cerrar_conexion(conexion)       
-    
+"""   
+
 if __name__=='__main__':    
  
  crear_tabla() 
 
  #Prueba de ingreso de datos
 
-
+"""
 
 # Bucle para ingresar tres registros a la base de datos
 
@@ -91,6 +91,7 @@ while i <3:
 
 # Consultar la base de datos tras el ingreso
  
+"""
 consultar()
                     
 
@@ -113,6 +114,6 @@ actualizar(1,"Jorge",4)
 
 
 
-
+"""
  
  
