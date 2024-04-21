@@ -40,7 +40,24 @@ def consultar():
     alumnos = cursor.fetchall()
     cerrar_conexion(conexion) 
     print("CONSULTA REALIZADA") 
-    return alumnos      
+    return alumnos    
+
+def actualizar(identificador, nombre, notas):
+    conexion, cursor = conectar() 
+    
+    cursor.execute(f" UPDATE ALUMNO SET nombre = '{nombre}' , NOTAS = {notas} WHERE IDENTIFICADOR = {identificador}")
+    print("Alumno actualizado")
+    conexion.commit()
+    cerrar_conexion(conexion)   
+    
+    
+def borrar(identificador):
+    conexion, cursor = conectar() 
+    cursor.execute(f"DELETE FROM ALUMNO WHERE IDENTIFICADOR = {identificador}")
+    
+    conexion.commit()
+    print("Alumno borrado")
+    cerrar_conexion(conexion)       
     
 if __name__=='__main__':    
  
@@ -53,8 +70,8 @@ if __name__=='__main__':
 # Bucle para ingresar tres registros a la base de datos
 
 
-"""
 
+""""
 i = 0
 
 print("INGRESO DE 3 ALUMNOS A LA BASE DE DATOS\n")
@@ -71,6 +88,7 @@ while i <3:
 """
 
 
+
 # Consultar la base de datos tras el ingreso
  
 consultar()
@@ -83,4 +101,18 @@ print("Lista de los nombres de los alumnos")
 for Alumno in Alumnos:
     print(f"Nombre del alumno: {Alumno[1]}, Calificacion: {Alumno[2]}")
 
-    
+
+# Modificar datos de la tabla alumno
+
+actualizar(1,"Jorge",4) 
+
+
+# Borrar al estudiante con id 1
+
+# borrar(1) 
+
+
+
+
+ 
+ 
