@@ -21,7 +21,33 @@ class relojDigital():
         
         self.btn_activar_alarma = tk.Button(ventana, text = 'Activar Alarma',command=self.activar_alarma, state = "disabled")
         self.btn_activar_alarma.pack()
-        #Min 12.24 Video 94
+        self.cronometro_activo = False
+        
+    def iniciar_reloj(self):
+        hora_actual = time.strftime("%H:%M:%S")
+        self.lbl_hora.config(text=hora_actual)
+        self.lbl_hora.after(1000,self.iniciar_reloj)
+        
+    def iniciar_cronometro(self):
+        self.tiempo_inicio = time.time()
+        self.btn_iniciar_cronometro.config(state="disabled")
+        self.btn_detener_cronometro.config(state="normal")
+        self.cronometro_activo = True
+        self.actualizar_cronometro()
+    
+    def detener_cronometro(self):
+        self.btn_iniciar_cronometro.config(state="normal")
+        self.btn_detener_cronometro.config(state="disabled")
+        self.cronometro_activo = False
+        
+    def actualizar_cronometro(self):
+        if self.cronometro_activo:
+            tiempo_transcurrido = time.time - self.tiempo_inicio
+            tiempo_formato = time.strftime("%H:%M:%S",time.gm(tiempo_transcurrido)) 
+            self.lbl_hora.config(text=tiempo_formato) 
+            self.lbl_hora.after(1000,self.actualizar_cronometro) 
+            
+        #Min 20.14 Video 94
 
 
 
