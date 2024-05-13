@@ -24,9 +24,10 @@ class relojDigital():
         self.cronometro_activo = False
         
     def iniciar_reloj(self):
-        hora_actual = time.strftime("%H:%M:%S")
-        self.label_hora.config(text=hora_actual)
-        self.label_hora.after(1000,self.iniciar_reloj)
+        if self.cronometro_activo == False:
+          hora_actual = time.strftime("%H:%M:%S")
+          self.label_hora.config(text=hora_actual)
+          self.label_hora.after(1000,self.iniciar_reloj)
         
     def iniciar_cronometro(self):
         self.tiempo_inicio = time.time()
@@ -39,6 +40,7 @@ class relojDigital():
         self.btn_inicio_crono.config(state="normal")
         self.btn_detener_crono.config(state="disabled")
         self.cronometro_activo = False
+        self.iniciar_reloj()
         
     def actualizar_cronometro(self):
         if self.cronometro_activo:
@@ -49,13 +51,14 @@ class relojDigital():
             
     
     def configurar_alarma(self):
-        self.hora_alarma =tk.simpledialog.askstring("Configurar Alarma", "Ingrese la hora de la alarma (HH:MM)")
-        self.btn_activar_alarma.config(state="enabled")
+        self.hora_alarma =tk.simpledialog.askstring("Configurar Alarma", "Ingrese la hora de la alarma (formato: HH:MM)")
+        self.btn_activar_alarma.config(state="normal")
 
     def activar_alarma(self):
         hora_actual = time.strftime("%H:%M")
         if hora_actual == self.hora_alarma:
             messagebox.showinfo("Alarma", "Alarma activada")
+            self.btn_activar_alarma.config(state="disabled")
         else:
             self.ventana.after(6000,self.activar_alarma)
 
