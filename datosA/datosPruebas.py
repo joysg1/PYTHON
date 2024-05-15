@@ -19,6 +19,7 @@ def crear_datos(cantidad):
 
 if __name__=='__main__':
     print(crear_datos(3))
+    print(crear_datos(5))
    
 #Video 95 min 8.15 
     
