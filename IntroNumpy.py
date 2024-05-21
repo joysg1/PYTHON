@@ -36,5 +36,30 @@ print(matrizAleatoriaEnteros)
 
 arrayA = np.random.randint(1,201,30)
 print(arrayA)
+matriz = arrayA.reshape(5, 6)
+print(matriz)
 
-#Video 96 minuto 20
+arrayB= np.random.randint(1, 901, 200)
+print(arrayB)
+maximo = arrayB.max()
+print(f"El valor maximo es {maximo}")
+print(f"Se encuentra en la posicion = {arrayB.argmax()}")
+minimo = arrayB.min()
+print(f"El valor minimo es {minimo}")
+print(f"Se encuentra en la posicion = {arrayB.argmin()}")
+
+arrayC = np.arange(1,11)
+print(arrayC)
+print(arrayC[3])
+print(arrayC[5:])
+print(arrayC[:6])
+
+arrayC2 = arrayC.copy()
+print(arrayC2)
+print(arrayC)
+print("\n")
+arrayC2[0]=999999
+print(arrayC2)
+print(arrayC)
+
+#Video 96 minuto 31
