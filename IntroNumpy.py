@@ -62,4 +62,16 @@ arrayC2[0]=999999
 print(arrayC2)
 print(arrayC)
 
-#Video 96 minuto 31
+print(matriz)
+print(matriz[0])
+print(matriz[:2])
+print(matriz[1,2])
+print(matriz[:,:1])
+print(matriz+10)
+print(matriz*10)
+print(matriz*matriz)
+print(np.max(matriz))
+condicion = matriz >100
+print(condicion)
+
+#Video 96 minuto 40
