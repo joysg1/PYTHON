@@ -73,5 +73,20 @@ print(matriz*matriz)
 print(np.max(matriz))
 condicion = matriz >100
 print(condicion)
+print(matriz[condicion])
 
-#Video 96 minuto 40
+condicion = (matriz %2 !=0)
+print(matriz[condicion])
+
+lista = np.arange(5,41)
+print("Mostrando lista")
+print(lista)
+print("\n")
+print("Mostrando lista en forma de matriz")
+lista = lista.reshape(3, 12)
+print(lista)
+print("Mostrando elemento de lista")
+print(lista[2,4])
+
+arrayPrimitiva = np.random.randint(1, 50, 6)
+print(f"La combinacion ganadora es: {arrayPrimitiva}")
