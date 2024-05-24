@@ -90,3 +90,5 @@ print(lista[2,4])
 
 arrayPrimitiva = np.random.randint(1, 50, 6)
 print(f"La combinacion ganadora es: {arrayPrimitiva}")
+
+
