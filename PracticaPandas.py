@@ -20,4 +20,8 @@ serie3 = serie1 + serie2
 print("\n")
 print(serie3)
 
+serie4 = serie1 - serie2
+print("\n")
+print(serie4)
+
 #Video 97 min 10:30
