@@ -26,7 +26,7 @@ print(serie4)
 
 filas = ['tienda01','tienda02','tienda03','tienda04']
 columnas =['articulo1','articulo2','articulo3']
-datos = [[224,200,100],[100,120,101],[50,100,101],[120,101,106]]
+datos = [[np.nan,200,100],[np.nan,120,101],[np.nan,100,101],[np.nan,101,106]]
 
 dataframe = pd.DataFrame(datos, index=filas, columns=columnas)
 print(dataframe)
@@ -51,6 +51,33 @@ print("\n")
 dataframe['total']=dataframe['articulo1']+dataframe['articulo2']+dataframe['articulo3']+dataframe['articulo4']
 print(dataframe)
 
-# Video 97 min 21
+print(dataframe.drop('total', axis=1))
+print(dataframe)
+dataframe = dataframe.drop('total', axis=1)
+print(dataframe)
+condicion = dataframe > 200
+print(dataframe[condicion])
+condicion = dataframe != 'NaN'
+print(dataframe[condicion])
+condicion = (dataframe['articulo1'] > 200) | (dataframe['articulo2'] > 100)
+print(dataframe[condicion])
+nuevaColumna = '1 2 3 4'.split()
+dataframe['indices']=nuevaColumna
+print(dataframe)
+dataframe = dataframe.set_index('indices')
+print(dataframe)
+dataframe.dropna(inplace=True)
+print(dataframe)
+dataframe = dataframe.reset_index()
+print(dataframe)
+
+datos = [[np.nan,200,100],[np.nan,120,101],[np.nan,100,101],[np.nan,101,106]]
+
+dataframe = pd.DataFrame(datos, index=filas, columns=columnas)
+print(dataframe)
+dataframe.fillna(value=87, inplace=True)
+print(dataframe)
+
+#video 97 min 33.24
 
 
