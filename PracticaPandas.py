@@ -78,6 +78,10 @@ print(dataframe)
 dataframe.fillna(value=87, inplace=True)
 print(dataframe)
 
-#video 97 min 33.24
+print("\n")
+media = dataframe.mean()
+print(f"La media es igual a = {media}")
+
+#video 97 min 34.09
 
 
