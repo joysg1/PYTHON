@@ -81,7 +81,17 @@ print(dataframe)
 print("\n")
 media = dataframe.mean()
 print(f"La media es igual a = {media}")
+dataframe.fillna(value=media, inplace=True)
+print("\n")
+print(dataframe)
+data1 = dataframe.copy()
+data2 = dataframe.copy()
+print(data1)
+print(data2)
+datatotal = pd.concat([data1, data2], axis=0)
+print(datatotal)
+print(datatotal['articulo3'].value_counts())
 
-#video 97 min 34.09
+#video 97 min 43.06
 
 
