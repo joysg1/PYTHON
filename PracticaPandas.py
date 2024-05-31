@@ -91,6 +91,22 @@ print(data2)
 datatotal = pd.concat([data1, data2], axis=0)
 print(datatotal)
 print(datatotal['articulo3'].value_counts())
+datatotal = datatotal.apply(lambda x: x*3)
+print("\n")
+print(datatotal)
+print("\n")
+print(datatotal.columns)
+print(datatotal.index)
+print(datatotal.sort_values(by='articulo2'))
+print(datatotal.describe())
+
+# datatotal.to_csv('datatotal.csv')
+dataframe = pd.read_csv('datatotal.csv')
+print(dataframe)
+
+
+
+
 
 #video 97 min 43.06
 
