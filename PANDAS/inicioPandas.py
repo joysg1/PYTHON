@@ -7,7 +7,6 @@ print(datos.head(5))
 print(datos.tail(5))
 print(datos.info())
 print(datos.describe())
-print(datos.colums)
+print(datos.columns)
 print(datos.index)
 
-# video 99 min 6:08
