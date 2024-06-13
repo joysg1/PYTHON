@@ -108,6 +108,6 @@ print(dataframe)
 
 
 
-#video 97 min 43.06
+
 
 
