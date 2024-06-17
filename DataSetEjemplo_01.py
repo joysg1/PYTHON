@@ -1,5 +1,6 @@
 import csv
 import matplotlib.pyplot as plt
+import pandas as pd
 
 
 
@@ -37,9 +38,12 @@ plt.tight_layout()
 plt.show()
 
 
-# min 6:46 video 102
+
 
 # dataset url: https://www.kaggle.com/datasets/michau96/operating-system-market-2009-2023
+
+
+# video 102 min 41
 
 
 
