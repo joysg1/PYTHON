@@ -43,7 +43,7 @@ plt.show()
 # dataset url: https://www.kaggle.com/datasets/michau96/operating-system-market-2009-2023
 
 
-# video 102 1 h 5 min
+
 
 
 
