@@ -1,6 +1,11 @@
 import csv
 import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
+
+from seaborn import lmplot
+
+datos = pd.read_csv('os_worldwide_update_may_2024.csv')
 
 
 
@@ -29,6 +34,8 @@ plt.figure(figsize=(12, 8))
 for os in operating_systems:
     plt.plot(data["Date"], data["Operating Systems"][os], label=os)
 
+
+
 plt.title('Market Share of Operating Systems Over Time')
 plt.xlabel('Date')
 plt.ylabel('Market Share (%)')
@@ -37,6 +44,12 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
 plt.show()
 
+
+
+sns.heatmap(datos.isnull())
+
+
+# video 103 min 6
 
 
 
