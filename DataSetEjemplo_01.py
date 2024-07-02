@@ -49,7 +49,7 @@ plt.show()
 sns.heatmap(datos.isnull())
 
 
-# video 103 min 6
+# video 104 min 11
 
 
 
