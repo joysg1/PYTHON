@@ -1,0 +1,115 @@
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# Datos de ejemplo
+data = {
+    'Año': [2000, 2005, 2010, 2015, 2020, 2021],
+    'Camarón Blanco (Toneladas)': [5000, 4500, 4200, 3500, 3000, 2750],
+    'Camarón Tití (Toneladas)': [3000, 2700, 2550, 2100, 1800, 1650],
+    'Camarón Rojo (Toneladas)': [2000, 1800, 1750, 1400, 1200, 1100]
+}
+
+# Convertir los datos en un DataFrame
+df = pd.DataFrame(data)
+
+# Función para ajustar las predicciones y evitar valores negativos
+def ajustar_predicciones(pred, min_values):
+    return np.maximum(pred, min_values)
+
+# Crear el modelo lineal y hacer predicciones para cada serie
+model_blanco = LinearRegression()
+model_titi = LinearRegression()
+model_rojo = LinearRegression()
+
+# Ajustar el modelo para Camarón Blanco
+model_blanco.fit(df[['Año']], df['Camarón Blanco (Toneladas)'])
+pred_blanco_base = model_blanco.predict(np.arange(2024, 2125).reshape(-1, 1))
+
+# Introducir aleatoriedad por lustro para Camarón Blanco
+pred_blanco = []
+std_dev_blanco = 200  # Desviación estándar inicial para Camarón Blanco
+for year in range(2024, 2125):
+    if (year - 2024) % 5 == 0:
+        std_dev_blanco += np.random.uniform(-50, 50)  # Cambio aleatorio en desviación estándar cada 5 años
+    pred_blanco.append(pred_blanco_base[year - 2024] + np.random.normal(0, std_dev_blanco))
+
+# Convertir a numpy array
+pred_blanco = np.array(pred_blanco)
+
+# Obtener el valor mínimo histórico para Camarón Blanco
+min_blanco = df['Camarón Blanco (Toneladas)'].min()
+
+# Ajustar predicciones para Camarón Blanco
+pred_blanco = ajustar_predicciones(pred_blanco, min_blanco)
+
+# Ajustar el modelo para Camarón Tití
+model_titi.fit(df[['Año']], df['Camarón Tití (Toneladas)'])
+pred_titi_base = model_titi.predict(np.arange(2024, 2125).reshape(-1, 1))
+
+# Introducir aleatoriedad por lustro para Camarón Tití
+pred_titi = []
+std_dev_titi = 150  # Desviación estándar inicial para Camarón Tití
+for year in range(2024, 2125):
+    if (year - 2024) % 5 == 0:
+        std_dev_titi += np.random.uniform(-30, 30)  # Cambio aleatorio en desviación estándar cada 5 años
+    pred_titi.append(pred_titi_base[year - 2024] + np.random.normal(0, std_dev_titi))
+
+# Convertir a numpy array
+pred_titi = np.array(pred_titi)
+
+# Obtener el valor mínimo histórico para Camarón Tití
+min_titi = df['Camarón Tití (Toneladas)'].min()
+
+# Ajustar predicciones para Camarón Tití
+pred_titi = ajustar_predicciones(pred_titi, min_titi)
+
+# Ajustar el modelo para Camarón Rojo
+model_rojo.fit(df[['Año']], df['Camarón Rojo (Toneladas)'])
+pred_rojo_base = model_rojo.predict(np.arange(2024, 2125).reshape(-1, 1))
+
+# Introducir aleatoriedad por lustro para Camarón Rojo
+pred_rojo = []
+std_dev_rojo = 100  # Desviación estándar inicial para Camarón Rojo
+for year in range(2024, 2125):
+    if (year - 2024) % 5 == 0:
+        std_dev_rojo += np.random.uniform(-20, 20)  # Cambio aleatorio en desviación estándar cada 5 años
+    pred_rojo.append(pred_rojo_base[year - 2024] + np.random.normal(0, std_dev_rojo))
+
+# Convertir a numpy array
+pred_rojo = np.array(pred_rojo)
+
+# Obtener el valor mínimo histórico para Camarón Rojo
+min_rojo = df['Camarón Rojo (Toneladas)'].min()
+
+# Ajustar predicciones para Camarón Rojo
+pred_rojo = ajustar_predicciones(pred_rojo, min_rojo)
+
+# Crear el gráfico de líneas
+plt.figure(figsize=(10, 6))
+
+# Gráfico de líneas para Camarón Blanco
+plt.plot(df['Año'], df['Camarón Blanco (Toneladas)'], marker='o', color='dimgray', label='Camarón Blanco (Histórico)')
+plt.plot(np.arange(2024, 2125), pred_blanco, linestyle='--', color='dimgray', label='Camarón Blanco (Predicción)')
+
+# Gráfico de líneas para Camarón Tití
+plt.plot(df['Año'], df['Camarón Tití (Toneladas)'], marker='o', color='purple', label='Camarón Tití (Histórico)')
+plt.plot(np.arange(2024, 2125), pred_titi, linestyle='--', color='purple', label='Camarón Tití (Predicción)')
+
+# Gráfico de líneas para Camarón Rojo
+plt.plot(df['Año'], df['Camarón Rojo (Toneladas)'], marker='o', color='red', label='Camarón Rojo (Histórico)')
+plt.plot(np.arange(2024, 2125), pred_rojo, linestyle='--', color='red', label='Camarón Rojo (Predicción)')
+
+# Añadir títulos y etiquetas
+plt.title('Predicción de Desembarques de Camarón por Especie en el Puerto de Vacamonte (2024-2124)')
+plt.xlabel('Año')
+plt.ylabel('Toneladas')
+plt.legend()
+plt.grid(True)
+
+# Mostrar el gráfico
+plt.show()
+
+
