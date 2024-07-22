@@ -9,5 +9,5 @@ else:
     print("La palabra no es un palindromo")
     print(f"{palabra} != {palabra2}")
     
-#video 107 min 21:02
+
     
