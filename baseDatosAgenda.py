@@ -26,14 +26,37 @@ def insertar(datos):
     
 def consultar():
     conexion,cursor = conectar()
-    cursor.execute("SELECT id,nombre,telefono from agenda")
+    sql ="SELECT id,nombre,apellidos, telefono, email from agenda"
+    cursor.execute(sql)
+    listado = []
     for fila in cursor:
-        print("ID = ",fila[0])
-        print("Nombre = ", fila[1])
-        print("Telefono = ",fila[2], "\n")
+        listado.append(fila)
+        # print("ID = ",fila[0])
+        # print("Nombre = ", fila[1])
+        # print("Telefono = ",fila[2], "\n")
+    listado.sort()
+    conexion.close()
+    return listado
+    
+
+def modificar(id, nombre, apellidos, telefono, email):
+    conexion,cursor = conectar()
+    sql = "UPDATE agenda SET nombre='"+nombre+"',apellidos = '"+apellidos+"', telefono = '"+telefono+"', email = '"+email+"' where ID ="+str(id)
+    cursor.execute(sql)
+    cursor.close()
+    conexion.commit()
+    conexion.close()
+    
+    
+def borrar(id):
+    conexion,cursor = conectar()
+    sql = "DELETE FROM agenda where ID ="+str(id)
+    cursor.execute(sql)
+    cursor.close()
+    conexion.commit()
     conexion.close()
     
 
-#Video 119 minuto 20
+#video 119 minuto 40
         
     
