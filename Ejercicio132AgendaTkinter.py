@@ -27,22 +27,60 @@ def limpiarDatos():
     
 def guardar():
     crearTabla()
-    if((nombre.get=="") or (apellidos.get=="")):
+    if((nombre.get()=="") and (apellidos.get()=="")):
         mostrarMensaje("Error","Debes rellenar los datos")
     else:
         datos =nombre.get(),apellidos.get(),telefono.get(),email.get()
         mostrarMensaje("Guardar","Contacto guardado")
         insertar(datos)
         limpiarDatos()
+        mostrar()
         
 def actualizar():
     crearTabla()
-    if((ID.get=="") and (nombre.get =="")):
+    if((ID.get()=="") or (ID.get() ==0) or (nombre.get() =="")):
         mostrarMensaje("Error","Debes rellenar los datos")
     else:
-        modificar(ID.get(), nombre.get(), apellidos.get(), telefono.get(), email.get())
-        mostrarMensaje("Modificar", "Contacto modificado")
-        limpiarDatos()
+        try:
+         modificar(ID.get(), nombre.get(), apellidos.get(), telefono.get(), email.get())
+         mostrarMensaje("Modificar", "Contacto modificado")
+         limpiarDatos()
+         mostrar()
+        except:
+            mostrarMensaje("Error", "Identificador no encontrado")
+        
+def eliminar():
+    if(ID.get()=="") or (ID.get()==0):
+        mostrarMensaje("Error", "Debes insertar un identificador")
+    else:
+        try:
+         borrar(ID.get())
+         mostrarMensaje("Borrar", "Contacto borrado")
+         limpiarDatos()
+         mostrar()
+        except:
+            mostrarMensaje("Error", "Identificador no encontrado")
+
+def mostrar():
+    listado = consultar()
+    text.delete(1.0, END)
+    text.insert(INSERT,"ID\tNombre\tApellidos\tTelefono\tEmail\n")
+    for elemento in listado:
+        id = elemento[0]
+        nombre = elemento[1]
+        apellidos = elemento[2]
+        telefono = elemento[3]
+        email = elemento[4]
+        text.insert(INSERT, id)
+        text.insert(INSERT, "\t")
+        text.insert(INSERT, nombre)
+        text.insert(INSERT, "\t")
+        text.insert(INSERT, apellidos)
+        text.insert(INSERT, "\t")
+        text.insert(INSERT, telefono)
+        text.insert(INSERT, "\t")
+        text.insert(INSERT, email)
+        text.insert(INSERT, "\n")
         
 
 
@@ -76,9 +114,9 @@ cajaEmail = Entry(frame, textvariable=email).place(x=130, y=210)
 text = Text(frame)
 text.place(x=50, y=240, width=500,height=200)
 botonAnadir = Button(frame, text="Añadir",command=guardar).place(x=150, y=500)
-botonBorrar = Button(frame, text="Borrar").place(x=200, y=500)
-botonConsultar = Button(frame, text="Consultar").place(x=250, y=500)
-botonModificar = Button(frame, text="Modificar",command=modificar).place(x=320, y=500)
+botonBorrar = Button(frame, text="Borrar",command=eliminar).place(x=200, y=500)
+botonConsultar = Button(frame, text="Consultar",command=mostrar).place(x=250, y=500)
+botonModificar = Button(frame, text="Modificar",command=actualizar).place(x=320, y=500)
 ventana.mainloop()
 
-#video 119 minuto 40
+#video 119 minuto 1 h 5 minutos
