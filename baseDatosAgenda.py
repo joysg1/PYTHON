@@ -57,6 +57,6 @@ def borrar(id):
     conexion.close()
     
 
-#video 119 minuto 1 h 5 minutos
+
         
     

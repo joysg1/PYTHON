@@ -119,4 +119,3 @@ botonConsultar = Button(frame, text="Consultar",command=mostrar).place(x=250, y=
 botonModificar = Button(frame, text="Modificar",command=actualizar).place(x=320, y=500)
 ventana.mainloop()
 
-#video 119 minuto 1 h 5 minutos
