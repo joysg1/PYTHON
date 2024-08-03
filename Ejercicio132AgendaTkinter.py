@@ -82,7 +82,18 @@ def mostrar():
         text.insert(INSERT, email)
         text.insert(INSERT, "\n")
         
-
+def buscar():
+  if((ID.get()=="")or (ID.get()==0)):
+      mostrarMensaje("Error", "Debes insertar un identificador valido")
+  else:
+      contactos = dameContacto(ID.get())
+      for contacto in contactos:
+          ID.set(contacto[0])
+          nombre.set(contacto[1])
+          apellidos.set(contacto[2])
+          telefono.set(contacto[3])
+          email.set(contacto[4])
+      mostrarMensaje("Buscar", "Contacto encontrado")
 
 ventana=Tk()
 ventana.config(bg=colorVentana)
@@ -117,5 +128,6 @@ botonAnadir = Button(frame, text="Añadir",command=guardar).place(x=150, y=500)
 botonBorrar = Button(frame, text="Borrar",command=eliminar).place(x=200, y=500)
 botonConsultar = Button(frame, text="Consultar",command=mostrar).place(x=250, y=500)
 botonModificar = Button(frame, text="Modificar",command=actualizar).place(x=320, y=500)
+botonBuscar = Button(frame, text="Buscar",command=buscar).place(x=390, y=500)
 ventana.mainloop()
 

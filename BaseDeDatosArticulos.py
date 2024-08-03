@@ -31,6 +31,12 @@ def consultar():
     print("CONSULTA REALIZADA") 
     return articulos
 
+
+
+    
+
+
+
 def actualizar(identificador, nombre, cantidad, importe):
     conexion, cursor = conectar() 
     

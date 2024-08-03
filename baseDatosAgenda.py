@@ -37,7 +37,18 @@ def consultar():
     listado.sort()
     conexion.close()
     return listado
-    
+
+
+def dameContacto(id):
+    conexion, cursor = conectar()
+    sql = "SELECT * from agenda where id = "+str(id)
+    cursor.execute(sql)
+    contacto = cursor.fetchall()
+    conexion.close()
+    return contacto
+
+
+   
 
 def modificar(id, nombre, apellidos, telefono, email):
     conexion,cursor = conectar()
