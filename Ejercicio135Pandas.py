@@ -61,6 +61,100 @@ print("*"*80)
 print(df2.sort_values('Edad', ascending=False)) # Ordena por una columna
 print("*"*80)
 
+# Determinar la moda de la edad
+moda = df2['Edad'].mode()[0]
+print("La moda de la edad es:", moda)
+print("*"*80)
+# Determinar la moda de la ciudad
+moda_ciudad = df2['Ciudad'].mode()[0]
+print("La moda de la ciudad es:", moda_ciudad)
+print("*"*80)
+# Determinar la media de la edad
+media = df2['Edad'].mean()
+print("La media de la edad es:", media)
+print("*"*80)
+# Determinar la mediana de la edad
+mediana = df2['Edad'].median()
+print("La mediana de la edad es:", mediana)
+print("*"*80)
+# Determinar la desviacion estandar de la edad
+desviacion = df2['Edad'].std()
+print("La desviacion estandar de la edad es:", desviacion)
+print("*"*80)
+# Determinar la varianza de la edad
+varianza = df2['Edad'].var()
+print("La varianza de la edad es:", varianza)
+print("*"*80)
+# Determinar el rango de la edad
+rango = df2['Edad'].max() - df2['Edad'].min()
+print("El rango de la edad es:", rango)
+print("*"*80)
+
+# Determinar la moda en nombre
+moda_nombre = df2['Nombre'].mode()[0]
+print("La moda de los nombres es:", moda_nombre)
+print("*"*80)
+
+# Determinar las personas en edad de 20 a 30 
+print(df2[(df2['Edad'] >= 20) & (df2['Edad'] <= 30)])
+
+print("*"*80)
+# Agrupacion por ciudad y media de edad
+print(df2.groupby('Ciudad')['Edad'].mean())
+
+print("*"*80)
+# Agrupacion por ciudad y edad minima
+print(df2.groupby('Ciudad')['Edad'].min())
+print("*"*80)
+
+
+# Retorna el valor en la posicion de fila y columna indice
+print(df2.at[4, 'Ciudad'])
+fila_idx = 1
+columna_idx = 2
+print("*"*80)
+print(df2.iat[fila_idx, columna_idx])
+print("*"*80)
+
+# Determinar las personas que no viven en Madrid
+print(df2[~(df2['Ciudad'] == 'Madrid')])
+print("*"*80)
+
+# Determinar la moda de la edad de las personas que no viven en Madrid
+print(df2[~(df2['Ciudad'] == 'Madrid')]['Edad'].mode()[0])
+print("*"*80)
+
+
+# 6. Fusion y union de datos
+
+# Ejemplo de merge (fusion)
+df3 = pd.DataFrame({'key':['A','B','C'], 'value': [1,2,3]})
+df4 = pd.DataFrame({'key':['A','B','D'], 'value': [4,5,6]})
+merge_df = pd.merge(df3, df4, on='key', how= 'inner') 
+print(merge_df)
+
+print("*"*80)
+
+# Ejemplo de join (union)
+df5 = pd.DataFrame({'value':[1, 2, 3]}, index=['A', 'B', 'C']) 
+df6 = pd.DataFrame({'value':[4, 5, 6]}, index=['A', 'B', 'D'])
+joined_df = df5.join(df6, lsuffix='_df1', rsuffix='_df2', how='outer')
+joined_df2 = df5.join(df6, lsuffix='_df1', rsuffix='_df2', how='inner')
+print(joined_df2)
+
+print("*"*80)
+
+# 7. Visualizacion de datos con pandas
+
+import matplotlib.pyplot as plt
+
+# Genera un grafico de la distribucion de personas por ciudad coloca el titulo en los ejes 
+df2.groupby('Ciudad')['Edad'].count().plot(kind='bar', title='Distribucion de personas por ciudad')
+
+
+plt.show()
+
+
 
 
 
