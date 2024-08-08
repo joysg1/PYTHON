@@ -51,9 +51,15 @@ df2['Edad'] = df2['Edad'].astype('int') # Cambia el tipo de dato de una columna
 # Seleccion y filtrado
 
 print(df2['Nombre']) # Selecciona una columna
+print("*"*80)
 print(df2[df2['Edad'] > 30]) # Filtra por una condicion
+print("*"*80)
 print(df2[(df2['Edad'] > 30) & (df2['Ciudad'] == 'Madrid')]) # Filtra por multiples condiciones
+print("*"*80)
 print(df2.groupby('Ciudad').agg({'Edad': 'sum'})) # Agrupa por una columna y aplica una funcion
+print("*"*80)
+print(df2.sort_values('Edad', ascending=False)) # Ordena por una columna
+print("*"*80)
 
 
 
