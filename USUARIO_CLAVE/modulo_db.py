@@ -1,6 +1,4 @@
 import sqlite3
-from cryptography.fernet import Fernet
-from modulo_cripto import obtener_clave
 
 class Database:
     def __init__(self, nombre_base_datos):
@@ -23,13 +21,10 @@ class Database:
         self.conn.commit()
 
     def insertar_registro(self, url, usuario, clave, nota):
-        clave_encriptada = self.encriptar(clave)
+        # clave_encriptada = self.encriptar(clave)
         self.cursor.execute("INSERT INTO usuarios (url, usuario, clave, nota) VALUES (?, ?, ?, ?)", (url, usuario, clave_encriptada, nota))
         self.cursor.commit()
-    
-    def encriptar(self, texto_plano):
-        texto_encriptado = self.cipher_suite.encrypt(texto_plano.encode())
-        return texto_encriptado.decode()
+     
     
     def borrar_registro(self, id):
         self.cursor.execute("DELETE FROM usuarios WHERE id = ?", (id,))
@@ -40,13 +35,10 @@ class Database:
         return self.cursor.fetchone()
     
     def actualizar_registro(self, id, url, usuario, clave, nota):
-        clave_encriptada = self.encriptar(clave)
+        # clave_encriptada = self.encriptar(clave)
         self.cursor.execute("UPDATE usuarios SET url = ?, usuario = ?, clave = ?, nota = ? WHERE id = ?", (url, usuario, clave_encriptada, nota, id))
         self.conn.commit()
     
-    def desencriptar(self, texto_encriptado):
-        texto_plano = self.cipher_suite.decrypt(texto_encriptado.encode()).decode()
-        return texto_plano.decode()
     
     def cerrar_conexion(self):
         self.conn.close()
