@@ -128,6 +128,16 @@ class Aplicacion:
         self.entry_clave.delete(0, tk.END)
         self.entry_clave.insert(0, contraseña_generada)
 
+    def encriptar(self, texto_plano):
+        texto_encriptado = self.cipher_suite.encrypt(texto_plano.encode())
+        return texto_encriptado.decode()
+    
+    def desencriptar(self, texto_encriptado):
+        texto_plano = self.cipher_suite.decrypt(texto_encriptado.encode())
+        return texto_plano.decode()
+    
+
+
 
 
 
