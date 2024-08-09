@@ -4,6 +4,8 @@ from modulo_db import Database
 from cryptography.fernet import Fernet
 import random
 import string
+from os.path import join
+from os.path import join
 
 
 class Aplicacion:
@@ -40,5 +42,95 @@ class Aplicacion:
         lbl_nota.grid(row = 4, column =0)
         self.entry_nota = tk.Entry(root)
         self.entry_nota.grid(row = 4, column =1)
+
+        # botones
+
+        btn_grabar = tk.Button(root, text="Grabar", command=self.grabar_registro)
+        btn_grabar.grid(row = 5, column =0)
+
+        btn_actualizar = tk.Button(root, text="Actualizar", command=self.actualizar_registro)
+        btn_actualizar.grid(row = 5, column =1)
+
+        btn_borrar = tk.Button(root, text="Borrar", command=self.borrar_registro)
+        btn_borrar.grid(row = 6, column =0)
+
+        btn_buscar = tk.Button(root, text="Buscar_por_id", command=self.buscar_por_id)
+        btn_buscar.grid(row = 6, column =1)
+
+        btn_generar_contraseña = tk.Button(root, text="Generar_contraseña", command=self.generar_contraseña)
+        btn_generar_contraseña.grid(row = 7, column =0, columnspan=2)
+
+
+    def grabar_registro(self):
+        url = self.entry_url.get()
+        usuario = self.entry_usuario.get()
+        clave = self.entry_clave.get()
+        nota = self.entry_nota.get()
+
+        if url and usuario and clave:
+            clave_encriptada = self.encriptar(clave)
+            self.db.insertar_registro(url, usuario, clave_encriptada, nota)
+            messagebox.showinfo("Informacion", "El registro se ha grabado correctamente.")
+        else:
+            messagebox.showerror("Error", "Por favor, complete todos los campos.")
+
+    def actualizar_registro(self):
+        id = self.entry_id.get()
+        url = self.entry_url.get()
+        usuario = self.entry_usuario.get()
+        clave = self.entry_clave.get()
+        nota = self.entry_nota.get()
+
+        if id and url and usuario and clave:
+            clave_encriptada = self.encriptar(clave)
+            self.db.actualizar_registro(id, url, usuario, clave_encriptada, nota)
+            messagebox.showinfo("Informacion", "El registro se ha actualizado correctamente.")
+        else:
+            messagebox.showerror("Error", "Por favor, complete todos los campos.")
+
+    def borrar_registro(self):
+        id = self.entry_id.get()
+        if id:
+            self.db.borrar_registro(id)
+            messagebox.showinfo("Informacion", "El registro se ha borrado correctamente.")
+            self.limpiar_campos()
+        else:
+            messagebox.showerror("Error", "Por favor, ingrese un ID valido.")
+
+    def buscar_por_id(self):
+        id = self.entry_id.get()
+        if id:
+            resultado = self.db.buscar_por_id(id)
+            if resultado:
+                self.limpiar_campos()
+                self.entry_url.insert(0, resultado[1])
+                self.entry_usuario.insert(0, resultado[2])
+                clave_desencriptada = self.desencriptar(resultado[3])
+                self.entry_clave.insert(0, clave_desencriptada)
+                self.entry_nota.insert(0, resultado[4])
+            else:
+                messagebox.showerror("Error", "No se encontro ningun registro con ese ID.")
+        else:
+            messagebox.showerror("Error", "Por favor, ingrese un ID valido.")
+
+
+    def limpiar_campos(self):
+        self.entry_id.delete(0, tk.END)
+        self.entry_url.delete(0, tk.END)
+        self.entry_usuario.delete(0, tk.END)
+        self.entry_clave.delete(0, tk.END)
+        self.entry_nota.delete(0, tk.END)
+
+    def generar_contraseña(self):
+        longitud = 12
+        caracteres = string.ascii_letters + string.digits + string.punctuation
+        contraseña_generada = join(random.choice(caracteres) for i in range(longitud))
+        self.entry_clave.delete(0, tk.END)
+        self.entry_clave.insert(0, contraseña_generada)
+
+
+
+
+
 
 
