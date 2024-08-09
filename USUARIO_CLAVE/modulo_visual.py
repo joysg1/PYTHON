@@ -6,14 +6,16 @@ import random
 import string
 from os.path import join
 from os.path import join
+from modulo_cripto import obtener_clave
 
 
 class Aplicacion:
     def __init__(self,root):
         self.root = root
         self.root.title("Almacenamiento de usuarios y contraseñas")
+        self.root.geometry('400x300')
         self.db = Database("mi_base_de_datos.db")
-        self.clave_encriptacion = Fernet.generate_key()
+        self.clave_encriptacion = obtener_clave()
         self.cipher_suite = Fernet(self.clave_encriptacion)
 
         #etiquetas y cajas de texto
