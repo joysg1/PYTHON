@@ -5,9 +5,8 @@ class Database:
         self.conn = sqlite3.connect(nombre_base_datos)
         self.cursor = self.conn.cursor()
         self.crear_tabla()
-        #clave de encriptacion
-        self.clave_encriptacion = obtener_clave()
-        self.cipher_suite = Fernet(self.clave_encriptacion)
+        
+        
 
     def crear_tabla(self):
         self.cursor.execute('''CREATE TABLE IF NOT EXISTS usuarios
