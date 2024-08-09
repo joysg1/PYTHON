@@ -1,10 +1,14 @@
 import sqlite3
+from cryptography.fernet import Fernet
+from modulo_cripto import obtener_clave
+
 
 class Database:
     def __init__(self, nombre_base_datos):
         self.conn = sqlite3.connect(nombre_base_datos)
         self.cursor = self.conn.cursor()
         self.crear_tabla()
+        
         
         
 
@@ -20,9 +24,9 @@ class Database:
         self.conn.commit()
 
     def insertar_registro(self, url, usuario, clave, nota):
-        # clave_encriptada = self.encriptar(clave)
-        self.cursor.execute("INSERT INTO usuarios (url, usuario, clave, nota) VALUES (?, ?, ?, ?)", (url, usuario, clave_encriptada, nota))
-        self.cursor.commit()
+        
+        self.cursor.execute("INSERT INTO usuarios (url, usuario, clave, nota) VALUES (?, ?, ?, ?)", (url, usuario,clave, nota))
+        self.conn.commit()
      
     
     def borrar_registro(self, id):
@@ -34,8 +38,8 @@ class Database:
         return self.cursor.fetchone()
     
     def actualizar_registro(self, id, url, usuario, clave, nota):
-        # clave_encriptada = self.encriptar(clave)
-        self.cursor.execute("UPDATE usuarios SET url = ?, usuario = ?, clave = ?, nota = ? WHERE id = ?", (url, usuario, clave_encriptada, nota, id))
+        
+        self.cursor.execute("UPDATE usuarios SET url = ?, usuario = ?, clave = ?, nota = ? WHERE id = ?", (url, usuario, clave, nota, id))
         self.conn.commit()
     
     
@@ -43,7 +47,3 @@ class Database:
         self.conn.close()
 
 
-if __name__ == "__main__":
-    db = Database("base_datos.db")
-    db.cerrar_conexion()
-    print("Conexion cerrada")

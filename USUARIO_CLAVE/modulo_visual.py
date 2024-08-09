@@ -32,8 +32,8 @@ class Aplicacion:
 
         lbl_usuario = tk.Label(root, text="USUARIO")
         lbl_usuario.grid(row = 2, column =0)
-        self.entry_url = tk.Entry(root)
-        self.entry_url.grid(row = 2, column =1)
+        self.entry_usuario = tk.Entry(root)
+        self.entry_usuario.grid(row = 2, column =1)
 
         lbl_clave = tk.Label(root, text="CLAVE")
         lbl_clave.grid(row = 3, column =0)
@@ -102,7 +102,7 @@ class Aplicacion:
     def buscar_por_id(self):
         id = self.entry_id.get()
         if id:
-            resultado = self.db.buscar_por_id(id)
+            resultado = self.db.buscar_registro(id)
             if resultado:
                 self.limpiar_campos()
                 self.entry_url.insert(0, resultado[1])
@@ -126,7 +126,7 @@ class Aplicacion:
     def generar_contraseña(self):
         longitud = 12
         caracteres = string.ascii_letters + string.digits + string.punctuation
-        contraseña_generada = join(random.choice(caracteres) for i in range(longitud))
+        contraseña_generada = ''.join(random.choice(caracteres) for i in range(longitud))
         self.entry_clave.delete(0, tk.END)
         self.entry_clave.insert(0, contraseña_generada)
 
@@ -140,7 +140,12 @@ class Aplicacion:
     
 
 
-
+if __name__=='main':
+    app = Aplicacion(tk.Tk())
+    encriptado = app.encriptar("hola")
+    print(encriptado)
+    desencriptado = app.desencriptar(encriptado)
+    print(desencriptado)
 
 
 

@@ -8,8 +8,5 @@ def main():
     app = Aplicacion(root)
     root.mainloop()
 
-if __name__ == "__main__":
-    db = Database('mi_base_de_datos.db')
-    db.crear_tabla()
+if __name__ == '__main__':
     main()
-    db.cerrar_conexion()
