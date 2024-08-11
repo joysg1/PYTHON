@@ -12,8 +12,8 @@ def agregar_imagen(pdf_original, pdf_final, imagen_png, x, y, ancho, alto):
     imagen.close()
     
 if __name__ == "__main__":
-    pdf_original = "CARTA.pdf"
-    pdf_final = "CARTA_final.pdf"
+    pdf_original = "CARTA.PDF"
+    pdf_final = "CARTA_final.PDF"
     imagen_png = "FIRMA.png"
     x = 110
     y = 440
