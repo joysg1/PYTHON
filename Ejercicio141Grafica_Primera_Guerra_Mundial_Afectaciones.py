@@ -1,4 +1,3 @@
-
 import matplotlib.pyplot as plt
 
 # Datos aproximados de civiles afectados por nación durante la Primera Guerra Mundial
@@ -39,6 +38,7 @@ civiles_afectados = list(datos.values())
 plt.figure(figsize=(10, 6))
 for i, nacion in enumerate(naciones):
     plt.bar(nacion, civiles_afectados[i], color=colores[bandos[nacion]])
+    plt.text(nacion, civiles_afectados[i] + 10000, str(civiles_afectados[i]), ha='center', va='bottom')
 plt.xlabel('Nación')
 plt.ylabel('Cantidad de civiles afectados')
 plt.title('Civiles afectados por nación durante la Primera Guerra Mundial')
