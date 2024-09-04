@@ -45,10 +45,20 @@ fig = px.scatter_geo(df, lat="Latitud", lon="Longitud", color="Año",
 
 # Personalizar el mapa
 fig.update_layout(title='Eventos de la Primera Guerra Mundial por País')
+
+# Actualizar formato del eje de colores para mostrar años como enteros
+fig.update_layout(coloraxis_colorbar=dict(
+    tickmode='array',
+    tickvals=df['Año'].unique(),
+    ticktext=[str(year) for year in sorted(df['Año'].unique())]
+))
+
+# Personalizar el tamaño de los marcadores
 fig.update_traces(marker_size=10)
 
 # Mostrar el mapa
 fig.show()
+
 
 
 
