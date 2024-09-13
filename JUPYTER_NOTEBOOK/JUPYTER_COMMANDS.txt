@@ -1,0 +1,7 @@
+jupyter notebook <starts the jupyter application>
+jupyter --help <shows information & commands>
+jupyter --config-dir <shows the location of the config directory>
+jupyter --data-dir <shows the location of the data directory>
+jupyter --runtime-dir <shows the location of the runtime directory>
+jupyter --paths <shows all jupyter directories and search paths>
+jupyter --json <prints directories and search path in json format>
