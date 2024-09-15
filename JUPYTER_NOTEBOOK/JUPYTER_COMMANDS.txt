@@ -5,4 +5,7 @@ jupyter --data-dir <shows the location of the data directory>
 jupyter --runtime-dir <shows the location of the runtime directory>
 jupyter --paths <shows all jupyter directories and search paths>
 jupyter --json <prints directories and search path in json format>
+pip install jupyterthemes <installs the jupyter themes>
+jt -l  <list all the avaiable jupyter themes>
+jt -t (theme name) <apply a theme in jupyter>
 Ctrl + C <closes the jupyter server>
