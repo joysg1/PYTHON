@@ -32,6 +32,24 @@ print(a[5:])
 
 print(a[[0,2,3]])
 
-# Quede en el minito -5:59
 
-# https://codigofacilito.com/videos/arreglos-pt2-61b08130-ac2e-4eea-bb32-b23c3f79cafe
+# En numpy la dimension de los arreglos es inmutable
+
+# En numpy la dimension de las listas es mutable
+
+c = np.append(a,100)
+
+print(c)
+
+print(id(a))
+
+print(id(c))
+
+if(id(a) != id(c)):
+    print("Son diferentes")
+
+print(a is b)
+
+b = np.delete(a,0)
+
+print(b)
