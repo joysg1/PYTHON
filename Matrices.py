@@ -62,5 +62,12 @@ print(matriz.T)
 # Obtener el tamano de la traspuesta de la matriz
 print(matriz.T.shape)
 
-# Que en el minito - 5:18
+# Imprimir la matriz original
+print(matriz)
+
+# Obtener la suma de los elementos de la segunda fila de la matriz
+print(np.sum(matriz[1, :]))
+
+# Obtener la suma de los elementos de la tercera columna de la matriz
+print(np.sum(matriz[:, 2]))
 
