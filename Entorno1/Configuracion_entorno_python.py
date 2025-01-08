@@ -10,5 +10,27 @@
 # source <nombre_entorno>/bin/activate
 
 
-# Quede en el minuto -33:53
+# Una vez activo el entorno podemos instalar las bibliotecas
+
+# Ejemplos:  
+# pip install numpy
+# pip install pandas (incluye numpy)
+# pip install ipython
+# pip install jupyter
+# pip freeze (lista todas las dependencias instaladas)
+
+
+# Cuando instalados dependencias es recomendable crear el archivo
+# requirements.txt mediante el siguiente comando:
+# pip freeze > requirements.txt
+
+# para leer el archivo lo realizamos con cat requirements.txt
+
+# Para desactivar un entorno se realiza mediante el comando:
+# deactivate 
+
+# Para instalar las dependencias de un entorno usamos el siguiente
+# comando: pip install -r requirements.txt
+
+# quede en el minuto 27:04
 
