@@ -32,5 +32,21 @@
 # Para instalar las dependencias de un entorno usamos el siguiente
 # comando: pip install -r requirements.txt
 
-# quede en el minuto 27:04
+# Para crear un entorno usando conda utilizamos el siguiente comando:
+# conda create -n datos -y
+
+# Para listar todos los entornos usamos el comando:
+# conda env list
+
+# Para activar un entorno de conda usamos:
+# conda activate <nombre_entorno>
+
+# Para instalar librerias en conda usamos:
+# conda install <nombre_libreria>
+# Ejemplo conda install tkinter
+
+# Es recomendable crear entornos para cada proyecto
+# Para evitar problemas de versiones y compatibilidad
+
+# quede en el minuto 16:59
 
