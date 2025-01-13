@@ -48,5 +48,11 @@
 # Es recomendable crear entornos para cada proyecto
 # Para evitar problemas de versiones y compatibilidad
 
-# quede en el minuto 16:59
+# Es recomendable no usar la version de python 2.7
+
+# Mediante el siguiente comando podemos listar las dependencias 
+# instaladas:
+# pip freeze
+
+# Quede en el minuto -6.55
 
