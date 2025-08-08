@@ -1,0 +1,42 @@
+import plotly.graph_objects as go
+
+# Datos de rendimiento (ajusta estos valores según tus pruebas)
+categories = ['Velocidad de lectura', 'Velocidad de escritura', 'Uso de espacio', 'Compatibilidad', 'Seguridad', 'Resiliencia']
+exfat_values = [80, 70, 90, 85, 60, 90]  # Valores de exFAT, incluyendo resiliencia
+ntfs_values = [70, 80, 85, 90, 80, 70]    # Valores de NTFS, ajustando resiliencia
+
+# Crear la figura
+fig = go.Figure()
+
+# Añadir la serie de datos para exFAT
+fig.add_trace(go.Scatterpolar(
+    r=exfat_values + [exfat_values[0]],  # Cerrar el círculo
+    theta=categories + [categories[0]],  # Cerrar el círculo
+    fill='toself',
+    name='exFAT',
+    marker=dict(color='blue')
+))
+
+# Añadir la serie de datos para NTFS
+fig.add_trace(go.Scatterpolar(
+    r=ntfs_values + [ntfs_values[0]],  # Cerrar el círculo
+    theta=categories + [categories[0]],  # Cerrar el círculo
+    fill='toself',
+    name='NTFS',
+    marker=dict(color='red')
+))
+
+# Configurar el diseño de la gráfica
+fig.update_layout(
+    title='Comparativa de Rendimiento entre exFAT y NTFS',
+    polar=dict(
+        radialaxis=dict(
+            visible=True,
+            range=[0, 100]  # Ajusta el rango según tus datos
+        )
+    ),
+    showlegend=True
+)
+
+# Mostrar la gráfica
+fig.show()
