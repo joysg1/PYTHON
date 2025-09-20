@@ -1,0 +1,2 @@
+++ URL1: https://py2exe.org/
+++ URL2: https://pyinstaller.org/en/stable/
