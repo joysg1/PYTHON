@@ -10,3 +10,5 @@ ans, unans = srp(packet, timeout = 5, iface=network_interface, inter=0.1)
 
 for send,receive in ans:
   print(receive.sprintf(r"%Ether.src% - %ARP.psrc%"))
+
+// Nota: este programa debe ejecutarse como root: sudo python3 <nombre_programa>
