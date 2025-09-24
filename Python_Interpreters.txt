@@ -1,1 +1,4 @@
+++ cpython: https://cython.org/
+++ PyPy https://pypy.org/
 
+++ Por lo general PyPy tiende a ser más rápido siempre y cuando no se usen muchas dependencias de C
