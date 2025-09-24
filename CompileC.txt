@@ -1,2 +1,13 @@
 ++ Esto es usado para acelerar la ejecución de algún código, ejecutar en terminal lo siguiente:
---- gcc -fPIC -shared -o libtest.so <archivo.c>
+--- gcc -fPIC -shared -o <carpeta_archivo.so> <archivo.c>
+--- Luego desde el programa .py podemos llamar al archivo ejecutando lo siguiente:
+import time
+
+start_time = time.time()
+
+import ctypes
+fun = ctypes.CDLL("./<carpeta_archivo.so>")  
+
+fun.f()
+end_time = time.time()
+print(end_time - start_time)
