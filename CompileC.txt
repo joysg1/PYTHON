@@ -1,0 +1,2 @@
+++ Esto es usado para acelerar la ejecución de algún código, ejecutar en terminal lo siguiente:
+--- gcc -fPIC -shared -o libtest.so <archivo.c>
