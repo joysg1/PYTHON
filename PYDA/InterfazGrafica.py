@@ -2,6 +2,14 @@ import tkinter as tk
 from tkinter import messagebox
 import pydawiki
 import pydawolframalpha
+import subprocess
+
+def hablar(texto):
+    subprocess.run(['espeak', '-v', 'es+f2', '-s', '150', texto])
+
+hablar("Hola, bienvenido al buscador de wolfram y wikipedia")
+
+
 
 class Aplicacion:
     def __init__(self, root):
