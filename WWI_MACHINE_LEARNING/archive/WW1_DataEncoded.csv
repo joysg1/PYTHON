@@ -1,0 +1,1136 @@
+﻿Unnamed: 0,BattleName,URL,StartDate,EndDate,Location,Outcome,Belligerents_Right,Belligerents_Left,Strength_Right,Strength_Left,Casualties and losses_Right,Casualties and losses_Left,StartDate_clean,EndDate_clean,casualties_dict_right,casualties_dict_left,strength_dict_right,strength_dict_left
+0,Battle of the Crna Bend (1917),https://en.wikipedia.org/wiki/Battle_of_the_Cerna_Bend_(1917),5,9-May-17,Crna Loop,Central Powers victory,"Bulgaria
+ Germany","France
+ Italy
+ Russia","Central Powers:[1]
+ 27 battalions
+19 batteries
+115 machine guns
+ 13 battalions
+15 batteries
+131 machine guns
+Total: 40 battalions
+34 batteries (122 guns, 8 mortars)
+246 machine guns","Allies:[1]
+ 45 battalions
+54 batteries
+312 machine guns
+ 18 battalions
+32 batteries
+171 machine guns
+ 6 battalions
+14 batteries
+32 machine guns
+Total: 69 battalions
+100 batteries (412 guns)
+515 machine guns","1,626
+ Unknown","1,700
+ 2,400
+ 1,325
+Total: 5,425",5/5/1917,5/9/1917,{'unknown': [1626.0]},"{'total': [1325.0, 1325.0]}","{'total': [40.0], 'battalions': [27.0, 13.0, 40.0], 'batteries': [19.0, 15.0, 34.0], 'machine': [115.0, 131.0, 246.0], 'guns': [122.0], 'mortars': [8.0]}","{'total': [69.0], 'battalions': [45.0, 18.0, 6.0, 69.0], 'batteries': [54.0, 32.0, 14.0, 100.0], 'machine': [312.0, 171.0, 32.0, 515.0], 'guns': [412.0]}"
+1,First Battle of Champagne,https://en.wikipedia.org/wiki/First_Battle_of_Champagne,20-Dec-14,17-Mar-15,"Champagne-Ardenne, France49°11′04″N 04°32′39″E﻿ / ﻿49.18444°N 4.54417°E﻿ / 49.18444; 4.54417",Inconclusive,France,German Empire,Fourth Army,3rd Army,"93,432","46,100",12/20/1914,3/17/1915,{},{},{},{}
+2,Battle of Transylvania,https://en.wikipedia.org/wiki/Battle_of_Transylvania,27-Aug,16-Oct-16,"Transylvania, Austria-Hungary (today in Romania)","Central Powers victory  Full results Romanian invasion repulsedSuccessful Romanian retreat (Central Powers failure to destroy any of the three Romanian armies)Erich von Falkenhayn replaced as Chief of Staff of the Imperial German ArmyGerman offensive at Verdun halted, as well as German offensives on other frontsCentral Powers invasion of DobrujaAssumption of supreme military command of the Central Powers by the German emperor",Kingdom of Romania,Austria-Hungary German Empire,"27 August:369,000[1]18 September:Less than the Central Powers[2]","27 August:34,000[3]18 September:>200,000[4]",Unknown,Unknown,8/27/1916,10/16/1916,{},{},{},{}
+3,Battle of Soissons (1918),https://en.wikipedia.org/wiki/Battle_of_Soissons_(1918),18,22-Jul-18,Northeastern France49°22′54″N 3°19′25″E﻿ / ﻿49.3817°N 3.3236°E﻿ / 49.3817; 3.3236,Allied victory,"France
+ United States
+ United Kingdom",German Empire,"At least 345,000 men, 478 tanks","At least 234,000 men, 210 aircraft","95,000 casualties[1]
+ 13,000 casualties[1]
+ 11,259 casualties[2]","168,000 casualties[3]",7/18/1918,7/22/1918,"{'casualties': [95000.0, 13000.0, 11259.0]}",{'casualties': [168000.0]},"{'troops': [345000.0], 'tanks': [478.0]}","{'troops': [234000.0], 'aircraft': [210.0]}"
+4,Battle of Istabulat,https://en.wikipedia.org/wiki/Battle_of_Istabulat,21-Apr-17,21-Apr-17,"Istabulat, Iraq",British–Indian victory,"British Empire
+
+ India
+ United Kingdom",Ottoman Empire,"45,000 Men (theater)","10,000 Men","~ 2,000","~ 2,000",4/21/1917,4/21/1917,{},{},{'troops': [45000.0]},{'troops': [10000.0]}
+5,First Battle of Petrozsény,https://en.wikipedia.org/wiki/First_Battle_of_Petrozs%C3%A9ny,17,22-Sep-16,"Petrozsény and the surrounding area, Transylvania, Austria-Hungary (today Petroșani, Romania)",German victory,Romania,German Empire,,,"Unknown, but heavyVulcan Pass (21-22 September):526 prisoners",Unknown,9/17/1916,9/22/1916,"{'september': [22.0], 'prisoners': [526.0]}",{},{},{}
+6,Second Battle of Gaza,https://en.wikipedia.org/wiki/Second_Battle_of_Gaza,17,19 April 1917(2 days),"Gaza, southern Palestine",Ottoman victory,"British Empire
+
+ United Kingdom
+ Canada
+ Australia
+ New Zealand
+  France","Ottoman Empire
+
+ German Empire (military commanders & air force)",,,"509 killed,4,359 wounded,1,534 missingTotal: 6,444 & 3 tanks","82–402 killed,1,337–1,364 wounded,247 missing,200 prisoners",4/17/1917,4/19/1917,"{'total': [6444.0], 'killed': [509.0], 'wounded': [4359.0], 'missingtotal': [1534.0], 'tanks': [3.0]}","{'killed': [402.0], 'wounded': [1364.0], 'missing': [247.0], 'prisoners': [200.0]}",{},{}
+7,Third Battle of Krithia,https://en.wikipedia.org/wiki/Third_Battle_of_Krithia,4-Jun-15,4-Jun-15,"Helles, Gallipoli, Adrianople Vilayet, Ottoman Empire",Ottoman victory,"British Empire
+
+ India
+ United Kingdom
+ France",Ottoman Empire,"30,000 (20,000 in the first wave)[1]","18,600[2]–28,000, 86 guns and howitzers[3]","4,500[4]","3,000 killed[5]",6/4/1915,6/4/1915,{},{'killed': [3000.0]},{'troops': [20000.0]},{'guns': [86.0]}
+8,Battle of Łódź (1914),https://en.wikipedia.org/wiki/Battle_of_%C5%81%C3%B3d%C5%BA_(1914),11-Nov,6 December 1914(3 weeks and 4 days),"Łódź, Congress Poland, Russian Empire",Russian victory[1][a][b][4][5][c]   Full results German plan of encirclement and destruction failed[7]Planned Russian invasion of Silesia failed[8],German Empire Austria-Hungary,"Russian Empire
+
+ Congress Poland","279,000[9][e]–380,000[f][14] infantry and cavalry (entire group), 1,420–1,440 guns, 700 machine guns[13]","367,000 combat troops 1,305–1,311 guns740 machine guns[15]","Total: 160,000[16][14] including 36,000 KIA[g] 23,000 POWs23 cannons[19][h]","110,000[14] to 316,000 total casualties[i]",11/11/1914,12/6/1914,"{'total': [160000.0], 'kia': [36000.0], 'pows': [23000.0], 'cannons': [23.0]}","{'total': [316000.0, 316000.0], 'to': [110000.0]}","{'infantry': [279000.0, 380000.0], 'guns': [1420.0, 1440.0], 'machine': [700.0]}","{'combat': [367000.0], 'guns': [1305.0, 1311.0], 'machine': [740.0]}"
+9,Battle of the Avre,https://en.wikipedia.org/wiki/Battle_of_the_Avre,4,5-Apr-18,"The Avre, Amiens49°53′00″N 02°20′25″E﻿ / ﻿49.88333°N 2.34028°E﻿ / 49.88333; 2.34028",British victory,"British Empire
+
+ Australia
+ United Kingdom of Great Britain and Ireland",German Empire,,,,,4/4/1918,4/5/1918,{},{},{},{}
+10,Battle of Segale,https://en.wikipedia.org/wiki/Battle_of_Segale,27 October 1916; 108 years ago (1916-10-27),27 October 1916; 108 years ago (1916-10-27),"Segale, 40 miles north of Addis Ababa","Zewditu loyalist victory   Lij Iyasu's chief supporter crushed, removing his ability to keep the Imperial throne",Loyalists to Zewditu[1],Loyalists to Lij Iyasu,"120,000[citation needed]","80,000[citation needed]",,,10/27/1916,10/27/1916,{},{},{'troops': [120000.0]},{'troops': [80000.0]}
+11,Third Battle of the Aisne,https://en.wikipedia.org/wiki/Third_Battle_of_the_Aisne,27-May,6-Jun-18,"Aisne River near Paris, France49°23′N 3°44′E﻿ / ﻿49.383°N 3.733°E﻿ / 49.383; 3.733",See Aftermath section,France United Kingdom United States Italy,German Empire,"French 6th Army, British IX Corps, Italian II Corps[1] and later 2 American Divisions[Note 1]","German 1st and 7th Armies (over 20 divisions and 4,000 artillery guns)","127,000","130,000",5/27/1918,6/6/1918,{},{},{'american': [2.0]},"{'divisions': [20.0], 'artillery': [4000.0]}"
+12,Second Battle of the Piave River,https://en.wikipedia.org/wiki/Battle_of_the_Piave_River,15,23-Jun-18,"Piave, Italy45°49′50″N 12°12′34″E﻿ / ﻿45.83056°N 12.20944°E﻿ / 45.83056; 12.20944",Allied victory,Italy United Kingdom  France  United States,Austria-Hungary,"57 divisions:[1]
+
+ 900,000 in 52 divisions (1 Czechoslovak division)
+ ~40,000 in 3 divisions
+ 25,000 in 2 divisionsTotal: 965,000
+5,650 guns1,570 mortars676 aircraft","58 divisions:[1]
+
+ 946,000
+6,833 artillery pieces","87,181:[2]8,396 dead30,603 wounded48,182 captured","118,042:[2]11,643 dead80,852 wounded25,547 captured",6/15/1918,6/23/1918,"{'dead': [8396.0], 'wounded': [30603.0], 'captured': [48182.0]}","{'dead': [11643.0], 'wounded': [80852.0], 'captured': [25547.0]}","{'total': [965000.0], 'divisions': [57.0, 52.0, 3.0], 'troops': [900000.0, 40000.0, 25000.0], 'czechoslovak': [1.0], 'divisionstotal': [2.0], 'guns': [5650.0], 'mortars': [1570.0], 'aircraft': [676.0]}","{'divisions': [58.0], 'artillery': [6833.0]}"
+13,Battle of Tanga,https://en.wikipedia.org/wiki/Battle_of_Tanga,3,5-Nov-14,"Tanga, German East Africa5°04′00″S 39°06′00″E﻿ / ﻿5.06667°S 39.10000°E﻿ / -5.06667; 39.10000",German victory,"German Empire
+
+ German East Africa","British Empire
+
+ India","250 (Initially)750 (Reinforcements)Total:1,000","4,000 (Initially)5,000 (Reinforcements)1 Astraea-class cruiserTotal:9,000",16 Germans killed[1] 55 Askaris killed[1] 76 Germans & Askaris wounded[1],360 killed[2]487 wounded[2]148 missing[3],11/3/1914,11/5/1914,"{'germans': [16.0, 76.0], 'askaris': [55.0]}","{'killed': [360.0], 'wounded': [487.0], 'missing': [148.0]}",{'total': [1000.0]},"{'total': [9000.0], 'astraea': [1.0]}"
+14,Battle of Smorgon,https://en.wikipedia.org/wiki/Battle_of_Smorgon,15-Sep-15,"4 December 1917(2 years, 2 months, 2 weeks and 5 days)","Smarhon, Grodno Governorate, (present day Smarhon District, Grodno Region)",Russian victory,Russian Empire,German Empire,Initial: 4 cavalry battalions7 infantry battalionsFinal: 16 infantry divisions2 cavalry divisions~900 guns,6 infantry divisions4 cavalry divisions,,,9/15/1915,12/4/1917,{},{},"{'cavalry': [4.0, 2.0], 'infantry': [7.0, 16.0], 'guns': [900.0]}","{'infantry': [6.0], 'cavalry': [4.0]}"
+15,Battle of Rufiji Delta,https://en.wikipedia.org/wiki/Battle_of_Rufiji_Delta,Oct-14,11-Jul-15,"Rufiji Delta, German East Africa (now Tanzania)7°52′6″S 39°14′24″E﻿ / ﻿7.86833°S 39.24000°E﻿ / -7.86833; 39.24000",British victory,German Empire,United Kingdom,1 light cruiser1 supply ship1 freighter (ex-British),1 pre-dreadnought4 cruisers2 monitorsvarious smaller craft1 blockship1 civilian & 9 naval aircraft,33 killed(mostly due to disease)1 light cruiser sunk1 supply ship sunk1 freighter sunk,"6 aircraft destroyed(1 civilian & 5 naval, mostly through attrition)",10/1/1914,7/11/1915,"{'killed': [33.0], 'light': [1.0], 'supply': [1.0], 'freighter': [1.0]}","{'aircraft': [6.0], 'civilian': [1.0], 'naval': [5.0]}","{'light': [1.0], 'supply': [1.0], 'freighter': [1.0]}","{'pre': [1.0], 'cruisers': [4.0], 'monitorsvarious': [2.0], 'blockship': [1.0], 'civilian': [1.0], 'naval': [9.0]}"
+16,Battle of the Somme,https://en.wikipedia.org/wiki/Battle_of_the_Somme,1-Jul-16,"18 November 1916  (4 months, 2 weeks and 3 days)","Somme River, north-central Somme and south-eastern Pas-de-Calais Départements, France50°00′56″N 02°41′51″E﻿ / ﻿50.01556°N 2.69750°E﻿ / 50.01556; 2.69750",Inconclusive,"United Kingdom and Empire:
+ Canada
+ Australia
+ New Zealand
+ Egypt
+ South Africa
+ India
+ Newfoundland
+ Bermuda
+ Rhodesia
+
+ France",Germany,1 July 13 divisions 11 divisionsJuly–November 50 divisions 48 divisions,1 July 10 1⁄2 divisionsJuly–November 50 divisions,"c. 420,000[1](95,675	 killed or missing) c. 200,000[2](50,729 killed or missing)","c. 440,000[3]41,605 men captured by French[4]31,396 men captured by British[4]",7/1/1916,11/18/1916,"{'killed': [95675.0, 50729.0]}","{'men': [44000041605.0, 31396.0]}","{'divisions': [13.0, 50.0, 48.0], 'divisionsjuly': [11.0]}","{'divisionsjuly': [2.0], 'divisions': [50.0]}"
+17,Battle of Tannenberg,https://en.wikipedia.org/wiki/Battle_of_Tannenberg_(1914),23,30-Aug-14,"Tannenberg, East Prussia, German Empire (present-day Poland)53°29′45″N 20°08′4″E﻿ / ﻿53.49583°N 20.13444°E﻿ / 53.49583; 20.13444",German victory,German Empire,Russian Empire,"150,000[1]294 machine guns728 guns and howitzers","123,000[2]–180,000[1]384 machine guns612 guns and howitzers","21–30 August:13,873+ [3]  • 1,726+ killed • 7,461 wounded •  4,686 missingOther estimate: about 30,000 dead and wounded[4][5][6][7]","70,000–120,219 killed, wounded or captured[8][9][10]
+
+See casualties",8/23/1914,8/30/1914,"{'august': [30.0], 'wounded': [7461.0], 'missingother': [4686.0], 'dead': [30000.0]}",{'killed': [120219.0]},"{'machine': [150000294.0], 'guns': [728.0]}","{'machine': [123000.0, 180000384.0], 'guns': [612.0]}"
+18,Battle of Viipuri,https://en.wikipedia.org/wiki/Battle_of_Viipuri,24,29 April 1918(5 days),"Viipuri, Finland",White victory,Finnish Whites,Finnish Reds,"18,500","5,000 in combat units",c. 400 killed,"c. 500 killed in action  c. 800 executed  11,350 captured",4/24/1918,4/29/1918,{'killed': [400.0]},"{'killed': [500.0], 'executed': [800.0], 'captured': [11350.0]}",{'troops': [18500.0]},{'troops': [5000.0]}
+19,Battle of Nasiriyah (1915),https://en.wikipedia.org/wiki/Battle_of_Nasiriyah_(1915),27-Jun,25-Jul-15,"Nasiriyah, southern Iraq",British victory,"British Empire
+
+ India",Ottoman Empire,"5,000","Around 5,000",104 killed429 wounded,"2,000 killed or wounded[1]1,000 taken prisoner17 field guns captured",6/27/1915,7/25/1915,"{'killed': [104.0], 'wounded': [429.0]}","{'killed': [2000.0], 'taken': [1000.0], 'field': [17.0]}",{'troops': [5000.0]},{}
+20,Battle of Zanzibar,https://en.wikipedia.org/wiki/Battle_of_Zanzibar,20-Sep-14,20-Sep-14,"Off Zanzibar, Indian Ocean6°8′54″S 39°11′36″E﻿ / ﻿6.14833°S 39.19333°E﻿ / -6.14833; 39.19333",German victory,Germany,United Kingdom,Light cruiser Königsberg,Protected cruiser Pegasus Tugboat Helmuth,,39 killed  55 wounded  Pegasus sunk  Helmuth damaged,9/20/1914,9/20/1914,{},"{'killed': [39.0], 'wounded': [55.0]}",{},{}
+21,Battle of Belleau Wood,https://en.wikipedia.org/wiki/Battle_of_Belleau_Wood,1,26-Jun-18,"Belleau Wood near Marne River, France49°04′23″N 3°17′24″E﻿ / ﻿49.073°N 3.290°E﻿ / 49.073; 3.290",Allied victory,United States   France United Kingdom,Germany,2 U.S. Army divisions (including 1 brigade of United States Marines)French 6th Army (elements)British IX Corps (elements),5 German divisions (elements),"9,777[1]: 33","10,000+ [1]: 33",6/1/1918,6/26/1918,{},{},"{'u': [2.0], 'brigade': [1.0]}",{'german': [5.0]}
+22,Operation Michael,"https://en.wikipedia.org/wiki/Operation_Michael#Battle_of_St._Quentin,_21–23_March",21-Mar,5-Apr-18,Northern France,See Aftermath section,German Empire,"British Empire
+
+ Australia
+ Canada
+ New Zealand
+ United Kingdom
+ France United States",72 divisions,26 divisions3 cavalry23 French divisions later,"239,800","254,816
+: 177,739
+: 77,000
+: 77",3/21/1918,4/5/1918,{},{},{'divisions': [72.0]},"{'divisions': [26.0], 'cavalry': [3.0], 'french': [23.0]}"
+23,Battle of Bucharest,https://en.wikipedia.org/wiki/Battle_of_Bucharest,29-Nov,6-Dec-16,"Bucharest, Romania",Central Powers victory,Romania Russian Empire,German Empire Bulgaria Austria-Hungary,"150,000","250,000","60,000 soldiers killed, wounded and missing85 artillery pieces115 machine guns[1][2]","10,000 soldiers",11/29/1916,12/6/1916,"{'soldiers': [60000.0], 'artillery': [85.0], 'machine': [115.0]}",{'soldiers': [10000.0]},{'troops': [150000.0]},{'troops': [250000.0]}
+24,Battle of Albert (1916),https://en.wikipedia.org/wiki/Battle_of_Albert_(1916),1,13-Jul-16,"Somme, Picardy, France50°00′10″N 02°39′10″E﻿ / ﻿50.00278°N 2.65278°E﻿ / 50.00278; 2.65278",See the Aftermath section,"British Empire
+
+ Bermuda
+ Newfoundland
+ South Africa
+ United Kingdom
+ France",German Empire,13 British divisions11 French divisions,6 divisions,"British, 1 July: 57,4702–13 July: 25,000French, 1 July: 1,5902–21 July: 17,600","1 July: 10,2001–10 July: 40,187–46,315",7/1/1916,7/13/1916,"{'july': [1.0, 13.0, 1.0, 21.0], 'french': [25000.0]}","{'july': [1.0, 10.0]}","{'british': [13.0], 'french': [11.0]}",{'divisions': [6.0]}
+25,Battle of Es Sinn,https://en.wikipedia.org/wiki/Battle_of_Es_Sinn,28-Sep-15,28-Sep-15,Mesopotamia(present-day Iraq),British–Indian victory,"British Empire
+
+ India
+ United Kingdom",Ottoman Empire,6th (Poona) Division,"10,50013 guns",Unknown,Unknown,9/28/1915,9/28/1915,{},{},{},{'guns': [1050013.0]}
+26,Second Battle of Krithia,https://en.wikipedia.org/wiki/Second_Battle_of_Krithia,6,8-May-15,"Krithia, Gallipoli, Ottoman Empire40°04′44″N 26°12′14″E﻿ / ﻿40.07889°N 26.20389°E﻿ / 40.07889; 26.20389",Ottoman victory,"British Empire
+
+ New Zealand
+ Australia
+ United Kingdom
+ France",Ottoman Empire,"25,000[2]72 guns","20,000[2]","6,500[1]","2,000",5/6/1915,5/8/1915,{},{},{'guns': [2500072.0]},{'troops': [20000.0]}
+27,Battle of Grand Couronné,https://en.wikipedia.org/wiki/Battle_of_Grand_Couronn%C3%A9,4,13-Sep-14,"Grand Couronné (Great Crown), Meurthe-et-Moselle, France48°44′33″N 06°20′52″E﻿ / ﻿48.74250°N 6.34778°E﻿ / 48.74250; 6.34778",French victory,French Republic,"German Empire
+ Bavaria",2nd Army,6th Army,,"c. 30,000",9/4/1914,9/13/1914,{},{},{},{}
+28,Battle of Megiddo (1918),https://en.wikipedia.org/wiki/Battle_of_Megiddo_(1918),19,25-Sep-18,Vilayet of Beirut32°24′00″N 34°52′59″E﻿ / ﻿32.400°N 34.883°E﻿ / 32.400; 34.883,Allied victory,"British Empire
+
+ United Kingdom
+ India
+ Australia
+ New Zealand
+ South Africa
+ Hejaz France","Ottoman Empire
+ German Empire","Allied
+57,000 infantry
+12,000 mounted troops
+540 guns[1]
+Arab
+4,000+ regulars
+unknown no. irregulars","32,000 infantry
+3,000 mounted troops
+402 guns[1]","782 killed
+382 missing
+4,179 wounded","Destruction or surrender of Ottoman forces
+Only 6,000 escaped capture[2]",9/19/1918,9/25/1918,"{'killed': [782.0], 'missing': [382.0], 'wounded': [4179.0]}",{'escaped': [6000.0]},"{'infantry': [57000.0], 'mounted': [12000.0], 'guns': [540.0]}","{'infantry': [32000.0], 'mounted': [3000.0], 'guns': [402.0]}"
+29,Battle of Kolubara,https://en.wikipedia.org/wiki/Battle_of_Kolubara,16-Nov,15-Dec-14,"Kolubara river, Kingdom of Serbia44°22′56″N 20°15′46″E﻿ / ﻿44.38222°N 20.26278°E﻿ / 44.38222; 20.26278",Decisive Serbian victory,Serbia,Austria-Hungary,"400,000","450,000","Total: 132,000 
+22,000 killed
+91,000 wounded
+19,000 missing or captured","Total: 273,000 
+30,000 killed
+173,000 wounded
+70,000 captured",11/16/1914,12/15/1914,"{'total': [132000.0], 'killed': [22000.0], 'wounded': [91000.0], 'missing': [19000.0]}","{'total': [273000.0], 'killed': [30000.0], 'wounded': [173000.0], 'captured': [70000.0]}",{'troops': [400000.0]},{'troops': [450000.0]}
+30,Battle of Liège,https://en.wikipedia.org/wiki/Battle_of_Li%C3%A8ge,5,16-Aug-14,"Liège, Belgium",See Aftermath section,Germany,Belgium,"28,900–31,200 troops 140 guns[1]","32,000 troops 280 guns.[2][3]","3,300 (by 8 August)[4]","6,000–20,000 casualtiesincluding 4,000 captured",8/5/1914,8/16/1914,{'august': [8.0]},"{'casualtiesincluding': [20000.0], 'captured': [4000.0]}","{'troops': [28900.0, 31200.0], 'guns': [140.0]}","{'troops': [32000.0], 'guns': [280.0]}"
+31,Battle of Verdun,https://en.wikipedia.org/wiki/Battle_of_Verdun,21-Feb,"18 December 1916(9 months, 3 weeks and 6 days)","Verdun, France49°12′29″N 5°25′19″E﻿ / ﻿49.20806°N 5.42194°E﻿ / 49.20806; 5.42194",French victory,Germany,France,c. 50 divisions,75 divisions,"336,000–355,000 casualties
+
+c. 143,000 dead","379,000–400,000 casualties
+
+163,000 dead
+216,000 wounded",2/21/1916,12/18/1916,"{'casualties': [355000.0], 'dead': [143000.0]}","{'casualties': [400000.0], 'dead': [163000.0], 'wounded': [216000.0]}",{'divisions': [50.0]},{'divisions': [75.0]}
+32,Battle of Augustów (1914),https://en.wikipedia.org/wiki/Battle_of_August%C3%B3w_(1914),12,30-Sep-14,"Augustów, Russian Poland (present-day Poland)",Russian victory[1],Russian Empire,German Empire,"247,467[2][a]","129,814[4]","20,000[5]",Very heavy[5][6],9/12/1914,9/30/1914,{},{},{'troops': [247467.0]},{'troops': [129814.0]}
+33,Battle of the Lys (1918),https://en.wikipedia.org/wiki/Battle_of_Estaires,7,29 April 1918 (1918-04-07,"Flanders, Belgium to northeast France50°42′20″N 2°54′00″E﻿ / ﻿50.70556°N 2.90000°E﻿ / 50.70556; 2.90000",See Analysis section,"United Kingdom
+    Australia
+    Canada
+    Newfoundland
+    New Zealand
+    South Africa
+ France
+ Portugal
+ Belgium
+ United States
+[1]",Germany,Unknown,"35 divisions (~612,500)","118,300–119,040 118 guns60 aircraft","86,000–109,300 8 aircraft including the Red Baron",4/7/1918,4/29/1918,"{'guns': [118.0], 'aircraft': [60.0]}",{'aircraft': [8.0]},{},{'divisions': [35.0]}
+34,Battle of the Scarpe (1918),https://en.wikipedia.org/wiki/Battle_of_the_Scarpe_(1918),26,30-Aug-18,"Monchy-le-Preux, France50°16′14″N 02°53′39″E﻿ / ﻿50.27056°N 2.89417°E﻿ / 50.27056; 2.89417",Canadian Corps victory,"British Empire
+
+ Canada",German Empire,,,": 5,500 casualties[1]","Canadians captured 3,300 prisoners, 53 guns and 519 machine guns",8/26/1918,8/30/1918,{'casualties': [5500.0]},"{'prisoners': [3300.0], 'guns': [53.0], 'machine': [519.0]}",{},{}
+35,Battle of Florina,https://en.wikipedia.org/wiki/Battle_of_Florina,17,28-Aug-16,"around Florina, Greece",Minor Bulgarian victory The Bulgarians capture Florina Bulgarian advance stopped,Bulgaria,Serbia,"117,368
+190 field guns
+128 machine guns","124,000","5,478 killed/wounded
+Total: 5,478[1]","657 killed
+2,555 wounded
+706 missing
+Total: 3,918[1]",8/17/1916,8/28/1916,{'total': [5478.0]},"{'total': [3918.0], 'killed': [657.0], 'wounded': [2555.0], 'missing': [706.0]}","{'field': [190.0], 'machine': [128.0]}",{'troops': [124000.0]}
+36,Battle of Pozières,https://en.wikipedia.org/wiki/Battle_of_Pozi%C3%A8res,23-Jul,3-Sep-16,"Pozières, Somme, France50°2′42″N 2°44′10″E﻿ / ﻿50.04500°N 2.73611°E﻿ / 50.04500; 2.73611",Australian victory,"British Empire
+
+ Australia
+ United Kingdom",German Empire,,,,,7/23/1916,9/3/1916,{},{},{},{}
+37,Second Battle of Mons,https://en.wikipedia.org/wiki/Second_Battle_of_Mons,9,11-Nov-18,"Mons, Belgium",Allied victory,Canada,German Empire,,,"280 killed, wounded, or missing",Unknown,11/9/1918,11/11/1918,{'killed': [280.0]},{},{},{}
+38,Battle of Bitlis,https://en.wikipedia.org/wiki/Battle_of_Bitlis,Jul-15,Aug-16,"Bitlis Vilayet, Ottoman Empire",Russian victory[2][3][4],"Russian Empire
+
+Armenian volunteer units
+Assyrian volunteers[1]","Ottoman Empire
+
+Kurdish tribesmen",Russian Caucasus ArmyArmenian Fedayi,Second ArmyKurdish Tribesmen,Unknown,"34,000 captured or killed[4]",7/1/1915,8/1/1916,{},{'captured': [34000.0]},{},{}
+39,Battle of Syrjäntaka,https://en.wikipedia.org/wiki/Battle_of_Syrj%C3%A4ntaka,28,29 April 1918(1 day),"Tuulos, Finland",Red breakthrough,German Empire,Finnish Reds,c. 400,"c. 4,000–5,000",48 killed,c. 300 killed  c. 150 captured,4/28/1918,4/29/1918,{'killed': [48.0]},"{'killed': [300.0], 'captured': [150.0]}",{},{}
+40,Second Battle of the Isonzo,https://en.wikipedia.org/wiki/Second_Battle_of_the_Isonzo,18-Jul,3-Aug-15,"Soča river, northwest Slovenia",Italian tactical victory,Italy,Austria-Hungary,"250,000[1]","78,000[1]","41,800 losses[1]","46,600 losses[1]",7/18/1915,8/3/1915,{'losses': [41800.0]},{'losses': [46600.0]},{'troops': [250000.0]},{'troops': [78000.0]}
+41,Battle of Jutland,https://en.wikipedia.org/wiki/Battle_of_Jutland,31-May,1-Jun-16,"North Sea, near Denmark56°42′N 5°54′E﻿ / ﻿56.700°N 5.900°E﻿ / 56.700; 5.900","Inconclusive, see § Outcome",United Kingdom,Germany,"Total: 151 combat ships
+28 dreadnought battleships
+9 battlecruisers
+8 armoured cruisers
+26 light cruisers
+78 destroyers
+1 minelayer
+1 seaplane carrier","Total: 99 combat ships
+16 dreadnought battleships
+5 battlecruisers
+6 pre-dreadnought battleships
+11 light cruisers
+61 torpedo-boats[a]","6,094 killed
+674 wounded
+177 captured
+3 battlecruisers sunk
+3 armoured cruisers sunk
+8 destroyers sunk
+(113,300 tons sunk)[1]","2,551 killed
+507 wounded
+1 battlecruiser sunk
+1 pre-dreadnought battleship sunk
+4 light cruisers sunk
+5 torpedo-boats sunk
+(62,300 tons sunk)[1]",5/31/1916,6/1/1916,"{'killed': [6094.0], 'wounded': [674.0], 'captured': [177.0], 'battlecruisers': [3.0], 'armoured': [3.0], 'destroyers': [8.0], 'tons': [113300.0]}","{'killed': [2551.0], 'wounded': [507.0], 'battlecruiser': [1.0], 'pre': [1.0], 'light': [4.0], 'torpedo': [5.0], 'tons': [62300.0]}","{'total': [151.0], 'combat': [151.0], 'dreadnought': [28.0], 'battlecruisers': [9.0], 'armoured': [8.0], 'light': [26.0], 'destroyers': [78.0], 'minelayer': [1.0], 'seaplane': [1.0]}","{'total': [99.0], 'combat': [99.0], 'dreadnought': [16.0], 'battlecruisers': [5.0], 'pre': [6.0], 'light': [11.0], 'torpedo': [61.0]}"
+42,Battle of Valenciennes (1918),https://en.wikipedia.org/wiki/Battle_of_Valenciennes_(1918),28 October - 2 November 1918,28 October - 2 November 1918,"Valenciennes, France",Canadian victory,Canada,Germany,,,Unknown,"800 dead1,800 surrendered[1]",10/28/1918,11/2/1918,{},"{'dead': [800.0], 'surrendered': [1800.0]}",{},{}
+43,Battle of Dujaila,https://en.wikipedia.org/wiki/Battle_of_Dujaila_Redoubt,8-Mar-16,8-Mar-16,"East of Kut, present-day Iraq32°29′17″N 45°57′14″E﻿ / ﻿32.488°N 45.954°E﻿ / 32.488; 45.954",Ottoman victory,"British Empire
+
+ India
+ United Kingdom","Ottoman Empire
+
+ German Empire (military commanders)","18,891 infantry1,268 Cavalry68 artillery pieces","8,500 infantry1,500 cavalry32 artillery pieces","4,000 casualties[1]","1,290 casualties[1]",3/8/1916,3/8/1916,{'casualties': [4000.0]},{'casualties': [1290.0]},"{'infantry': [18891.0], 'cavalry': [1268.0], 'artillery': [68.0]}","{'infantry': [8500.0], 'cavalry': [1500.0], 'artillery': [32.0]}"
+44,Battle of Hill 60 (Gallipoli),https://en.wikipedia.org/wiki/Battle_of_Hill_60_(Gallipoli),21,29-Aug-15,"Gallipoli, Ottoman Empire40°16′21″N 26°17′35″E﻿ / ﻿40.2726°N 26.2931°E﻿ / 40.2726; 26.2931",Ottoman victory,"British Empire
+
+ Australia
+ India
+ New Zealand
+ United Kingdom",Ottoman Empire,"4,000[1]",Unknown,"1,100[2]",Unknown,8/21/1915,8/29/1915,{},{},{'troops': [4000.0]},{}
+45,Battle of Wadi (1916),https://en.wikipedia.org/wiki/Battle_of_the_Wadi,13-Jan-16,13-Jan-16,"Hanna defile, 3.5 miles (5.6 km) east of Sheikh Sa'ad, Mesopotamia, present-day Iraq",Ottoman victory,"British Empire
+
+ India
+ United Kingdom","Ottoman Empire
+
+ German Empire (military commanders)","19,000","20,000","1,600 dead or wounded,numerous captured[1]","527 casualties[1] unknown, estimated minor",1/13/1916,1/13/1916,{'dead': [1600.0]},{'casualties': [527.0]},{'troops': [19000.0]},{'troops': [20000.0]}
+46,Battle of the San river (1914),https://en.wikipedia.org/wiki/Battle_of_the_San_river_(1914),22 September-23 October [O.S. 5 October,4 November] 1914,"Galicia, Austria-Hungary (Modern day Ukraine)",Russian victory[1]  The Siege of Przemysl is started,Austria-Hungary German Empire,Russian Empire,"582,466[2][c]1,076 machine guns, 3,058 guns","264,426[d]679 machine guns, 1,139 guns[3]","240,000[4][5]
+
+110,900 dead and captured","126,000[6]
+
+51,060 killed and captured",9/22/1914,10/23/1914,{'dead': [110900.0]},{'killed': [51060.0]},"{'machine': [5824661076.0], 'guns': [3058.0]}","{'machine': [264426679.0], 'guns': [1139.0]}"
+47,Battle of Robat Karim,https://en.wikipedia.org/wiki/Battle_of_Robat_Karim,27 December [O.S. 9 December] 1915[1],27 December [O.S. 9 December] 1915[1],"Robat Karim, Tehran Province, Iran35°28′55″N 51°04′51″E﻿ / ﻿35.48194°N 51.08083°E﻿ / 35.48194; 51.08083",Russian victory,"Russian Empire
+
+Armenian Volunteers",Qajar Iran 1915,6682 guns[2],"2,000[3]",Few,245 killed[4],12/27/1915,12/27/1915,{},{'killed': [245.0]},{'guns': [6682.0]},{'troops': [2000.0]}
+48,Battle of Limanowa,https://en.wikipedia.org/wiki/Battle_of_Limanowa,1,13-Dec-14,"Galicia, Carpathian Mountains",Central Powers victory,Austria-Hungary Germany,Russian Empire,"272,000750 machine guns1,800 guns[1]","282,736773 machine guns1,493 guns[2]","106,472[3]","110,000[4] to 144,648[5]",12/1/1914,12/13/1914,{},{'to': [110000.0]},"{'machine': [272000750.0], 'guns': [1800.0]}","{'machine': [282736773.0], 'guns': [1493.0]}"
+49,Battle of Dibrivka,https://en.wikipedia.org/wiki/Battle_of_Dibrivka,30-Sep-18,30-Sep-18,"Dibrivka, Pokrovske, Oleksandrivsky, Katerynoslav, Ukraine47°58′19″N 36°28′20″E﻿ / ﻿47.97194°N 36.47222°E﻿ / 47.97194; 36.47222",Insurgent victory  Insurgent movement extends throughout Katerynoslav Subsequent reprisals against each other by the Central Powers and insurgents,"Central Powers
+
+ Austria-Hungary
+ Ukrainian State",Anarchists,500 Austrians[1]200 Haydamaks[2],30 insurgents[1],620 killed80 captured,Unknown,9/30/1918,9/30/1918,"{'killed': [620.0], 'captured': [80.0]}",{},"{'austrians': [500.0], 'haydamaks': [200.0]}",{'insurgents': [30.0]}
+50,Battle of Loos,https://en.wikipedia.org/wiki/Battle_of_Loos,25-Sep,8-Oct-15,"Loos, France50°27′30″N 02°47′39″E﻿ / ﻿50.45833°N 2.79417°E﻿ / 50.45833; 2.79417",German victory,"British Empire
+
+ India
+ United Kingdom",German Empire,6 divisions,3 divisions,"59,247","c. 26,000",9/25/1915,10/8/1915,{},{},{'divisions': [6.0]},{'divisions': [3.0]}
+51,Battle of the Frontiers,https://en.wikipedia.org/wiki/Battle_of_the_Frontiers,7-Aug,6-Sep-14,"Lorraine, French and Belgian Ardennes49°00′N 06°00′E﻿ / ﻿49.000°N 6.000°E﻿ / 49.000; 6.000",German victory,France Belgium United Kingdom,Germany,62 divisions[1] Belgium 6 divisions[1] 6 divisions[1],68 divisions[1],,,8/7/1914,9/6/1914,{},{},"{'divisions': [62.0, 6.0, 6.0]}",{'divisions': [68.0]}
+52,Battle of Slatina,https://en.wikipedia.org/wiki/Battle_of_Slatina,23,27-Nov-16,"Slatina and surrounding area, Romania",Romanian strategic victory,Romania,German Empire,,,Unknown,Unknown,11/23/1916,11/27/1916,{},{},{},{}
+53,Battle for Zavislensky bridgehead,https://en.wikipedia.org/wiki/Second_Battle_of_the_Vistula_River,27-Feb,21-Mar-15,"Near Vistula, Congress Poland, Russian Empire (present-day Poland)",Russian victory,German Empire,Russian Empire,"only combat troops:[1] 75,000–80,000 men 280 machine guns 504 guns","only combat troops:[2] 205,962 men  428 machine guns 650 guns","20,475[3]–40,000[4]","46,965[5][6]",2/27/1915,3/21/1915,{},{},"{'troops': [75000.0, 80000.0], 'machine': [280.0], 'guns': [504.0]}","{'troops': [205962.0], 'machine': [428.0], 'guns': [650.0]}"
+54,Battle of Ambos Nogales,https://en.wikipedia.org/wiki/Battle_of_Ambos_Nogales,27-Aug-18,27-Aug-18,"Nogales, Arizona, United StatesNogales, Sonora, Mexico31°19′58″N 110°56′32″W﻿ / ﻿31.3328°N 110.942224°W﻿ / 31.3328; -110.942224",American victory[1][2]  Binational cease-fire arranged Permanent border wall established in Ambos Nogales,United States,MexicoAlleged: Germany Russia,~800[3],Unknown,"5 soldiers, 2 civilians killed28 soldiers, several civilians wounded","Mexico:Up to 28-30 soldiers, about 100 civilians killed; 129 new graves were countedAbout 300 total woundedAlleged:2 German soldiers killed[4]",8/27/1918,8/27/1918,"{'soldiers': [5.0, 28.0], 'civilians': [2.0]}","{'total': [300.0, 300.0], 'soldiers': [30.0], 'civilians': [100.0], 'new': [129.0], 'german': [2.0]}",{'troops': [800.0]},{}
+55,Kosovo offensive (1915),https://en.wikipedia.org/wiki/Battle_of_Kosovo_(1915),10,24-Nov-15,"Kosovo, Southeastern Serbia42°22′56.69″N 19°58′51.29″E﻿ / ﻿42.3824139°N 19.9809139°E﻿ / 42.3824139; 19.9809139",Central Powers victory,"Germany
+ Austria-Hungary
+ Bulgaria",Serbia,"Army Group Mackensen
+
+ 11th Army
+ 3rd army
+ 1st Army
+
+ Northern Operations Group of Second Army
+156,000 Austro-Germans
+(79,000 combatants, 372 cannons and 220 machine guns)[1]","130,000[a] to 150,000[3]",,,11/10/1915,11/24/1915,{},{},"{'austro': [156000.0], 'combatants': [79000.0], 'cannons': [372.0], 'machine': [220.0]}",{'to': [130000.0]}
+56,Battle of Rarańcza,https://en.wikipedia.org/wiki/Battle_of_Rara%C5%84cza,15-Feb,"16, 1918","Near Rarańcza (Ridkivtsi), Bukovina",Polish victory[1],Polish Legionnaires,Austria-Hungary,"over 2,000[2]",Unknown,Heavy[1] or 16 dead and 900 captive[2],Unknown,2/15/1918,2/16/1918,"{'dead': [16.0], 'captive': [900.0]}",{},{},{}
+57,Battle of Le Cateau,https://en.wikipedia.org/wiki/Battle_of_Le_Cateau,26-Aug-14,26-Aug-14,"Le Cateau-Cambrésis, France50°06′15″N 03°32′40″E﻿ / ﻿50.10417°N 3.54444°E﻿ / 50.10417; 3.54444",German victory,German Empire,United Kingdom,23 infantry battalions18 cavalry regiments (9 at half strength)6 divisional cavalry squadrons162 guns (27 batteries)84 machine-guns,40 infantry battalions12 cavalry regiments2 divisional cavalry squadrons246 guns (41 batteries)c. 80 machine-guns,"2,900","7,812 (700 killed, 2,600 captured)38 guns",8/26/1914,8/26/1914,{},"{'killed': [700.0], 'captured': [2600.0], 'guns': [38.0]}","{'infantry': [23.0], 'cavalry': [18.0], 'at': [9.0], 'divisional': [6.0], 'guns': [162.0], 'batteries': [27.0], 'machine': [84.0]}","{'infantry': [40.0], 'cavalry': [12.0], 'divisional': [2.0], 'guns': [246.0], 'batteries': [41.0], 'machine': [80.0]}"
+58,Battle of Dobro Pole,https://en.wikipedia.org/wiki/Battle_of_Dobro_Pole,15,18-Sep-18,Dobro Pole (present day Greece and North Macedonia)41°02′06″N 21°53′06″E﻿ / ﻿41.035°N 21.885°E﻿ / 41.035; 21.885,Allied victory,"Allied Powers:
+ France
+ Serbia
+ Greece","Central Powers:
+ Bulgaria
+ Germany","3 divisions
+ 2 corps
+ 3 divisions
+566 guns","1 army
+158 artillery pieces","1,850 dead
+ 200 dead
+ 158 dead","2,689 dead
+3,000 captured
+50 artillery pieces",9/15/1918,9/18/1918,"{'dead': [1850.0, 200.0, 158.0]}","{'dead': [2689.0], 'captured': [3000.0], 'artillery': [50.0]}","{'divisions': [3.0, 3.0], 'corps': [2.0], 'guns': [566.0]}","{'army': [1.0], 'artillery': [158.0]}"
+59,First Battle of the Marne,https://en.wikipedia.org/wiki/First_Battle_of_the_Marne,5,14-Sep-14,"Marne River near Brasles, east of Paris, France49°1′N 3°23′E﻿ / ﻿49.017°N 3.383°E﻿ / 49.017; 3.383",Allied victory,France United Kingdom,Germany,"1,080,000[1]64 French divisions6 British divisions","750,000[1]–900,000[2]51 German divisions","250,000 killed or wounded[2]  12,733 killed or wounded[3]
+
+incl. c. 45,000 killed[4]
+c. 173,000 wounded
+c. 50,500 captured... see § Casualties","74,849 casualties[4]
+
+10,602 killed
+16,815 missing
+47,432 wounded
+298,000 casualties[2]
+260,000 killed or wounded
+38,000 captured... see § Casualties",9/5/1914,9/14/1914,"{'killed': [250000.0, 12733.0, 45000.0], 'wounded': [173000.0], 'captured': [50500.0]}","{'casualties': [74849.0, 298000.0], 'killed': [10602.0, 260000.0], 'missing': [16815.0], 'wounded': [47432.0], 'captured': [38000.0]}","{'french': [108000064.0], 'british': [6.0]}","{'german': [750000.0, 90000051.0]}"
+60,Battle of Malka Nidzhe,https://en.wikipedia.org/wiki/Battle_of_Malka_Nidzhe,12,14-Sep-16,"Malka Nidzhe, Gornichevo, Macedonia",Entente victory,"France
+ Serbia
+ Russia",Bulgaria,Unknown,"8,127
+56 guns
+74 machine guns",Unknown,"1,683
+34 guns lost",9/12/1916,9/14/1916,{},{'guns': [34.0]},{},"{'guns': [56.0], 'machine': [74.0]}"
+61,First Battle of Krithia,https://en.wikipedia.org/wiki/First_Battle_of_Krithia,28-Apr-15,28-Apr-15,"Helles, Gallipoli, Adrianople Vilayet, Ottoman Empire",Ottoman victory,United Kingdom France,Ottoman Empire,"19 battalions, 13,500 men",9 battalions,"British: c. 2,000 killedFrench: 1,001 killed","2,378 killed",4/28/1915,4/28/1915,"{'killedfrench': [2000.0], 'killed': [1001.0]}",{'killed': [2378.0]},"{'battalions': [19.0], 'troops': [13500.0]}",{'battalions': [9.0]}
+62,Siege of Kut,https://en.wikipedia.org/wiki/First_Battle_of_Kut,7-Dec-15,29-Apr-16,"Kut-al-Amara, Mesopotamia (modern Iraq)32°30′20″N 45°49′29″E﻿ / ﻿32.50556°N 45.82472°E﻿ / 32.50556; 45.82472",Ottoman victory,United Kingdom,Ottoman Empire,"25,000–45,000 besieged in Kut","25,000[1]–80,000[2]",Entire garrison[a],"10,000 men[5]",12/7/1915,4/29/1916,{},{'men': [10000.0]},"{'besieged': [25000.0, 45000.0]}",{}
+63,Battle of the Ancre,https://en.wikipedia.org/wiki/Battle_of_the_Ancre,13,18-Nov-16,"North central Somme Département, France50°4′N 2°42′E﻿ / ﻿50.067°N 2.700°E﻿ / 50.067; 2.700",British victory,United Kingdom France,Germany,"12 divisions, 1 brigade",4 divisions,"c. 22,000","1–18 November, c. 45,000 including 7,000 prisoners.",11/13/1916,11/18/1916,{},"{'november': [18.0], 'including': [45000.0], 'prisoners': [7000.0]}","{'divisions': [12.0], 'brigade': [1.0]}",{'divisions': [4.0]}
+64,Battle of Kostiuchnówka,https://en.wikipedia.org/wiki/Battle_of_Kostiuchn%C3%B3wka,4-Jul,"7, 1916",Kostiuchnówka (Kostyukhnivka)51°20′35″N 25°45′35″E﻿ / ﻿51.34306°N 25.75972°E﻿ / 51.34306; 25.75972,Inconclusive,Austria-Hungary(Polish Legions),Russian Empire,"5,500[1]–7,300[2]","13,000[1] or more[2]","2,000[3]",Unknown,7/4/1916,7/7/1916,{},{},{},{'or': [13000.0]}
+65,Battle of the Ardennes,https://en.wikipedia.org/wiki/Battle_of_the_Ardennes,21,23-Aug-14,"Ardennes region, Belgian–French frontier50°15′N 5°40′E﻿ / ﻿50.250°N 5.667°E﻿ / 50.250; 5.667",German victory,France,Germany,Third Army Fourth Army,4th Army5th Army,"42,557","14,940",8/21/1914,8/23/1914,{},{},{},{}
+66,Battle of Cape Sarych,https://en.wikipedia.org/wiki/Battle_of_Cape_Sarych,18 November [O.S. 5 November] 1914,18 November [O.S. 5 November] 1914,"off Cape Sarych, Crimea, Black Sea",Inconclusive[1],Russian Empire,Ottoman Empire,5 pre-dreadnought battleships,1 battlecruiser,34 killed24 wounded1 battleship damaged,13 to 115 killed58 wounded[a]1 battlecruiser damaged,11/18/1914,11/18/1914,"{'killed': [34.0], 'wounded': [24.0], 'battleship': [1.0]}","{'to': [13.0], 'killed': [115.0], 'wounded': [58.0], 'battlecruiser': [1.0]}",{'pre': [5.0]},{'battlecruiser': [1.0]}
+67,Battle of Caporetto,https://en.wikipedia.org/wiki/Twelfth_Battle_of_the_Isonzo,24-Oct,19-Nov-17,"Kobarid, Austria-Hungary(present day Slovenia)46°12′52″N 13°38′33″E﻿ / ﻿46.21444°N 13.64250°E﻿ / 46.21444; 13.64250",Central Powers victory,Austria-Hungary Germany,Italy,"353,000 soldiers, 2,518 artillery pieces [1]","257,400 soldiers, 1,342 artillery pieces [1]","70,000","13,000 dead30,000 wounded265,000–275,000 captured
+
+
+300,000 stragglers50,000 deserters3,152 artillery pieces1,712 mortars3,000 machine guns300,000 rifles",10/24/1917,11/19/1917,{},"{'dead': [13000.0], 'wounded': [30000.0], 'captured': [275000.0], 'stragglers': [300000.0], 'deserters': [50000.0], 'artillery': [3152.0], 'mortars': [1712.0], 'machine': [3000.0], 'rifles': [300000.0]}","{'soldiers': [353000.0], 'artillery': [2518.0]}","{'soldiers': [257400.0], 'artillery': [1342.0]}"
+68,Battle of Mărășești,https://en.wikipedia.org/wiki/Battle_of_M%C4%83r%C4%83%C8%99e%C8%99ti,6-Aug,3-Sep-17,"Mărășești, Vrancea, Eastern Romania",Strategic Allied victory,Allied Powers: Romania  Russia,Central Powers: Germany  Austria-Hungary,Romanian78 battalions58 cavalry squadrons150 batteries (36 heavy)10 trench mortars7 anti-aircraft guns12 air squadronsRussian:84 battalions32 cavalry squadrons79 batteries (9 heavy),102 battalions10 cavalry squadrons213 batteries (31 heavy),"27,410 (5,125 killed, 9,818 missing, 12,467 wounded)[1]  25,650 (7,083 killed, 8,167 missing, 10,400 wounded)[1]Total: 53,060 (12,208 killed, 17,985 missing, 22,867 wounded)","60,000–65,000 casualties (killed, missing, wounded)[1]Total: 60,000+",8/6/1917,9/3/1917,"{'total': [53060.0], 'killed': [5125.0, 7083.0, 12208.0], 'missing': [9818.0, 8167.0, 17985.0], 'wounded': [12467.0, 10400.0, 22867.0]}","{'total': [60000.0], 'casualties': [65000.0]}","{'battalions': [78.0, 84.0], 'cavalry': [58.0, 32.0], 'batteries': [150.0, 79.0], 'heavy': [36.0, 9.0], 'trench': [10.0], 'anti': [7.0], 'air': [12.0]}","{'battalions': [102.0], 'cavalry': [10.0], 'batteries': [213.0], 'heavy': [31.0]}"
+69,Third Battle of Gaza,https://en.wikipedia.org/wiki/Third_Battle_of_Gaza,1,2 November 1917(1 day),"Gaza, southern Palestine",Allied victory[1]  Ottoman garrison abandons Gaza on 7 November as a result of fighting during the Battle of Tel el Khuweilfe and the Battle of Hareira and Sheria,"British Empire
+
+ Australia
+ New Zealand
+ India
+ United Kingdom
+ France Italy
+
+ Arab Revolt","Ottoman Empire
+
+ Germany (military commanders & air force)","10,000–35,913","4,500–8,000","2,696","1,000+ buried,300 captured",11/1/1917,11/2/1917,{},{'captured': [300.0]},{},{}
+70,Battle of Monastir (1917),https://en.wikipedia.org/wiki/Battle_of_Monastir_(1917),12-Mar-17,26-May-17,"West and North of Monastir, Kingdom of Serbia (present-day North Macedonia)",Central Powers victory,"Bulgaria
+ Germany",France,First Army 11th Army,5 French divisions,Unknown,"14,000 killed, wounded or sick[1]",3/12/1917,5/26/1917,{},{'killed': [14000.0]},{},{'french': [5.0]}
+71,Battle of Oulu,https://en.wikipedia.org/wiki/Battle_of_Oulu,3-Feb-18,3-Feb-18,"Oulu, Finland",White victory,Finnish Whites,Finnish Reds Russian Garrison,"Around 1,200 Whites","Around 600 Reds1,200 Russians",33 in total,"26 Reds fell1 Russian fell500 Reds imprisoned1,000 Russians imprisoned",2/3/1918,2/3/1918,{'in': [33.0]},"{'reds': [26.0, 500.0], 'russian': [1.0], 'russians': [1000.0]}",{'whites': [1200.0]},"{'reds': [600.0], 'russians': [1200.0]}"
+72,Second Battle of the Piave River,https://en.wikipedia.org/wiki/Second_Battle_of_the_Piave_River,15,23-Jun-18,"Piave, Italy45°49′50″N 12°12′34″E﻿ / ﻿45.83056°N 12.20944°E﻿ / 45.83056; 12.20944",Allied victory,Italy United Kingdom  France  United States,Austria-Hungary,"57 divisions:[1]
+
+ 900,000 in 52 divisions (1 Czechoslovak division)
+ ~40,000 in 3 divisions
+ 25,000 in 2 divisionsTotal: 965,000
+5,650 guns1,570 mortars676 aircraft","58 divisions:[1]
+
+ 946,000
+6,833 artillery pieces","87,181:[2]8,396 dead30,603 wounded48,182 captured","118,042:[2]11,643 dead80,852 wounded25,547 captured",6/15/1918,6/23/1918,"{'dead': [8396.0], 'wounded': [30603.0], 'captured': [48182.0]}","{'dead': [11643.0], 'wounded': [80852.0], 'captured': [25547.0]}","{'total': [965000.0], 'divisions': [57.0, 52.0, 3.0], 'troops': [900000.0, 40000.0, 25000.0], 'czechoslovak': [1.0], 'divisionstotal': [2.0], 'guns': [5650.0], 'mortars': [1570.0], 'aircraft': [676.0]}","{'divisions': [58.0], 'artillery': [6833.0]}"
+73,Battle of Komarów (1914),https://en.wikipedia.org/wiki/Battle_of_Komar%C3%B3w_(1914),26-Aug,2-Sep-14,"Komarów and Zamość, Russian Poland",Austro-Hungarian victory,Austria-Hungary,Russian Empire,"250,000 men, 474 or 456 guns[1]","147,000 men, 304 machine gun, and 516 or 456 guns[2]","40,000 casualties
+
+20,000 killed and wounded
+20,000 captured[3]","30,000–40,000 casualties
+
+20,000–26 000 killed and wounded
+10,000 prisoners and 150 guns captured[3]",8/26/1914,9/2/1914,"{'casualties': [40000.0], 'killed': [20000.0], 'captured': [20000.0]}","{'casualties': [40000.0], 'killed': [0.0], 'prisoners': [10000.0], 'guns': [150.0]}","{'troops': [250000.0], 'or': [474.0], 'guns': [456.0]}","{'troops': [147000.0], 'machine': [304.0], 'or': [516.0], 'guns': [456.0]}"
+74,Battle of Länkipohja,https://en.wikipedia.org/wiki/Battle_of_L%C3%A4nkipohja,16-Mar-18,16-Mar-18,"Längelmäki, Finland61°44′09″N 24°47′44″E﻿ / ﻿61.73583°N 24.79556°E﻿ / 61.73583; 24.79556",White victory,Finnish Whites,Finnish Reds,"2,500","c. 1,000",37 killed,"20–60 killed in the battle,at least 70–100 executed",3/16/1918,3/16/1918,{'killed': [37.0]},"{'killed': [60.0], 'executed': [100.0]}",{'troops': [2500.0]},{}
+75,Battle of Krivolak,https://en.wikipedia.org/wiki/Battle_of_Krivolak,21-Oct,22-Nov-15,"Krivolak, Kingdom of Serbia (present-day North Macedonia)41°31′38″N 22°07′15″E﻿ / ﻿41.5272°N 22.1208°E﻿ / 41.5272; 22.1208",Bulgarian victory,Bulgaria,France,1 army,3 divisions,"5,877","3,161
+10 artillery pieces lost
+12 machine guns lost
+36 ammunition wagons captured",10/21/1915,11/22/1915,{},"{'artillery': [10.0], 'machine': [12.0], 'ammunition': [36.0]}",{'army': [1.0]},{'divisions': [3.0]}
+76,Battle of Qurna,https://en.wikipedia.org/wiki/Battle_of_Qurna,3,9-Dec-14,"Qurna, Southern Iraq31°01′N 47°26′E﻿ / ﻿31.017°N 47.433°E﻿ / 31.017; 47.433",British-Indian victory,"British Empire
+
+ India
+ United Kingdom",Ottoman Empire,"2,100","1,000",281,"1,000",12/3/1914,12/9/1914,{},{},{'troops': [2100.0]},{'troops': [1000.0]}
+77,Battle of Messines (1917),https://en.wikipedia.org/wiki/Battle_of_Messines_(1917),7,14-Jun-17,"Messines (Mesen), West Flanders, Belgium50°45′45″N 02°53′43″E﻿ / ﻿50.76250°N 2.89528°E﻿ / 50.76250; 2.89528",British victory,"United Kingdom
+
+ Australia
+ Canada
+ New Zealand",Germany,12 divisions,5 divisions,"24,562","21,886 (21 May to 10 June) – 26,087 (7–14 June)",6/7/1917,6/14/1917,{},"{'may': [21.0], 'june': [10.0, 14.0]}",{'divisions': [12.0]},{'divisions': [5.0]}
+78,Battle of Mons,https://en.wikipedia.org/wiki/Battle_of_Mons,23-Aug-14,23-Aug-14,"Mons, Belgium50°28′44.011″N 3°57′0.400″E﻿ / ﻿50.47889194°N 3.95011111°E﻿ / 50.47889194; 3.95011111",See Analysis section,United Kingdom,German Empire,"2 corps
+1 cavalry division
+1 cavalry brigade
+300 guns","4 corps
+3 cavalry divisions
+600 guns","1,638","2,000–5,000",8/23/1914,8/23/1914,{},{},"{'corps': [2.0], 'cavalry': [1.0, 1.0], 'guns': [300.0]}","{'corps': [4.0], 'cavalry': [3.0], 'guns': [600.0]}"
+79,Battle of Nablus (1918),https://en.wikipedia.org/wiki/Battle_of_Nablus_(1918),19,25-Sep-18,"from the Rafat salient in the Judean Hills to the Jordan Valley and the Dead Sea, north to Nablus and Jisr ed Damieh, and east to Es Salt and Amman",British and Arab victory,"British Empire
+
+ United Kingdom
+ India
+ Australia
+ New Zealand
+ South Africa
+ Arab Revolt",Ottoman Empire German Empire,,,,,9/19/1918,9/25/1918,{},{},{},{}
+80,Eighth Battle of the Isonzo,https://en.wikipedia.org/wiki/Eighth_Battle_of_the_Isonzo,10,12-Oct-16,"Soča valley, Slovenia",Inconclusive,Italy,Austria-Hungary,20 divisions,14 divisions,"50,000–60,000 killed, wounded, missing or captured","38,000 killed, wounded, missing or captured",10/10/1916,10/12/1916,{'killed': [60000.0]},{'killed': [38000.0]},{'divisions': [20.0]},{'divisions': [14.0]}
+81,Battle of Neuve Chapelle,https://en.wikipedia.org/wiki/Battle_of_Neuve_Chapelle,10,13-Mar-15,"Artois region, France50°35′06″N 02°46′39″E﻿ / ﻿50.58500°N 2.77750°E﻿ / 50.58500; 2.77750",See Analysis section,"British Empire
+
+ Canada
+ India
+ United Kingdom",German Empire,4 divisions,2 divisions,"12,892c. 7,000 Britishc. 4,200 Indian","9–20 March: 8,500–10,000",3/10/1915,3/13/1915,"{'c': [12892.0], 'britishc': [7000.0], 'indian': [4200.0]}",{'march': [20.0]},{'divisions': [4.0]},{'divisions': [2.0]}
+82,Battle of Hämeenlinna,https://en.wikipedia.org/wiki/Battle_of_H%C3%A4meenlinna,26-Apr-18,26-Apr-18,Hämeenlinna,German and White victory,German Empire Finnish Whites,Finnish Reds,Unknown,30+,Unknown,20 died in the combat[1]20+ civilian casualties,4/26/1918,4/26/1918,{},{'died': [20.0]},{},{}
+83,Battle of Jerusalem,https://en.wikipedia.org/wiki/Battle_of_Jerusalem_(1917),17-Nov,"30 December 1917(1 month, 1 week and 6 days)","On the coast of the Mediterranean Sea north of Jaffa, into the Judean Hills and around Jerusalem31°46′35″N 35°13′39″E﻿ / ﻿31.77639°N 35.22750°E﻿ / 31.77639; 35.22750",British Empire victory,"British Empire
+
+ Egypt
+ Australia
+ India
+ New Zealand
+ United Kingdom",Ottoman Empire German Empire,,,"18,000 (entire campaign)","25,000 (entire campaign)[1][2][3]",11/17/1917,12/30/1917,{},{},{},{}
+84,Battle of Bir el Abd,https://en.wikipedia.org/wiki/Battle_of_Bir_el_Abd,9-Aug-16,9-Aug-16,Bir al-Abed,Ottoman victory[1],"British Empire
+
+ British Raj
+ Southern Rhodesia",Ottoman Empire German Empire,,,,,8/9/1916,8/9/1916,{},{},{},{}
+85,Battle of Dogger Bank (1915),https://en.wikipedia.org/wiki/Battle_of_Dogger_Bank_(1915),24-Jan-15,24-Jan-15,"Dogger Bank, North Sea54°33′28″N 05°27′50″E﻿ / ﻿54.55778°N 5.46389°E﻿ / 54.55778; 5.46389",British victory,United Kingdom,Germany,5 battlecruisers  7 light cruisers  35 destroyers[1],3 battlecruisers  1 armoured cruiser  4 light cruisers  18 torpedo boats[1]  1 Zeppelin,47 killed and wounded  1 battlecruiser disabled  1 destroyer disabled[2],"1,034 killed and wounded  189 captured  1 armoured cruiser sunk  1 battlecruiser damaged[2]",1/24/1915,1/24/1915,"{'killed': [47.0], 'battlecruiser': [1.0], 'destroyer': [1.0]}","{'killed': [1034.0], 'captured': [189.0], 'armoured': [1.0], 'battlecruiser': [1.0]}","{'battlecruisers': [5.0], 'light': [7.0], 'destroyers': [35.0]}","{'battlecruisers': [3.0], 'armoured': [1.0], 'light': [4.0], 'torpedo': [18.0], 'zeppelin': [1.0]}"
+86,Battle of Baku,https://en.wikipedia.org/wiki/Battle_of_Baku,26-Aug-18,14 September 1918[1],"Baku, Azerbaijan40°27′N 49°47′E﻿ / ﻿40.450°N 49.783°E﻿ / 40.450; 49.783",Ottoman–Azerbaijani victory,Ottoman Empire Azerbaijan,"Until 26 July: Baku Commune Russian SFSRFrom 26 July: Centrocaspian Dictatorship
+
+ Armenian Revolutionary Federation
+ United Kingdom","Islamic Army of the Caucasus14,000 infantry500 cavalry40 guns[1]","Baku Army20,000 infantry.[4]40 guns[1] Dunsterforce1,000 infantry1 artillery battery3 machine gun section3 armored cars2 Martinsyde G.100 planes[1] Bicherakhov detachment6,000[1]","2,000 killed/wounded[1]","5,000 killed/wounded 200 killed/wounded[1]",8/26/1918,9/14/1918,{'killed': [2000.0]},"{'killed': [5000.0, 200.0]}","{'infantry': [14000.0], 'cavalry': [500.0], 'guns': [40.0]}","{'infantry': [20000.0, 1000.0], 'guns': [40.0], 'artillery': [1.0], 'machine': [3.0], 'armored': [3.0], 'martinsyde': [2.0], 'planes': [100.0]}"
+87,Battle of the Yser,https://en.wikipedia.org/wiki/Battle_of_the_Yser,16,31-Oct-14,"River Yser and Ieperlee, Belgium51°09′10″N 02°43′23″E﻿ / ﻿51.15278°N 2.72306°E﻿ / 51.15278; 2.72306",Allied victory,Belgium France United Kingdom,German Empire,"Belgium: 52,000 men[1]France: 6,600 men (1,450 infantry)[2]Britain: 3 monitorsauxiliary ships","60,000–85,000 men[1]","Belgium: 3,500 killed[3]15,000 wounded[3]",Germany: Heavy,10/16/1914,10/31/1914,"{'killed': [3500.0], 'wounded': [15000.0]}",{},"{'menfrance': [52000.0], 'troops': [6600.0], 'infantry': [1450.0], 'monitorsauxiliary': [3.0]}","{'troops': [60000.0, 85000.0]}"
+88,Battle of Syniava,https://en.wikipedia.org/wiki/Battle_of_Syniava,13,15-May-15,"Stara Syniava, Austria-Hungary",Russian victory,Austria-Hungary,Russian Empire,"113,000",Unknown,"Heavy7,436 captured",Medium,5/13/1915,5/15/1915,{'captured': [7436.0]},{},{'troops': [113000.0]},{}
+89,Battle of Ginchy,https://en.wikipedia.org/wiki/Battle_of_Ginchy,9-Sep-16,9-Sep-16,"Ginchy, France50°1′21.6″N 2°49′56.8″E﻿ / ﻿50.022667°N 2.832444°E﻿ / 50.022667; 2.832444",British victory,United Kingdom France,German Empire,3 divisions,c. 3 divisions,,,9/9/1916,9/9/1916,{},{},{'divisions': [3.0]},{'divisions': [3.0]}
+90,Battle of Kämärä,https://en.wikipedia.org/wiki/Battle_of_K%C3%A4m%C3%A4r%C3%A4,27-Jan-18,27-Jan-18,"Kämärä, Kuolemajärvi, Finland",Red victory  White withdrawal Red train able to deliver vital war supplies,Finnish Whites,Finnish Reds,500,500–600,18 killed,30 killed,1/27/1918,1/27/1918,{'killed': [18.0]},{'killed': [30.0]},{'troops': [500.0]},{}
+91,Battle of Coronel,https://en.wikipedia.org/wiki/Battle_of_Coronel,1-Nov-14,1-Nov-14,"Off Coronel, Chile36°59′1″S 73°48′49″W﻿ / ﻿36.98361°S 73.81361°W﻿ / -36.98361; -73.81361",German victory,Germany,United Kingdom,2 armoured cruisers  3 light cruisers,2 armoured cruisers  1 light cruiser1 auxiliary cruiser,3 wounded,"1,660 killed[1]2 armoured cruisers sunk1 light cruiser damaged",11/1/1914,11/1/1914,{'wounded': [3.0]},"{'killed': [1660.0], 'armoured': [2.0], 'light': [1.0]}","{'armoured': [2.0], 'light': [3.0]}","{'armoured': [2.0], 'light': [1.0], 'auxiliary': [1.0]}"
+92,Battle of the Olt Valley,https://en.wikipedia.org/wiki/Battle_of_the_Olt_Valley,28-Oct,27-Nov-16,"Olt Valley, Kingdom of Romania",Central Powers victory,Romania,Austria-Hungary German Empire,,,"Unknown totalZănoaga:700 casualties3 machine guns capturedFirst two weeks of November:7,080 prisoners12 guns captured20 machine guns captured",Unknown totalPoiana Spinului:Prince Heinrich of Bavaria killed,10/28/1916,11/27/1916,"{'casualties': [700.0], 'machine': [3.0, 20.0], 'prisoners': [7080.0], 'guns': [12.0]}",{},{},{}
+93,Battle of Kurdamir,https://en.wikipedia.org/wiki/Battle_of_Kurdamir,7-Jul,10 July 1918  (3 days),"Kurdamir, Baku Governorate, Azerbaijan Democratic Republic40°20′18″N 48°09′39″E﻿ / ﻿40.33833°N 48.16083°E﻿ / 40.33833; 48.16083",Ottoman–Azerbaijani victory,Ottoman Empire Azerbaijan,"Baku Commune Russian SFSR
+
+
+ White movement",,,,,7/7/1918,7/10/1918,{},{},{},{}
+94,Battle of Zborov (1917),https://en.wikipedia.org/wiki/Battle_of_Zborov_(1917),1,2-Jul-17,"Zborov, Galicia, Austria-Hungary (now Ukraine)",Czechoslovak and Russian victory,Czechoslovak Legions Russian Provisional Government,"Austria-Hungary
+
+ German Empire","3,530[1][2]","5,500[3]",167 killed700 wounded(17 fatally wounded)11 missing,"3,300 captured(62 officers)20 guns captured",7/1/1917,7/2/1917,"{'killed': [167.0], 'wounded': [700.0], 'fatally': [17.0], 'missing': [11.0]}","{'captured': [3300.0], 'officers': [62.0], 'guns': [20.0]}",{'troops': [3530.0]},{'troops': [5500.0]}
+95,Battle of Robănești,https://en.wikipedia.org/wiki/Battle_of_Rob%C4%83ne%C8%99ti,23-Nov-16,23-Nov-16,"Robănești, Dolj County44°17′39″N 24°00′32″E﻿ / ﻿44.29417°N 24.00889°E﻿ / 44.29417; 24.00889",German victory,Romania,German Empire,,,,,11/23/1916,11/23/1916,{},{},{},{}
+96,Battle of Lutsk,https://en.wikipedia.org/wiki/Battle_of_Lutsk,4,6-Jun-16,"Lutsk, Galicia",Russian victory,Austria-Hungary,Russian Empire,"200,000[1]","150,000[1]","130,000[2]","34,000[3]",6/4/1916,6/6/1916,{},{},{'troops': [200000.0]},{'troops': [150000.0]}
+97,Battle of Gorizia (1916),https://en.wikipedia.org/wiki/Sixth_Battle_of_the_Isonzo,4,16-Aug-16,"Isonzo, Gorizia and Karst Plateau",Italian victory,Italy,Austria-Hungary,203 battalions[1],106 battalions[1],"51,221[2][nb 1]6,310 killed32,784 wounded12,127 missing","37,458[2][nb 2]3,719 killed19,910 wounded13,829 missing",8/4/1916,8/16/1916,"{'killed': [512216310.0], 'wounded': [32784.0], 'missing': [12127.0]}","{'killed': [374583719.0], 'wounded': [19910.0], 'missing': [13829.0]}",{'battalions': [203.0]},{'battalions': [106.0]}
+98,Battle of the Crna Bend (1916),https://en.wikipedia.org/wiki/Battle_of_the_Cerna_Bend_(1916),14-Oct,19-Nov-16,"River Crna, Macedonia",Entente victory[1][2],"France
+ Serbia
+ Russian Empire","Bulgaria
+ German Empire",,,Unknown,Heavy,10/14/1916,11/19/1916,{},{},{},{}
+99,Battle of Magdhaba,https://en.wikipedia.org/wiki/Battle_of_Magdhaba,23-Dec-16,23-Dec-16,"Sinai peninsula, Egypt30°53′24″N 34°01′12″E﻿ / ﻿30.89000°N 34.02000°E﻿ / 30.89000; 34.02000",British victory,"British Empire
+
+ United Kingdom
+ India
+ Australia
+ New Zealand",Ottoman Empire,"6,000","2,000","22 dead
+124 wounded","300+ killed of whom 97 confirmed dead
+300 wounded of whom 40 confirmed cared for
+1,242–1,282 prisoners",12/23/1916,12/23/1916,"{'dead': [22.0], 'wounded': [124.0]}","{'confirmed': [97.0, 40.0], 'wounded': [300.0], 'prisoners': [1282.0]}",{'troops': [6000.0]},{'troops': [2000.0]}
+100,Fifth Battle of Ypres,https://en.wikipedia.org/wiki/Fifth_Battle_of_Ypres,28-Sep,2-Oct-18,"Ypres, Belgium to Ghent, Belgium50°54′1″N 3°1′16″E﻿ / ﻿50.90028°N 3.02111°E﻿ / 50.90028; 3.02111﻿ (Passchendaele (Passendale))",Allied victory,Belgium United Kingdom France   Newfoundland,"German Empire
+ Bavaria  Prussia",28 divisions,16 divisions,"British: 4,685  Belgian: 4,500  Newfoundland 15[1]","10,000 POW300 guns 600 machine guns",9/28/1918,10/2/1918,"{'belgian': [4685.0], 'newfoundland': [4500.0]}","{'pow': [10000.0], 'guns': [300.0], 'machine': [600.0]}",{'divisions': [28.0]},{'divisions': [16.0]}
+101,Dniester Front,https://en.wikipedia.org/wiki/Battle_of_Dniestr_and_Zolota_Lypa,17-Mar,2-Jun-15,Dniester(present-day Poland and  Western Ukraine),Russian victory[1],German Empire Austria-Hungary,Russian Empire,,,,,3/17/1915,6/2/1915,{},{},{},{}
+102,Battle of Sari Bair,https://en.wikipedia.org/wiki/Battle_of_Sari_Bair,6,21-Aug-15,"Gallipoli peninsula, Ottoman Empire",Ottoman victory,"British Empire
+
+ Australia
+ India
+ New Zealand
+ United Kingdom","Ottoman Empire
+
+ German Empire (Military commanders)",4 divisions (initial),Unknown,Unknown,Unknown,8/6/1915,8/21/1915,{},{},{'divisions': [4.0]},{}
+103,Battle of the Argeș,https://en.wikipedia.org/wiki/Battle_of_the_Arge%C8%99,1,3-Dec-16,"Bucharest, Romania44°16′N 26°3′E﻿ / ﻿44.267°N 26.050°E﻿ / 44.267; 26.050",Central Powers victory,Kingdom of Romania Russian Empire,German Empire Tsardom of Bulgaria Ottoman Empire Austria-Hungary,"Romanian First Army9 Infantry divisions2 Cavalry divisions150,000 soldiers","Danube Army German Ninth Army11 Infantry divisions3 Cavalry divisions175,000 soldiers","Unknown dead or wounded60,000 prisoners",Unknown,12/1/1916,12/3/1916,{'prisoners': [60000.0]},{},"{'infantry': [9.0], 'cavalry': [2.0], 'soldiers': [150000.0]}","{'infantry': [11.0], 'cavalry': [3.0], 'soldiers': [175000.0]}"
+104,Battle of Hanna,https://en.wikipedia.org/wiki/Battle_of_Hanna,21-Jan-16,21-Jan-16,"Hanna defile, present-day Iraq32°38′45″N 46°03′09″E﻿ / ﻿32.6458795°N 46.0526276°E﻿ / 32.6458795; 46.0526276",Ottoman victory,"British Empire
+
+ India
+ United Kingdom","Ottoman Empire
+
+ German Empire (military commanders)","10,000 men[citation needed] (remnants of 2 divisions)","30,000 men[citation needed]","2,741 casualties[1]",503 casualties[1],1/21/1916,1/21/1916,{'casualties': [2741.0]},{'casualties': [503.0]},"{'troops': [10000.0], 'divisions': [2.0]}",{'troops': [30000.0]}
+105,Battle of Dover Strait (1917),https://en.wikipedia.org/wiki/Battle_of_Dover_Strait_(1917),20,21-Apr-17,Dover Strait51°01′N 1°29′E﻿ / ﻿51.017°N 1.483°E﻿ / 51.017; 1.483,British victory,United Kingdom,German Empire,Destroyer leader BrokeDestroyer leader Swift,6 torpedo boats,Broke heavily damagedSwift lightly damaged22 killed,2 torpedo boats sunk71 killed,4/20/1917,4/21/1917,{'killed': [22.0]},"{'torpedo': [2.0], 'killed': [71.0]}",{},{'torpedo': [6.0]}
+106,Battle of Rafa,https://en.wikipedia.org/wiki/Battle_of_Rafa,9-Jan-17,9-Jan-17,Sinai–Palestine border31°15′54″N 34°14′06″E﻿ / ﻿31.265°N 34.235°E﻿ / 31.265; 34.235,British victory,"United Kingdom
+
+ India
+ Rhodesia
+ Australia New Zealand",Ottoman Empire,Desert ColumnANZAC Mounted DivisionImperial Camel Corps Brigade7th Light Car Patrol,"Ottoman garrison of 2,000 soldiers","71 killed,415 wounded","200 killed,168 wounded,1,434 prisoners",1/9/1917,1/9/1917,"{'killed': [71.0], 'wounded': [415.0]}","{'killed': [200.0], 'wounded': [168.0], 'prisoners': [1434.0]}",{},{'soldiers': [2000.0]}
+107,Battle of Albert (1918),https://en.wikipedia.org/wiki/Battle_of_Albert_(1918),,,,,,,,,,,8/21/1918,8/23/1918,{},{},{},{}
+108,Battle of Łomża,https://en.wikipedia.org/wiki/Battle_of_%C5%81om%C5%BCa,"March, 1",28-Apr-15,"Poland, (present-day Poland)",Russian victory[1],German Empire,Russian Empire,"540,278[4]","722,441[5] 1,332 machine guns5,189 guns[6]","60,000–90,000[7][8]","308,000[9][10]",3/1/1915,4/28/1915,{},{},{'troops': [540278.0]},"{'machine': [1332.0], 'guns': [5189.0]}"
+109,Battle of Mount Ortigara,https://en.wikipedia.org/wiki/Battle_of_Mount_Ortigara,10,25-Jun-17,"Southern Trentino, present-day Italy46°0′36.000″N 11°31′18.998″E﻿ / ﻿46.01000000°N 11.52194389°E﻿ / 46.01000000; 11.52194389",Austro-Hungarian victory[1],Italy,Austria-Hungary,"300,0001,600 guns","100,000500 guns","23,000 dead or wounded","9,000 dead or wounded",6/10/1917,6/25/1917,{'dead': [23000.0]},{'dead': [9000.0]},{'guns': [3000001600.0]},{'guns': [100000500.0]}
+110,Battle of Nagyszeben (1916),https://en.wikipedia.org/wiki/Battle_of_Sibiu_(1916),26,29-Sep-16,"Southeastern Transylvania, Austria-Hungary (Szeben, Fogaras and Nagy-Küküllő counties) and  northwestern Wallachia, Romania (Vâlcea and Argeș counties)",Decisive Central Powers victory[1][2],Romania,German Empire Austria-Hungary,"I Corps:20,000+ (25 battalions of over 800 men)16 batteries (2 heavy)3 aircraft (1 operational)Toma Popescu Detachment (26 June):1 Jäger battalion2 howitzers1 militia platoon (15 men)","XXXIX Corps:17,500–21,000 (35 battalions of 500–600 men)54 batteries (13 heavy)Alpine Corps:9 battalions2 mountain batteries","I Corps (1st Army):3,000 prisoners13 guns captured6 machine-guns captured2 aircraft captured2nd Army:Unknown total1 aircraft captured",Unknown total300 prisoners (28–29 September),9/26/1916,9/29/1916,"{'total': [1.0], 'prisoners': [3000.0], 'guns': [13.0], 'machine': [6.0], 'aircraft': [2.0], 'nd': [2.0]}","{'total': [300.0], 'september': [29.0]}","{'battalions': [25.0], 'troops': [800.0, 15.0], 'batteries': [16.0], 'heavy': [2.0], 'aircraft': [3.0], 'operational': [1.0], 'j': [1.0], 'howitzers': [2.0], 'militia': [1.0]}","{'battalions': [35.0, 9.0], 'troops': [500.0, 600.0], 'batteries': [54.0], 'heavy': [13.0], 'mountain': [2.0]}"
+111,Battle of Château-Thierry (1918),https://en.wikipedia.org/wiki/Battle_of_Ch%C3%A2teau-Thierry_(1918),"July 18, 1918 (The offensive start date)","July 18, 1918 (The offensive start date)","Château-Thierry, Aisne, France49°2′31″N 3°22′19″E﻿ / ﻿49.04194°N 3.37194°E﻿ / 49.04194; 3.37194",Allied victory,France  United States Belgium,Germany,,,"1,908 casualties [1]","5,328 casualties",7/18/1918,7/18/1918,{'casualties': [1908.0]},{'casualties': [5328.0]},{},{}
+112,Battle of Moreuil Wood,https://en.wikipedia.org/wiki/Battle_of_Moreuil_Wood,30-Mar-18,30-Mar-18,"Southeast of Amiens in Moreuil, France, on the banks of the Avre River.",See Aftermath section,United Kingdom Canada,Germany,"Units of The Royal Canadian Dragoons
+Units of Lord Strathcona’s Horse
+Units of the Fort Garry Horse
+Units of the 3rd Cavalry Division",23rd Saxon Division,305,unknown,3/30/1918,3/30/1918,{},{},{},{}
+113,Battle of Beersheba (1917),https://en.wikipedia.org/wiki/Battle_of_Beersheba_(1917),31-Oct-17,31-Oct-17,"Beersheba, Ottoman Empire",British victory,United Kingdom Australia New Zealand Arab Revolt,Ottoman Empire Germany (military commanders),"47,500 rifles15,000 troopers","4,400 rifles60 machine guns28 field guns",171 killed in action,"~ 1,000 killed or wounded[1]1,947 prisoners",10/31/1917,10/31/1917,{'killed': [171.0]},"{'killed': [1000.0], 'prisoners': [1947.0]}","{'rifles': [47500.0], 'troopers': [15000.0]}","{'rifles': [4400.0], 'machine': [60.0], 'field': [28.0]}"
+114,Battle of the Canal du Nord,https://en.wikipedia.org/wiki/Battle_of_the_Canal_du_Nord,"September 27 - October 1, 1918","September 27 - October 1, 1918",Canal du Nord50°17′N 3°07′E﻿ / ﻿50.283°N 3.117°E﻿ / 50.283; 3.117,Allied victory,"United Kingdom
+
+ Canada
+ New Zealand",German Empire,,,"30,000","36,500 POW380 guns",9/27/1918,10/1/1918,{},"{'pow': [36500.0], 'guns': [380.0]}",{},{}
+115,Battle of Skra-di-Legen,https://en.wikipedia.org/wiki/Battle_of_Skra-di-Legen,29,31-May-18,"Skra, Kingdom of Greece",Entente victory,"Greece
+ France
+ United Kingdom",Bulgaria,"5 regiments (from 3 divisions)
+ 1 brigade with cannons and flamethrowers
+ 2 Artillery batteries",1 brigade,"441 killed
+2,227 wounded
+164 missing[1]","600 killed
+2,313 captured (included wounded)
+12 artillery pieces and 32 machine guns, as well as other equipment captured",5/29/1918,5/31/1918,"{'killed': [441.0], 'wounded': [2227.0], 'missing': [164.0]}","{'killed': [600.0], 'captured': [2313.0], 'artillery': [12.0], 'machine': [32.0]}","{'regiments': [5.0], 'divisions': [3.0], 'brigade': [1.0], 'artillery': [2.0]}",{'brigade': [1.0]}
+116,Battle of Caporetto,https://en.wikipedia.org/wiki/Battle_of_Caporetto,24-Oct,19-Nov-17,"Kobarid, Austria-Hungary(present day Slovenia)46°12′52″N 13°38′33″E﻿ / ﻿46.21444°N 13.64250°E﻿ / 46.21444; 13.64250",Central Powers victory,Austria-Hungary Germany,Italy,"353,000 soldiers, 2,518 artillery pieces [1]","257,400 soldiers, 1,342 artillery pieces [1]","70,000","13,000 dead30,000 wounded265,000–275,000 captured
+
+
+300,000 stragglers50,000 deserters3,152 artillery pieces1,712 mortars3,000 machine guns300,000 rifles",10/24/1917,11/19/1917,{},"{'dead': [13000.0], 'wounded': [30000.0], 'captured': [275000.0], 'stragglers': [300000.0], 'deserters': [50000.0], 'artillery': [3152.0], 'mortars': [1712.0], 'machine': [3000.0], 'rifles': [300000.0]}","{'soldiers': [353000.0], 'artillery': [2518.0]}","{'soldiers': [257400.0], 'artillery': [1342.0]}"
+117,Battle of Ardahan,https://en.wikipedia.org/wiki/Battle_of_Ardahan,25-Dec-14,18-Jan-15,"Ardahan, Kars Oblast, Russian Empire",Russian victory[1],Russian Empire,Ottoman Empire,,,Unknown,"22 December only:[2]2,000 dead1,027 captured",12/25/1914,1/18/1915,{},"{'december': [22.0], 'dead': [2000.0], 'captured': [1027.0]}",{},{}
+118,Battle of Antrea,https://en.wikipedia.org/wiki/Battle_of_Antrea,11-Feb,25 April 1918(2 months and 2 weeks),"Antrea and Jääski, Finland",Red withdrawal,Finnish Whites,Finnish Reds Russian Volunteers,"1,500–2,000","2,000–4,000",300 killed,324 killed,2/11/1918,4/25/1918,{'killed': [300.0]},{'killed': [324.0]},{},{}
+119,Battle of Cocos,https://en.wikipedia.org/wiki/Battle_of_Cocos,9-Nov-14,9-Nov-14,"Off the Keeling Islands, Indian Ocean",Australian victory,Australia,Germany,Light cruiser Sydney,Light cruiser Emden Collier Buresk,4 killed  16 wounded  Sydney damaged,134 killed  69 wounded  157 captured  Emden wrecked  Buresk scuttled,11/9/1914,11/9/1914,"{'killed': [4.0], 'wounded': [16.0]}","{'killed': [134.0], 'wounded': [69.0], 'captured': [157.0]}",{},{}
+120,Third Battle of Oituz,https://en.wikipedia.org/wiki/Third_Battle_of_Oituz,8,22-Aug-17,"Border of Austria-Hungary and Romania (today in Bacău and Covasna counties, eastern Romania)46°12′32.91″N 26°26′27.7″E﻿ / ﻿46.2091417°N 26.441028°E﻿ / 46.2091417; 26.441028",Romanian defensive victory,Romania Russian Republic,Austria-Hungary German Empire,Unknown,Unknown,Unknown,"1,500+",8/8/1917,8/22/1917,{},{},{},{}
+121,First Battle of the Jiu Valley,https://en.wikipedia.org/wiki/First_Battle_of_the_Jiu_Valley,23-Oct,1-Nov-16,"Jiu Valley, Romania",Romanian victory,Romania,German Empire Austria-Hungary,,,Unknown total9 guns captured on 24 October but recovered on the 28th,"3,210 combat casualties
+
+1,500+ killed
+1,600+ captured
+90% of Erwin Rommel's company sick8 guns and two howitzer batteries captured14 machine guns captured",10/23/1916,11/1/1916,"{'total': [9.0], 'october': [24.0], 'th': [28.0]}","{'combat': [3210.0], 'guns': [8.0], 'machine': [14.0]}",{},{}
+122,Second Battle of Kut,https://en.wikipedia.org/wiki/Second_Battle_of_Kut,23-Feb-17,23-Feb-17,"Kut, Mesopotamia (present-day Iraq)32°30′20″N 45°49′29″E﻿ / ﻿32.505556°N 45.824722°E﻿ / 32.505556; 45.824722",British-Indian victory,"British Empire
+
+ India
+ United Kingdom",Ottoman Empire,"50,000[1]","17,000[1]",,,2/23/1917,2/23/1917,{},{},{'troops': [50000.0]},{'troops': [17000.0]}
+123,Battle of Cambrai (1917),https://en.wikipedia.org/wiki/Battle_of_Cambrai_(1917),20-Nov,7 December 1917; 2 weeks and 3 days,"Cambrai, France50°10′36″N 03°14′08″E﻿ / ﻿50.17667°N 3.23556°E﻿ / 50.17667; 3.23556",See Aftermath section,"United Kingdom
+
+ India[1]
+ Newfoundland[2]
+ France United States[3] China[4]",Germany,"15 infantry divisions[5]4 cavalry divisions[5]1,003 guns[6]476 tanks (378 combat tanks)","20 infantry divisions[5]1,194–1,240 guns[7][8]","44,207 (c. 6,000 POW)[5] (47,596, 20 November to 8 December)[9]Tanks, 20 November: 179 (65 knocked out, 71 breakdowns, 43 other)","54,720: 8,817 killed, 11,105 POW[5]",11/20/1917,12/7/1917,"{'pow': [6000.0], 'november': [20.0, 20.0], 'december': [8.0], 'knocked': [65.0], 'breakdowns': [71.0], 'other': [43.0]}","{'killed': [8817.0], 'pow': [11105.0]}","{'infantry': [15.0], 'cavalry': [4.0], 'guns': [1003.0], 'tanks': [476.0], 'combat': [378.0]}","{'infantry': [20.0], 'guns': [1194.0, 1240.0]}"
+124,Battle of Penang,https://en.wikipedia.org/wiki/Battle_of_Penang,28-Oct-14,28-Oct-14,"Penang Strait, off Penang, Straits Settlements, British Malaya5°24′19″N 100°21′9″E﻿ / ﻿5.40528°N 100.35250°E﻿ / 5.40528; 100.35250",German victory,"Russia
+ France
+ Great Britain",Germany,"1 protected cruiser
+1 cruiser
+2 destroyers",1 light cruiser,"135 killed
+157 wounded
+1 protected cruiser sunk
+1 destroyer sunk",,10/28/1914,10/28/1914,"{'killed': [135.0], 'wounded': [157.0], 'protected': [1.0], 'destroyer': [1.0]}",{},"{'protected': [1.0], 'cruiser': [1.0], 'destroyers': [2.0]}",{'light': [1.0]}
+125,Battle of Saint-Mihiel,https://en.wikipedia.org/wiki/Battle_of_Saint-Mihiel,12,15-Sep-18,"Saint-Mihiel salient, France48°53′21″N 05°32′37″E﻿ / ﻿48.88917°N 5.54361°E﻿ / 48.88917; 5.54361",Allied victory,United States   France,German Empire Austria-Hungary,": 216,000 men, 144 tanks: 48,000 men, 275 tanks 1,481 aircraft 2,900 artillery pieces",": 75,000 men, 213 aircraft[2]","7,000[3]","22,500 (2,000 KIA, 5,500 WIA, 15,000 POW)450 guns captured[4]",9/12/1918,9/15/1918,{},"{'kia': [2000.0], 'wia': [5500.0], 'pow': [15000.0], 'guns': [450.0]}","{'troops': [216000.0, 48000.0], 'tanks': [144.0, 275.0], 'aircraft': [1481.0], 'artillery': [2900.0]}","{'troops': [75000.0], 'aircraft': [213.0]}"
+126,Battle of the Four Rivers,https://en.wikipedia.org/wiki/Battle_of_the_Four_Rivers,16-Dec,16 January [O.S. 3 December,"near Warsaw, Congress Poland, Russian Empire (now Poland)",Russian victory,German Empire Austria-Hungary,Russian Empire,"600,000 men","500,000 men","120,000 total","150,000 to 200,000 total",12/16/1914,1/16/1915,"{'total': [120000.0, 120000.0]}","{'total': [200000.0, 200000.0], 'to': [150000.0]}",{'troops': [600000.0]},{'troops': [500000.0]}
+127,First Battle of Ypres,https://en.wikipedia.org/wiki/First_Battle_of_Ypres,19-Oct,22-Nov-14,"Ypres, Belgium50°51′7″N 2°53′28″E﻿ / ﻿50.85194°N 2.89111°E﻿ / 50.85194; 2.89111",Indecisive,"France
+ Belgium
+ United Kingdom",Germany,"3,989,103
+ c. 247,000
+ 163,897
+Total: 4,400,000","5,400,000","50,000–85,000
+ 58,155
+ 21,562","80,000",10/19/1914,11/22/1914,{},{},"{'total': [163897.0, 163897.0], 'c': [3989103.0]}",{'troops': [5400000.0]}
+128,Battle of Mulhouse,https://en.wikipedia.org/wiki/Battle_of_Mulhouse,7,"10, 14","Vicinity of Mulhouse, Alsace47°44′58″N 7°20′24″E﻿ / ﻿47.74944°N 7.34000°E﻿ / 47.74944; 7.34000",German victory,France,Germany,"First Army
+VII Corps
+(45,000 men)
+Army of Alsace","7th Army
+XIV and XV Corps
+(30,000 men engaged)","2,500 PoW","3,000 PoW",8/7/1914,8/26/1914,{'pow': [2500.0]},{'pow': [3000.0]},{'troops': [45000.0]},{'troops': [30000.0]}
+129,Battles of Ramadi (1917),https://en.wikipedia.org/wiki/Battle_of_Ramadi_(1917),8,13 July 1917(5 days),"Ramadi, west of Baghdad, present-day Iraq33°25′N 43°18′E﻿ / ﻿33.417°N 43.300°E﻿ / 33.417; 43.300",Ottoman victory,"British Empire
+
+ India
+ United Kingdom",Ottoman Empire,7th Infantry Brigade [1],"1,000",566 (321 heatstroke)[2],c. 250 plus c. 100 desertions[3],7/8/1917,7/13/1917,{'heatstroke': [321.0]},"{'plus': [250.0], 'desertions': [100.0]}",{},{'troops': [1000.0]}
+130,Second Battle of Champagne,https://en.wikipedia.org/wiki/Second_Battle_of_Champagne,25-Sep,6-Nov-15,"Champagne, France49°11′04″N 04°32′39″E﻿ / ﻿49.18444°N 4.54417°E﻿ / 49.18444; 4.54417",German victory[1],France,German Empire,Fourth ArmySecond Army(27 divisions),3rd Army(19 divisions),"145,000","97,000(25,000 taken prisoner)",9/25/1915,11/6/1915,{},{'taken': [25000.0]},{'divisions': [27.0]},{'divisions': [19.0]}
+131,Second Battle of Heligoland Bight,https://en.wikipedia.org/wiki/Second_Battle_of_Heligoland_Bight,17-Nov-17,17-Nov-17,"Heligoland Bight, North Sea54°10′N 8°04′E﻿ / ﻿54.167°N 8.067°E﻿ / 54.167; 8.067",Indecisive,United Kingdom,German Empire,3 battlecruisers8 light cruisers10 destroyers,2 battleships4 light cruisers8 destroyers14 minesweepers,22 men killed43 wounded1 light cruiser damaged,21 men killed40 wounded22  (POW)1 minesweeper sunk1 light cruiser damaged,11/17/1917,11/17/1917,"{'men': [22.0], 'wounded': [43.0], 'light': [1.0]}","{'men': [21.0], 'wounded': [40.0], 'minesweeper': [1.0], 'light': [1.0]}","{'battlecruisers': [3.0], 'light': [8.0], 'destroyers': [10.0]}","{'battleships': [2.0], 'light': [4.0], 'destroyers': [8.0], 'minesweepers': [14.0]}"
+132,Eleventh Battle of the Isonzo,https://en.wikipedia.org/wiki/Eleventh_Battle_of_the_Isonzo,18-Aug,12-Sep-17,"Isonzo (Soča), near Monfalcone, Italy; Banjšice Plateau (Altopiano della Bainsizza), Slovenia",Italian tactical victory,Italy,Austria-Hungary Germany,"600 battalions5,200 guns","250 battalions2,200 guns","158,000 casualties:  30,000 dead108,000 wounded20,000 missing or taken prisoner","115,000 casualties:  20,000 dead45,000 wounded30,000 missing20,000 taken prisoner",8/18/1917,9/12/1917,"{'casualties': [158000.0], 'dead': [30000.0], 'wounded': [108000.0], 'missing': [20000.0]}","{'casualties': [115000.0], 'dead': [20000.0], 'wounded': [45000.0], 'missing': [30000.0], 'taken': [20000.0]}","{'battalions': [600.0], 'guns': [5200.0]}","{'battalions': [250.0], 'guns': [2200.0]}"
+133,Second Battle of Ypres,https://en.wikipedia.org/wiki/Second_Battle_of_Ypres,22-Apr,25-May-15,"Ypres, Belgium50°53′58″N 02°56′26″E﻿ / ﻿50.89944°N 2.94056°E﻿ / 50.89944; 2.94056",See Analysis section,"British Empire
+
+ Canada
+ India
+ United Kingdom
+ France
+
+ Algeria
+ Morocco
+ Belgium",German Empire,"2 French divisions
+6 British divisions",7 divisions,"French: 2,000–3,000 to 21,973
+British: 59,275","35,000+",4/22/1915,5/25/1915,"{'to': [3000.0], 'british': [21973.0]}",{},"{'french': [2.0], 'british': [6.0]}",{'divisions': [7.0]}
+134,Battle of Nsanakong,https://en.wikipedia.org/wiki/Battle_of_Nsanakong,6-Sep-14,6-Sep-14,"Nsanakong, German Kamerun",German victory,"British Empire
+
+ British Nigeria","German Empire
+
+ German Kamerun",~200,800[2],"8 British officers[3]160 Nigerians (95 dead, 16 wounded, 49 captured)[4]","113 (43 dead, 70 wounded)[5]",9/6/1914,9/6/1914,"{'british': [8.0], 'nigerians': [160.0], 'dead': [95.0], 'wounded': [16.0], 'captured': [49.0]}","{'dead': [43.0], 'wounded': [70.0]}",{'troops': [200.0]},{'troops': [800.0]}
+135,Battle of Sheikh Sa'ad,https://en.wikipedia.org/wiki/Battle_of_Sheikh_Sa%27ad,6,8-Jan-16,Mesopotamia (present-day Iraq),See aftermath,"British Empire
+
+ India
+ United Kingdom","Ottoman Empire
+
+ German Empire (Military Commanders)","13,330 men total
+
+9,900 infantry
+1,340 cavalry
+42 artillery pieces","3,400 infantry20 artillery pieces1 brigade of cavalry","4,262 casualties:[1]1,962 dead[citation needed]2,300 wounded[citation needed]","1,200 casualties:[1]Unknown dead,512 prisoners[citation needed]2 artillery pieces captured[citation needed]",1/6/1916,1/8/1916,"{'casualties': [4262.0], 'dead': [1962.0], 'wounded': [2300.0]}","{'casualties': [1200.0], 'prisoners': [512.0], 'artillery': [2.0]}","{'total': [9900.0], 'troops': [13330.0], 'infantry': [9900.0], 'cavalry': [1340.0], 'artillery': [42.0]}","{'infantry': [3400.0], 'artillery': [20.0], 'brigade': [1.0]}"
+136,Second Battle of the Somme,https://en.wikipedia.org/wiki/Second_Battle_of_the_Somme,21-Aug,3-Sep-18,"Somme River, France",Allied victory,"British Empire
+
+ Australia
+ New Zealand
+ Canada
+ United Kingdom
+ United States",Germany,British Third Army British Fourth Army United States II Corps,German Second Army,"11,500 casualties[1] 5,600 casualties","""Heavy"", 6,000 taken prisoner",8/21/1918,9/3/1918,"{'casualties': [11500.0, 5600.0]}",{'taken': [6000.0]},{},{}
+137,Battle of Asiago,https://en.wikipedia.org/wiki/Battle_of_Asiago,15-May,10-Jun-16,"Asiago plateau, Veneto, Italy",Italian defensive victory  Austro-Hungarian retreat Austro-Hungarian failure on capturing the Asiago plateau,Italy,Austria-Hungary,172 battalions850 guns,"300 battalions2,000 guns","15,453 killed76,642 wounded55,635 missing or captured[1]","10,203 killed45,651 wounded26,961 missing or captured[2]",5/15/1916,6/10/1916,"{'killed': [15453.0], 'wounded': [76642.0], 'missing': [55635.0]}","{'killed': [10203.0], 'wounded': [45651.0], 'missing': [26961.0]}","{'battalions': [172.0], 'guns': [850.0]}","{'battalions': [300.0], 'guns': [2000.0]}"
+138,Battle of Khanaqin,https://en.wikipedia.org/wiki/Battle_of_Khanaqin,4 June 1916[note 1],4 June 1916[note 1],"Khanaqin, Ottoman Empire",Ottoman victory,Russia,Ottoman Empire,"15,000 infantry7,500 cavalry","25,000[1]",>500 killedMany wounded,~400 killed,6/4/1916,6/4/1916,{'killedmany': [500.0]},{'killed': [400.0]},"{'infantry': [15000.0], 'cavalry': [7500.0]}",{'troops': [25000.0]}
+139,Battle of Ahvenkoski,https://en.wikipedia.org/wiki/Battle_of_Ahvenkoski,10-Apr,5 May 1918(3 weeks and 4 days),"Ahvenkoski, Finland",German–White victory,German Empire Finnish Whites,Red Finland,800,800–900,at least 13 killed,at least 13 killed,4/10/1918,5/5/1918,{'killed': [13.0]},{'killed': [13.0]},{'troops': [800.0]},{}
+140,Meuse–Argonne offensive,https://en.wikipedia.org/wiki/Battle_of_the_Argonne_Forest,26-Sep,11-Nov-18,"Near Montfaucon, northwest of Verdun (present-day Grand Est region), France49°16′21″N 5°08′31″E﻿ / ﻿49.27250°N 5.14194°E﻿ / 49.27250; 5.14194",Allied victory  End of World War I,France United States Siam[1],Germany,"c. 2,000,000
+ 1,200,000 personnel[2]
+380 tanks
+840 planes
+2,780 artillery pieces
+ 800,000 personnel
+652 tanks
+2,766 artillery pieces
+ 850 personnel[1]","450,000 personnel","192,000[3]
+ 122,063
+26,277 dead
+95,786 wounded
+ 70,000
+35,000 killed
+35,000 wounded
+: 19 dead[1]","126,000[4]
+28,000 dead
+42,000 wounded
+56,000 captured
+26,000 taken by Americans
+30,000 POWs taken by French
+874 artillery pieces captured by both[5]",9/26/1918,11/11/1918,"{'dead': [26277.0, 19.0], 'wounded': [95786.0, 35000.0], 'killed': [35000.0]}","{'dead': [28000.0], 'wounded': [42000.0], 'captured': [56000.0], 'taken': [26000.0], 'pows': [30000.0], 'artillery': [874.0]}","{'personnel': [1200000.0, 800000.0, 850.0], 'tanks': [380.0, 652.0], 'planes': [840.0], 'artillery': [2780.0, 2766.0]}",{'personnel': [450000.0]}
+141,Battle of St Quentin Canal,https://en.wikipedia.org/wiki/Battle_of_the_Hindenburg_Line,29-Sep,10-Oct-18,"Hindenburg Line, France49°58′30″N 3°13′54″E﻿ / ﻿49.97500°N 3.23167°E﻿ / 49.97500; 3.23167",Allied victory,"United Kingdom
+
+ Australia
+ United States",Germany,32 divisions: 30 British Empire; two American divisions[1],39 divisions[a],"8,802 (partial)[3][4] 13,182[5]  2,577[6]","36,000 POW[7]",9/29/1918,10/10/1918,{},{'pow': [36000.0]},"{'divisions': [32.0], 'british': [30.0]}",{'divisions': [39.0]}
+142,Battle of Lempäälä,https://en.wikipedia.org/wiki/Battle_of_Lemp%C3%A4%C3%A4l%C3%A4,23-Mar,24 April 1918(1 month and 1 day),"Lempäälä, Finland",White victory,Finnish Whites Swedish Brigade,Finnish Reds,"2,500 to 4,000Unknown","500 to 5,000",194 fallen in combat2 Swedish Casualties,249 fallen in combat230–400 executed,3/23/1918,4/24/1918,"{'fallen': [194.0], 'swedish': [2.0]}","{'fallen': [249.0], 'executed': [400.0]}",{'to': [2500.0]},{'to': [500.0]}
+143,Battle of Krithia Vineyard,https://en.wikipedia.org/wiki/Battle_of_Krithia_Vineyard,6,13-Aug-15,"40°04′41″N 26°12′58″E﻿ / ﻿40.078°N 26.216°E﻿ / 40.078; 26.216Helles, Gallipoli, Ottoman Empire",Ottoman victory,United Kingdom,Ottoman Empire,4 Divisions[1],6 Divisions[2],"4,120 total[2][3]","7,510 total[4][5]",8/6/1915,8/13/1915,"{'total': [4120.0, 4120.0]}","{'total': [7510.0, 7510.0]}",{'divisions': [4.0]},{'divisions': [6.0]}
+144,Battle of Bazargic,https://en.wikipedia.org/wiki/Battle_of_Dobrich,5-Sep-16,7-Sep-16,"Bazargic, Kingdom of Romania (now Dobrich, Bulgaria)43°34′0″N 27°50′0″E﻿ / ﻿43.56667°N 27.83333°E﻿ / 43.56667; 27.83333",Central Powers victory,Central Powers: Bulgaria  Germany Ottoman Empire[1],Allied Powers:  Romania  Russian Empire Serbia,"23 battalions,10 artillery batteries, 17 cavalry squadrons","46 battalions,17 artillery batteries,19 cavalry squadrons","1,053 killed  2,324 wounded[2]",Unknown,9/5/1916,9/7/1916,"{'killed': [1053.0], 'wounded': [2324.0]}",{},"{'battalions': [23.0], 'artillery': [10.0], 'cavalry': [17.0]}","{'battalions': [46.0], 'artillery': [17.0], 'cavalry': [19.0]}"
+145,Struma operation,https://en.wikipedia.org/wiki/Battle_of_Struma,,,,,,,,,,,8/17/1916,8/23/1916,{},{},{},{}
+146,Battle of Cer,https://en.wikipedia.org/wiki/Battle_of_Cer,15,24 August 1914[a],Cer Mountain and surrounding towns and villages in the northwestern portion of the Kingdom of Serbia44°33′16″N 19°31′41″E﻿ / ﻿44.55444°N 19.52806°E﻿ / 44.55444; 19.52806,Serbian victory[4][5],Serbia,Austria-Hungary,"180,000","200,000","3,000–5,000 killed
+15,000 wounded
+Total : 18,000–20,000 casualties","6,000–10,000 killed
+30,000 wounded
+4,500 captured
+46 guns captured
+30 machine guns captured
+140 ammunition wagons captured
+Total : 40,500–45,500 casualties",8/15/1914,8/24/1914,"{'total': [18000.0], 'killed': [5000.0], 'wounded': [15000.0], 'casualties': [20000.0]}","{'total': [40500.0], 'killed': [10000.0], 'wounded': [30000.0], 'captured': [4500.0], 'guns': [46.0], 'machine': [30.0], 'ammunition': [140.0], 'casualties': [45500.0]}",{'troops': [180000.0]},{'troops': [200000.0]}
+147,Battle of Passchendaele,https://en.wikipedia.org/wiki/Third_Battle_of_Ypres,31-Jul,"10 November 1917(3 months, 1 week and 3 days)","Passchendaele, Ypres Salient, Belgium50°54′1″N 3°1′16″E﻿ / ﻿50.90028°N 3.02111°E﻿ / 50.90028; 3.02111﻿ (Passendale)",See Analysis section,"British Empire
+ United Kingdom
+ Canada
+ Australia
+ New Zealand
+ South Africa
+ India
+ Newfoundland
+ Rhodesia
+
+ France Belgium",Germany,50 divisions 6 divisions,77–83 divisions,"240,000–448,614(disputed, see Casualties section)","217,000–400,000including 24,065 prisoners (disputed, see Casualties section)",7/31/1917,11/10/1917,{},"{'including': [400000.0], 'prisoners': [24065.0]}","{'divisions': [50.0, 6.0]}","{'divisions': [77.0, 83.0]}"
+148,Battle of the Drina,https://en.wikipedia.org/wiki/Battle_of_Drina,7,24 September 1914[1],Drina River44°19′46.56″N 19°17′33.07″E﻿ / ﻿44.3296000°N 19.2925194°E﻿ / 44.3296000; 19.2925194,Inconclusive[2] Austro-Hungarian invasion stopped[1] Serbs suspend offensive into Syrmia[1],Austria-Hungary,"Serbia
+ Montenegro","Fifth Army
+Sixth Army","Second Army
+Third Army","40,000[3]","30,000[3]",9/7/1914,9/24/1914,{},{},{},{}
+149,Battle of Karakilisa,https://en.wikipedia.org/wiki/Battle_of_Karakilisa,25-May,"28, 1918","Vanadzor, Armenia",Armenian victory[1],Armenia,Ottoman Empire,"6,00070 cannons and 20 Machine guns","10,00070 Cannons and 40 Machine Guns","1,000 dead and captured",Heavy,5/25/1918,5/28/1918,{'dead': [1000.0]},{},"{'cannons': [600070.0], 'machine': [20.0]}","{'cannons': [1000070.0], 'machine': [40.0]}"
+150,Battle of Tannenberg,https://en.wikipedia.org/wiki/Battle_of_Tannenberg,23,30-Aug-14,"Tannenberg, East Prussia, German Empire (present-day Poland)53°29′45″N 20°08′4″E﻿ / ﻿53.49583°N 20.13444°E﻿ / 53.49583; 20.13444",German victory,German Empire,Russian Empire,"150,000[1]294 machine guns728 guns and howitzers","123,000[2]–180,000[1]384 machine guns612 guns and howitzers","21–30 August:13,873+ [3]  • 1,726+ killed • 7,461 wounded •  4,686 missingOther estimate: about 30,000 dead and wounded[4][5][6][7]","70,000–120,219 killed, wounded or captured[8][9][10]
+
+See casualties",8/23/1914,8/30/1914,"{'august': [30.0], 'wounded': [7461.0], 'missingother': [4686.0], 'dead': [30000.0]}",{'killed': [120219.0]},"{'machine': [150000294.0], 'guns': [728.0]}","{'machine': [123000.0, 180000384.0], 'guns': [612.0]}"
+151,Battle of the Lys (1918),https://en.wikipedia.org/wiki/Battle_of_the_Lys_(1918),7,29 April 1918 (1918-04-07,"Flanders, Belgium to northeast France50°42′20″N 2°54′00″E﻿ / ﻿50.70556°N 2.90000°E﻿ / 50.70556; 2.90000",See Analysis section,"United Kingdom
+    Australia
+    Canada
+    Newfoundland
+    New Zealand
+    South Africa
+ France
+ Portugal
+ Belgium
+ United States
+[1]",Germany,Unknown,"35 divisions (~612,500)","118,300–119,040 118 guns60 aircraft","86,000–109,300 8 aircraft including the Red Baron",4/7/1918,4/29/1918,"{'guns': [118.0], 'aircraft': [60.0]}",{'aircraft': [8.0]},{},{'divisions': [35.0]}
+152,Battle of Sandfontein,https://en.wikipedia.org/wiki/Battle_of_Sandfontein,26 September 1914[1],26 September 1914[1],"Sandfontein, German South West Africa[1]28°41′05″S 18°31′00″E﻿ / ﻿28.68472°S 18.51667°E﻿ / -28.68472; 18.51667",German victory[1],"Germany
+
+ German Southwest Africa",South Africa,"1,700 soldiers10 artillery pieces4 machine guns[1]",237 officers and soldiers2 cavalry squadrons2 artillery pieces2 machine guns[3],14 killed46 wounded[2],16 killed51 wounded205 captured[2],9/26/1914,9/26/1914,"{'killed': [14.0], 'wounded': [46.0]}","{'killed': [16.0], 'wounded': [51.0], 'captured': [205.0]}","{'soldiers': [1700.0], 'artillery': [10.0], 'machine': [4.0]}","{'officers': [237.0], 'cavalry': [2.0], 'artillery': [2.0], 'machine': [2.0]}"
+153,Battle of Çapakçur,https://en.wikipedia.org/wiki/Battle_of_%C3%87apak%C3%A7ur,2,7-Aug-16,Bingöl,Ottoman victory,Ottoman Empire,Russian Empire,,,Unknown,Unknown,8/2/1916,8/7/1916,{},{},{},{}
+154,Second Battle of Morlancourt,https://en.wikipedia.org/wiki/Second_Battle_of_Morlancourt,4,14-May-18,"Morlancourt, France49°57′06″N 2°37′46″E﻿ / ﻿49.9517°N 2.6294°E﻿ / 49.9517; 2.6294",Allied victory,Australia United Kingdom,German Empire,,,324 killed and wounded,218 captured  Unknown killed and wounded,5/4/1918,5/14/1918,{'killed': [324.0]},{'captured': [218.0]},{},{}
+155,Battle of Pakosław,https://en.wikipedia.org/wiki/Battle_of_Pakoslaw,19,20-May-15,"Pakosław, Masovian Voivodeship, Congress Poland, Russian Empire",Russian victory and withdrawal,"Russian Empire
+
+ Congress Poland",German Empire,"Up to 1,000",Unknown,"42 killed, 60 wounded and 11 missing",Unknown,5/19/1915,5/20/1915,"{'killed': [42.0], 'wounded': [60.0], 'missing': [11.0]}",{},{},{}
+156,Battle of Dilman,https://en.wikipedia.org/wiki/Battle_of_Dilman,15-Apr-15,15-Apr-15,"Dilman, Qajar Iran",Russian victory[1][2],"Russian Empire
+
+Armenian volunteer units
+Armenian fedayi
+Assyrian volunteers",Ottoman Empire,10 battalions of Russian Caucasus Army  1 battalion of Armenian volunteers,"248 Officers10,920 troops12,000 irregular Kurdish cavalry[1]",Unknown,"3,500 killed[1]",4/15/1915,4/15/1915,{},{'killed': [3500.0]},"{'battalions': [10.0], 'battalion': [1.0]}","{'officers': [248.0], 'troops': [10920.0], 'irregular': [12000.0]}"
+157,Battle of Åland Islands,https://en.wikipedia.org/wiki/Battle_of_%C3%85land_Islands,2 July [O.S. 19 June] 1915,2 July [O.S. 19 June] 1915,"off Gotland, Sweden near Åland",Anglo-Russian victory,"German Empire
+ Imperial Navy","Russian Empire
+ Imperial Navy
+
+ United Kingdom",3 armored cruisers1 cruiser2 light cruisers7 torpedo boats,3 armored cruisers2 light cruisers1 destroyer1 submarine,2 armored cruisers damaged1 cruiser grounded 27 dead and 49 wounded,Minor damages,7/2/1915,7/2/1915,"{'armored': [2.0], 'cruiser': [1.0], 'dead': [27.0], 'wounded': [49.0]}",{},"{'armored': [3.0], 'cruiser': [1.0], 'light': [2.0], 'torpedo': [7.0]}","{'armored': [3.0], 'light': [2.0], 'destroyer': [1.0], 'submarine': [1.0]}"
+158,Battle of Thiepval Ridge,https://en.wikipedia.org/wiki/Battle_of_Thiepval_Ridge,26,28-Sep-16,"Thiepval, France and vicinity50°3′16.3″N 2°41′18.2″E﻿ / ﻿50.054528°N 2.688389°E﻿ / 50.054528; 2.688389",British victory,"British Empire
+
+ Canada
+ United Kingdom
+ France",German Empire,6 divisions,3 divisions,"12,500","2,300–2,329 prisoners",9/26/1916,9/28/1916,{},{'prisoners': [2329.0]},{'divisions': [6.0]},{'divisions': [3.0]}
+159,Battle of Sarikamish,https://en.wikipedia.org/wiki/Battle_of_Sarikamish,22-Dec-14,17-Jan-15,"Sarikamish, Kars Oblast, Russian Empire40°20′17″N 42°34′23″E﻿ / ﻿40.3381°N 42.573°E﻿ / 40.3381; 42.573",Russian victory[1],"Russian Empire
+
+Armenian volunteers",Ottoman EmpireSupported by: German Empire,"78,000[2]","Turkish estimate:100,000[3][4]Russian estimate: 90,000[5] to 150,000[6] people and 244 guns in battle190,000 people and 300 guns in total[7]","Russo-English sources:20,000–28,000[8][9][a] killed, wounded, and frostbitten","Turkish-German sources:60,000[10]–78,000[11] killed, wounded, frostbitten, and captured[5]Russian–French sources:90,000 casualties[6][12]including: 28,000 KIA and 18,000 POWs[b]",12/22/1914,1/17/1915,{'killed': [28000.0]},"{'killed': [78000.0], 'casualtiesincluding': [90000.0], 'kia': [28000.0], 'pows': [18000.0]}",{'troops': [78000.0]},"{'to': [90000.0], 'people': [150000.0, 190000.0], 'guns': [244.0, 300.0]}"
+160,Second Battle of Oituz,https://en.wikipedia.org/wiki/Second_Battle_of_Oituz,10,16-Nov-16,"Border of Austria-Hungary and Romania (today in Bacău and Covasna counties, eastern Romania)",Romanian victory,Romania,Austria-Hungary Germany,"15th Infantry Division
+Detachments from 2nd Cavalry Division
+Detachments from 8th Infantry Division","71st Austro-Hungarian Infantry Division
+1st Austro-Hungarian Cavalry Division
+8th Bavarian Reserve Division",,,11/10/1916,11/16/1916,{},{},{},{}
+161,Battle of Cantigny,https://en.wikipedia.org/wiki/Battle_of_Cantigny,28-May-18,28-May-18,Cantigny49°39′50″N 2°29′28″E﻿ / ﻿49.664°N 2.491°E﻿ / 49.664; 2.491,Allied victory,United States France,German Empire,"~4,000",Unknown,"1,603 casualties (318 killed[1])","1,400 killed and wounded [2]250 captured[3]",5/28/1918,5/28/1918,"{'casualties': [1603.0], 'killed': [318.0]}","{'killed': [1400.0], 'captured': [250.0]}",{'troops': [4000.0]},{}
+162,Battle of Chunuk Bair,https://en.wikipedia.org/wiki/Battle_of_Chunuk_Bair,7,19-Aug-15,"Chunuk Bair, Gallipoli, Ottoman Empire",Ottoman victory,"British Empire
+
+ Australia
+ New Zealand
+ United Kingdom","Ottoman Empire
+
+ German Empire (military officers)","15,000 men","19th Division9th Division(20,000–30,000 men)","12,000–13,000[1]","9,200[1]",8/7/1915,8/19/1915,{},{},{'troops': [15000.0]},"{'troops': [20000.0, 30000.0]}"
+163,Battle of Otavi,https://en.wikipedia.org/wiki/Battle_of_Otavi,1-Jul-15,1-Jul-15,"Otavi, German South West Africa19°39′20″S 17°23′10″E﻿ / ﻿19.65556°S 17.38611°E﻿ / -19.65556; 17.38611",South African victory,"Germany
+
+ German Southwest Africa",South Africa,"1,00010 machine guns","3,500",3 killed8 wounded20 captured[1],4 killed7 wounded[2],7/1/1915,7/1/1915,"{'killed': [3.0], 'wounded': [8.0], 'captured': [20.0]}","{'killed': [4.0], 'wounded': [7.0]}",{'machine': [100010.0]},{'troops': [3500.0]}
+164,Battle of Tepe,https://en.wikipedia.org/wiki/Battle_of_Tepe,25-Aug-14,25-Aug-14,"Tepe, German Kamerun",British victory,"British Empire
+
+ British Nigeria","Germany
+
+ German Kamerun",Unknown,Unknown,2 officers[2],5 officers[3],8/25/1914,8/25/1914,{'officers': [2.0]},{'officers': [5.0]},{},{}
+165,Battle of the Gulf of Riga,https://en.wikipedia.org/wiki/Battle_of_the_Gulf_of_Riga,8,20-Aug-15,"Gulf of Riga, Baltic Sea",Entente victory,"Russian Empire
+ Imperial Navy
+ United Kingdom
+ Royal Navy","Germany
+ Imperial Navy",1 battleship  1 armoured cruiser  16 destroyers  4 gunboats  1 minelayer  6 submarines,4 battleships  3 battlecruisers  1 armoured cruiser  5 light cruisers  56 torpedo boats  14 minesweepers,"150 killed, wounded and captured  2 gunboats sunk  1 battleship damaged  1 destroyer damaged",65 killed and wounded  1 torpedo boat sunk  2 minesweepers sunk  1 battlecruiser damaged,8/8/1915,8/20/1915,"{'killed': [150.0], 'gunboats': [2.0], 'battleship': [1.0], 'destroyer': [1.0]}","{'killed': [65.0], 'torpedo': [1.0], 'minesweepers': [2.0], 'battlecruiser': [1.0]}","{'battleship': [1.0], 'armoured': [1.0], 'destroyers': [16.0], 'gunboats': [4.0], 'minelayer': [1.0], 'submarines': [6.0]}","{'battleships': [4.0], 'battlecruisers': [3.0], 'armoured': [1.0], 'light': [5.0], 'torpedo': [56.0], 'minesweepers': [14.0]}"
+166,Battle of the Sambre (1918),https://en.wikipedia.org/wiki/Battle_of_the_Sambre_(1918),4-Nov-18,4-Nov-18,"River Sambre, France",Allied victory,"British Empire
+
+ United Kingdom
+ Canada
+ New Zealand
+ France United States",German Empire,"17 divisions 11 divisions Unknown
+
+37 tanks",17th Army 2nd Army,Unknown,Unknown,11/4/1918,11/4/1918,{},{},"{'divisions': [17.0, 11.0], 'tanks': [37.0]}",{}
+167,Battle of Kosturino,https://en.wikipedia.org/wiki/Battle_of_Kosturino,6,12-Dec-15,"Kosturino, Kingdom of Serbia (present-day North Macedonia)",Bulgarian victory,Bulgaria,"United Kingdom
+ France",1 army,2 divisions,400+ killed,"99 killed
+386 wounded
+724 missing
+10 guns lost
+ 1,804 casualties
+12 machine guns lost
+36 ammunition wagons lost",12/6/1915,12/12/1915,{},"{'killed': [99.0], 'wounded': [386.0], 'missing': [724.0], 'guns': [10.0], 'casualties': [1804.0], 'machine': [12.0], 'ammunition': [36.0]}",{'army': [1.0]},{'divisions': [2.0]}
+168,Battle of Doiran (1918),https://en.wikipedia.org/wiki/Battle_of_Doiran_(1918),18,19-Sep-18,"Doiran Lake, Kingdom of Serbia (present-day Greece and Republic of North Macedonia)",Bulgarian Victory,"Entente Powers:
+ United Kingdom
+ Greece","Central Powers
+ Bulgaria
+ IMRO","45,672
+ 29,328[a]
+Total: 75,000","35,000[1]","3,155–3,871[2][3][4]
+ 3,404–3,948 (official numbers)[2][3]
+Total: 6,559–7,819","2,726[5]",9/18/1918,9/19/1918,{'total': [6559.0]},{},"{'total': [29328.0, 29328.0]}",{'troops': [35000.0]}
+169,Battle of the Lys (1918),https://en.wikipedia.org/wiki/Fourth_Battle_of_Ypres,7,29 April 1918 (1918-04-07,"Flanders, Belgium to northeast France50°42′20″N 2°54′00″E﻿ / ﻿50.70556°N 2.90000°E﻿ / 50.70556; 2.90000",See Analysis section,"United Kingdom
+    Australia
+    Canada
+    Newfoundland
+    New Zealand
+    South Africa
+ France
+ Portugal
+ Belgium
+ United States
+[1]",Germany,Unknown,"35 divisions (~612,500)","118,300–119,040 118 guns60 aircraft","86,000–109,300 8 aircraft including the Red Baron",4/7/1918,4/29/1918,"{'guns': [118.0], 'aircraft': [60.0]}",{'aircraft': [8.0]},{},{'divisions': [35.0]}
+170,Fifth Battle of the Isonzo,https://en.wikipedia.org/wiki/Fifth_Battle_of_the_Isonzo,9,15-Mar-16,"Soča river, western Slovenia",Inconclusive,Italy,Austria-Hungary,"286 battalions (plus 90 in reserve)1,360 guns",100 battalions (plus 30 in reserve)470 guns,"1,882 killed, wounded and missing","1,985 killed and wounded",3/9/1916,3/15/1916,{'killed': [1882.0]},{'killed': [1985.0]},"{'battalions': [286.0], 'troops': [90.0], 'guns': [1360.0]}","{'battalions': [100.0], 'troops': [30.0], 'guns': [470.0]}"
+171,Battle of Épehy,https://en.wikipedia.org/wiki/Battle_of_Ep%C3%A9hy,18-Sep-18,18-Sep-18,"Épehy, France",Allied victory,"British Empire
+
+ United Kingdom
+ Australia
+ France",German Empire,"12 divisions[1]1,500 artillery pieces",At least 6 divisions[2],"Total: unknown  1,260 men (265 killed, 1,059 wounded)[3]","Total: unknown Captured: 11,750 men and 100 artillery pieces",9/18/1918,9/18/1918,"{'men': [1260.0], 'killed': [265.0], 'wounded': [1059.0]}","{'men': [11750.0], 'artillery': [100.0]}","{'divisions': [12.0], 'artillery': [1500.0]}",{'divisions': [6.0]}
+172,Battle of Albert (1914),https://en.wikipedia.org/wiki/Battle_of_Albert_(1914),25,29-Sep-14,"Somme, Picardy, France50°01′N 2°41′E﻿ / ﻿50.01°N 2.69°E﻿ / 50.01; 2.69",Inconclusive,France,German Empire,Second Army,6th Army,,,9/25/1914,9/29/1914,{},{},{},{}
+173,Battle of Nagyszeben (1916),https://en.wikipedia.org/wiki/Battle_of_Nagyszeben_(1916),26,29-Sep-16,"Southeastern Transylvania, Austria-Hungary (Szeben, Fogaras and Nagy-Küküllő counties) and  northwestern Wallachia, Romania (Vâlcea and Argeș counties)",Decisive Central Powers victory[1][2],Romania,German Empire Austria-Hungary,"I Corps:20,000+ (25 battalions of over 800 men)16 batteries (2 heavy)3 aircraft (1 operational)Toma Popescu Detachment (26 June):1 Jäger battalion2 howitzers1 militia platoon (15 men)","XXXIX Corps:17,500–21,000 (35 battalions of 500–600 men)54 batteries (13 heavy)Alpine Corps:9 battalions2 mountain batteries","I Corps (1st Army):3,000 prisoners13 guns captured6 machine-guns captured2 aircraft captured2nd Army:Unknown total1 aircraft captured",Unknown total300 prisoners (28–29 September),9/26/1916,9/29/1916,"{'total': [1.0], 'prisoners': [3000.0], 'guns': [13.0], 'machine': [6.0], 'aircraft': [2.0], 'nd': [2.0]}","{'total': [300.0], 'september': [29.0]}","{'battalions': [25.0], 'troops': [800.0, 15.0], 'batteries': [16.0], 'heavy': [2.0], 'aircraft': [3.0], 'operational': [1.0], 'j': [1.0], 'howitzers': [2.0], 'militia': [1.0]}","{'battalions': [35.0, 9.0], 'troops': [500.0, 600.0], 'batteries': [54.0], 'heavy': [13.0], 'mountain': [2.0]}"
+174,Battle of Kara Killisse (1915),https://en.wikipedia.org/wiki/Battle_of_Kara_Killisse,27,31-Jul-15,"Kara Killisse, Erzurum Vilayet, Ottoman Empire",Russian victory[1][2],Russian Empire,Ottoman Empire,"Russian Caucasus Army40,000","Third Army60,000[3]",Unknown,"16,000–20,000[a]12 guns",7/27/1915,7/31/1915,{},{'guns': [2000012.0]},{},{}
+175,Battle of Laski and Anielin,https://en.wikipedia.org/wiki/Battle_of_Laski_and_Anielin,22-Oct,"26, 1914","Anielin and Laski, Congress Poland, Russian Empire",Russian victory,Austria-Hungary(Polish Legions),Russian Empire,,,Unknown,Unknown,10/22/1914,10/26/1914,{},{},{},{}
+176,Battle of Amara,https://en.wikipedia.org/wiki/Battle_of_Amara,31-May,3-Jun-15,"Amara, Iraq",British victory,"British Empire
+
+ India
+ United Kingdom",Ottoman Empire,,,4 killed  21 wounded[1],"120 killed or wounded  1,773 captured[1]",5/31/1915,6/3/1915,"{'killed': [4.0], 'wounded': [21.0]}","{'killed': [120.0], 'captured': [1773.0]}",{},{}
+177,Battle of Sardarabad,https://en.wikipedia.org/wiki/Battle_of_Sardarabad,21,29-May-18,"Near Sardarapat (present-day Nor Armavir, Armenia)40°05′36″N 43°56′46″E﻿ / ﻿40.09333°N 43.94611°E﻿ / 40.09333; 43.94611",Armenian victory,"Armenian National Council
+
+Armenian Army Corps",Ottoman Empire,"9,000[n 1]","30,000–33,000[n 2]Including Kurdish cavalry 1,500–3,00040 cannons",Unknown,"5,500 dead alone from 22 to 26 May[6][7]",5/21/1918,5/29/1918,{},"{'dead': [5500.0], 'to': [22.0], 'may': [26.0]}",{'troops': [9000.0]},"{'cannons': [1500.0, 300040.0]}"
+178,Tenth Battle of the Isonzo,https://en.wikipedia.org/wiki/Tenth_Battle_of_the_Isonzo,12-May,8-Jun-17,"Soča Valley, Slovenia",Austro-Hungarian victory,Italy,Austria-Hungary,"400,000[1]","200,000[2]","150,000 (35,000 killed)","125,000 (17,000 killed)[3]",5/12/1917,6/8/1917,{'killed': [35000.0]},{'killed': [17000.0]},{'troops': [400000.0]},{'troops': [200000.0]}
+179,Battle of the Southern Carpathians,https://en.wikipedia.org/wiki/Battle_of_the_Southern_Carpathians,12-Oct,1-Nov-16,"Southern Carpathians, at the border between Romania and Austria-Hungary",Romanian strategic victory,Romania,German Empire Austria-Hungary,,,Unknown,"1,600+ killed1,900+ captured8 guns and two howitzer batteries captured14 machine guns captured",10/12/1916,11/1/1916,{},"{'guns': [8.0], 'machine': [14.0]}",{},{}
+180,Battle of Mount Hamrin,https://en.wikipedia.org/wiki/Battle_of_Jebel_Hamlin,25-Mar-17,25-Mar-17,"Near Mount Hamrin and the Diyala River, Baghdad Vilayet, Ottoman Empire (modern Diyala Governorate, Iraq)",Ottoman victory,"British Empire
+
+ India
+ United Kingdom",Ottoman Empire,"8,000 men","4,500 men  20 guns","1,200 men","Unknown, less than British Empire",3/25/1917,3/25/1917,{'men': [1200.0]},{},{'troops': [8000.0]},"{'troops': [4500.0], 'guns': [20.0]}"
+181,Battle of Choloki (1918),https://en.wikipedia.org/wiki/Battle_of_Choloki_(1918),8-Apr-18,8-Apr-18,Choloki,Transcaucasian victory,Transcaucasian Commissariat,Ottoman Empire,400 People's Guards armored train with 90 soldiers4 machine guns6 artillery pieces,"7,000 soldiers",4 dead  25 wounded,80 dead  600 wounded  2 prisoners  20 guns,4/8/1918,4/8/1918,"{'dead': [4.0], 'wounded': [25.0]}","{'dead': [80.0], 'wounded': [600.0], 'prisoners': [2.0], 'guns': [20.0]}","{'people': [400.0], 'soldiers': [90.0], 'machine': [4.0], 'artillery': [6.0]}",{'soldiers': [7000.0]}
+182,Battle of Abaran,https://en.wikipedia.org/wiki/Battle_of_Bash_Abaran,23-May,"29,[1][2] 1918","Bash Abaran, Armenia40°35′20.810″N 44°21′25.970″E﻿ / ﻿40.58911389°N 44.35721389°E﻿ / 40.58911389; 44.35721389",Armenian victory[1],Armenian National Council,Ottoman Empire,"1,000","~13,000[1]",,,5/23/1918,5/29/1918,{},{},{'troops': [1000.0]},{'troops': [13000.0]}
+183,Battle of Gorizia (1916),https://en.wikipedia.org/wiki/Battle_of_Gorizia,4,16-Aug-16,"Isonzo, Gorizia and Karst Plateau",Italian victory,Italy,Austria-Hungary,203 battalions[1],106 battalions[1],"51,221[2][nb 1]6,310 killed32,784 wounded12,127 missing","37,458[2][nb 2]3,719 killed19,910 wounded13,829 missing",8/4/1916,8/16/1916,"{'killed': [512216310.0], 'wounded': [32784.0], 'missing': [12127.0]}","{'killed': [374583719.0], 'wounded': [19910.0], 'missing': [13829.0]}",{'battalions': [203.0]},{'battalions': [106.0]}
+184,First Battle of the Isonzo,https://en.wikipedia.org/wiki/First_Battle_of_the_Isonzo,23-Jun,7-Jul-15,"Isonzo river, north-west Slovenia from the mountain Krn to the Gulf of Trieste",Inconclusive,Italy,Austria-Hungary,"225,000: (18 divisions252 battalions111 cavalry squadrons700 guns)","115,000: (8 divisions84 battalions13 cavalry squadrons356 guns)","15,000[1]","10,000[1]",6/23/1915,7/7/1915,{},{},"{'divisions': [18.0], 'battalions': [252.0], 'cavalry': [111.0], 'guns': [700.0]}","{'divisions': [8.0], 'battalions': [84.0], 'cavalry': [13.0], 'guns': [356.0]}"
+185,Action of 10 May 1915,https://en.wikipedia.org/wiki/Battle_of_the_Bosporus_(1915),10-May-15,10-May-15,"Black Sea, 25 miles from the Bosphorus",Indecisive  Russian operations disrupted,Russian Empire,Ottoman Empire,5 pre-dreadnought battleships,1 battlecruiser,,1 battlecruiser lightly damaged,5/10/1915,5/10/1915,{},{'battlecruiser': [1.0]},{'pre': [5.0]},{'battlecruiser': [1.0]}
+186,Third Battle of the Isonzo,https://en.wikipedia.org/wiki/Third_Battle_of_the_Isonzo,18-Oct,4-Nov-15,"Soča river, western Slovenia",Austro-Hungarian victoryFailed Italian offensive,Italy,Austria-Hungary,"338 battalions130 cavalry squadrons1,250 artillery pieces",137 + 47 battalions604 artillery pieces.,"67,008[1]–80,000[2]10,733–20,000 killed44,290–60,000 wounded11,985 missing or captured","41,847:[1]8,228 killed26,418 wounded7,201 missing or captured",10/18/1915,11/4/1915,"{'killed': [20000.0], 'wounded': [60000.0], 'missing': [11985.0]}","{'killed': [8228.0], 'wounded': [26418.0], 'missing': [7201.0]}","{'battalions': [338.0], 'cavalry': [130.0], 'artillery': [1250.0]}","{'battalions': [47.0], 'artillery': [604.0]}"
+187,Battle of Arras (1917),https://en.wikipedia.org/wiki/Battle_of_Arras_(1917),9-Apr,16-May-17,"Arras, France50°17′23″N 2°46′51″E﻿ / ﻿50.28972°N 2.78083°E﻿ / 50.28972; 2.78083",See § Analysis,"United Kingdom and Empire:
+
+ Canada
+ Australia
+ Newfoundland
+ New Zealand
+ South Africa",German Empire,First day:14 divisions9 divisions in reserve,First day:12 divisions5 divisions in reserve,"158,000","120,000–130,000",4/9/1917,5/16/1917,{},{},"{'divisions': [14.0, 9.0]}","{'divisions': [12.0, 5.0]}"
+188,Battle of Tornio (1918),https://en.wikipedia.org/wiki/Battle_of_Tornio_(1918),6-Feb-18,6-Feb-18,"Tornio, Finland",White victory,Finnish Whites Swedish Brigade,Finnish Reds Russian Garrison,278 Whites175 Swedish Volunteers,Around 200 RedsAround 450 Russians,9 in total,Around 40 Dead360 Russian Prisoners70–80 Red Prisoners3 executed,2/6/1918,2/6/1918,{'in': [9.0]},"{'dead': [40.0], 'russian': [360.0], 'red': [80.0], 'executed': [3.0]}","{'whites': [278.0], 'swedish': [175.0]}","{'redsaround': [200.0], 'russians': [450.0]}"
+189,Battle of Vimy Ridge,https://en.wikipedia.org/wiki/Battle_of_Vimy_Ridge,9,12 April 1917 (1917-04-09,"Vimy, Pas-de-Calais, France50°22′46″N 02°46′26″E﻿ / ﻿50.37944°N 2.77389°E﻿ / 50.37944; 2.77389",British Empire victory,Canada United Kingdom,German Empire,"4 Canadian divisions1 British divisionTotal: 170,000 men[1]","3 divisions Total: 30,000–45,000 men[2]","3,598 dead7,004 wounded[3][4]","Unknown casualties4,000 captured[4]",4/9/1917,4/12/1917,"{'dead': [3598.0], 'wounded': [7004.0]}",{'captured': [4000.0]},"{'total': [170000.0], 'canadian': [4.0], 'british': [1.0], 'troops': [170000.0]}","{'total': [30000.0], 'divisions': [3.0], 'troops': [30000.0, 45000.0]}"
+190,Battle of Hyvinkää,https://en.wikipedia.org/wiki/Battle_of_Hyvink%C3%A4%C3%A4,19,21 April 1918(2 days),"Hyvinkää, Finland60°37′49.055″N 24°51′31.684″E﻿ / ﻿60.63029306°N 24.85880111°E﻿ / 60.63029306; 24.85880111",German victory,German Empire,Finnish Reds,"c. 3,000 Germans",300–500 in the combat units,21 Germans killed,c. 50 killed or executed,4/19/1918,4/21/1918,{'germans': [21.0]},{'killed': [50.0]},{'germans': [3000.0]},"{'troops': [300.0, 500.0]}"
+191,Northern front of the Battle of Transylvania,https://en.wikipedia.org/wiki/Northern_front_of_the_Battle_of_Transylvania,27-Aug,16-Oct-16,"Northeastern Transylvania, Austria-Hungary (today in Romania)",Romanian tactical victory,Romania,Austria-Hungary Germany Székely partisans [citation needed],,,Negligible overallBattle of the Kelemen Mountains:136 killed55 prisoners,"First day of the Romanian offensive:741 prisonersFinal phase of the Romanian offensive:1,753 prisoners4 machine gunsBattle of the Kelemen Mountains:10 killed63 wounded44 prisoners82 missing",8/27/1916,10/16/1916,"{'killed': [136.0], 'prisoners': [55.0]}","{'prisonersfinal': [741.0], 'prisoners': [1753.0, 44.0], 'machine': [4.0], 'killed': [10.0], 'wounded': [63.0], 'missing': [82.0]}",{},{}
+192,Battle of Charah,https://en.wikipedia.org/wiki/Battle_of_Charah,12,17-Mar-18,"Kuhnashahir (modern day Tazeh Shahr), Salmas, Persia",Assyrian victory,Assyrian volunteers,Shekak tribe,Unknown,Unknown,"150 killed (during the assassination of Shimun XIX Benyamin)[1]
+
+48 killed (during the battle)[2]",500+[citation needed],3/12/1918,3/17/1918,"{'killed': [150.0, 48.0]}",{},{},{}
+193,Battle of La Malmaison,https://en.wikipedia.org/wiki/Battle_of_La_Malmaison,23,27-Oct-17,France49°28′17″N 03°29′10″E﻿ / ﻿49.47139°N 3.48611°E﻿ / 49.47139; 3.48611,French victory,France,German Empire,"6th Army(XI CorpsXIV CorpsXXI Corps)7 divisions1,845 guns64 tanks",7th Army,"12,000–14,000","18,000–50,000",10/23/1917,10/27/1917,{},{},"{'divisions': [7.0], 'guns': [1845.0], 'tanks': [64.0]}",{}
+194,Battle of Gully Ravine,https://en.wikipedia.org/wiki/Battle_of_Gully_Ravine,28-Jun,5-Jul-15,Cape Helles,British victory,"British Empire
+
+ India
+ United Kingdom",Ottoman Empire,Unknown,"13,000[2]","3,800[3]","6,000[4]",6/28/1915,7/5/1915,{},{},{},{'troops': [13000.0]}
+195,First Battle of Cobadin,https://en.wikipedia.org/wiki/First_Battle_of_Cobadin,17,19-Sep-16,"Rasova, Cobadin, Tuzla; Romania",Entente victory,Bulgaria German Empire Ottoman Empire,Romania Russian Empire,55 battalions and 24 squadrons 4 battalions and 3 squadrons 3 battalions(initially)Total: 62 battalions and 27 squadrons[1],Total: 70+ battalions and 41 squadrons[1]4 river monitors,"Bulgaria 704 killed, 4,778 wounded, 611 missing German Empire unknown Ottoman Empire 36 killed, 348 wounded 62 missingTotal: Over 740 killed, 5,126 wounded, 673 missing[2]",Unknown,9/17/1916,9/19/1916,"{'killed': [704.0, 36.0, 740.0], 'wounded': [4778.0, 348.0, 5126.0], 'missing': [611.0, 673.0], 'missingtotal': [62.0]}",{},"{'total': [62.0], 'battalions': [55.0, 4.0, 3.0, 62.0], 'squadrons': [24.0, 3.0, 27.0]}","{'total': [70.0], 'squadrons': [41.0], 'river': [4.0]}"
+196,Siege of Tsingtao,https://en.wikipedia.org/wiki/Battle_of_Tsingtao,(1914-08-27) (1914-11-07)August 27,"November 7, 1914(2 months, 1 week and 4 days)","Qingdao, Kiautschou Bay, German Empire36°4′N 120°23′E﻿ / ﻿36.067°N 120.383°E﻿ / 36.067; 120.383",Anglo–Japanese victory,"Japan
+ United Kingdom
+Naval support:
+ France","Germany
+ Austria-Hungary","24,500
+1 seaplane carrier
+5 battleships
+2 battlecruisers
+1 protected cruiser
+2 destroyers
+2 airplanes","3,750[1]
+1 protected cruiser
+1 unprotected cruiser
+1 torpedo boat
+4 gunboats
+2 airplanes","727 killed[2]
+1,335 wounded
+1 protected cruiser sunk
+1 destroyer sunk
+1 battleship damaged
+1 airplane destroyed","199 killed
+504 wounded
+3,047 captured
+1 protected cruiser scuttled
+1 unprotected cruiser scuttled
+1 torpedo boat scuttled
+4 gunboats scuttled",8/27/1914,11/7/1914,"{'killed': [727.0], 'wounded': [1335.0], 'protected': [1.0], 'destroyer': [1.0], 'battleship': [1.0], 'airplane': [1.0]}","{'killed': [199.0], 'wounded': [504.0], 'captured': [3047.0], 'protected': [1.0], 'unprotected': [1.0], 'torpedo': [1.0], 'gunboats': [4.0]}","{'seaplane': [1.0], 'battleships': [5.0], 'battlecruisers': [2.0], 'protected': [1.0], 'destroyers': [2.0], 'airplanes': [2.0]}","{'protected': [1.0], 'unprotected': [1.0], 'torpedo': [1.0], 'gunboats': [4.0], 'airplanes': [2.0]}"
+197,Second Battle of the Marne,https://en.wikipedia.org/wiki/Second_Battle_of_the_Marne,15-Jul,18-Jul-18,"Marne River near Paris, France49°5′N 3°40′E﻿ / ﻿49.083°N 3.667°E﻿ / 49.083; 3.667",Entente victory,Entente Powers: France United States United Kingdom Italy Russia Siam[1],Central Powers: German Empire,44 French divisions8 American divisions4 British divisions4 Russian divisions2 Italian divisionsTotal:58 divisions408 heavy guns360 field batteries346 tanks,"52 divisions609 heavy guns1,047 field batteries","95,165 16,552 12,000 9,334","168,000 casualties (including 29,367 captured)793 guns lost[2]",7/15/1918,7/18/1918,{},"{'casualties': [168000.0], 'captured': [29367.0], 'guns': [793.0]}","{'total': [58.0], 'french': [44.0], 'american': [8.0], 'british': [4.0], 'russian': [4.0], 'italian': [2.0], 'divisions': [58.0], 'heavy': [408.0], 'field': [360.0], 'tanks': [346.0]}","{'divisions': [52.0], 'heavy': [609.0], 'field': [1047.0]}"
+198,First Battle of the Masurian Lakes,https://en.wikipedia.org/wiki/First_Battle_of_the_Masurian_Lakes,2,16-Sep-14,"East Prussia, Germany (present-day Russia and Poland)",German victory,Germany,Russian Empire,"Total 244,391 men[1]7 military corps[2]1,146 guns400 machine guns","Total 150,000[a][5] to 210,000[6]724 guns[7] 4 corps and one division.","(1 - 30.09.1914):1,555 killed10,412 wounded1,552 missingTotal 13,515[8]Lost:[9] 17 guns 17 machine guns
+
+10,000[10][11] killed, wounded and missing[12][13][14] Other Estimate: 40,000 killed and wounded[15]","100,000[16][17]–125,000 killed, wounded and captured,[18][19][20]Lost:[21] 162 guns 174 machine guns
+
+Russian Estimate:about 60,000 died, wounded and prisoners[22][23][24] German data: 100,000 men, including 45,000 prisoners[25]",9/2/1914,9/16/1914,"{'total': [13515.0], 'killed': [1555.0, 10000.0, 40000.0], 'wounded': [10412.0], 'missingtotal': [1552.0], 'guns': [17.0], 'machine': [17.0]}","{'killed': [125000.0], 'guns': [162.0], 'machine': [174.0], 'died': [60000.0], 'men': [100000.0], 'prisoners': [45000.0]}","{'total': [244391.0], 'troops': [244391.0], 'military': [7.0], 'guns': [1146.0], 'machine': [400.0]}","{'total': [150000.0], 'to': [150000.0], 'guns': [210000724.0], 'corps': [4.0]}"
+199,Battle of the Falkland Islands,https://en.wikipedia.org/wiki/Battle_of_the_Falkland_Islands,8-Dec-14,8-Dec-14,"Off the Falkland Islands, South Atlantic52°29′58″S 56°9′59″W﻿ / ﻿52.49944°S 56.16639°W﻿ / -52.49944; -56.16639",British victory[1][2]  Destruction of the East Asia Squadron,United Kingdom,Germany,2 battlecruisers3 armoured cruisers2 light cruisers1 armed merchant cruiser1 grounded pre-dreadnought,2 armoured cruisers3 light cruisers3 transport ships,10 killed19 wounded1 Battlecruiser damaged 1 Armored Cruiser damaged,"1,871 killed215 captured2 armoured cruisers sunk2 light cruisers sunk2 transports scuttled",12/8/1914,12/8/1914,"{'killed': [10.0], 'wounded': [19.0], 'battlecruiser': [1.0], 'armored': [1.0]}","{'killed': [1871.0], 'captured': [215.0], 'armoured': [2.0], 'light': [2.0], 'transports': [2.0]}","{'battlecruisers': [2.0], 'armoured': [3.0], 'light': [2.0], 'armed': [1.0], 'grounded': [1.0]}","{'armoured': [2.0], 'light': [3.0], 'transport': [3.0]}"
+200,Battle of St. Quentin (1914),https://en.wikipedia.org/wiki/Battle_of_St._Quentin_(1914),29,30-Aug-14,"Guise, France49°54′03″N 3°37′42″E﻿ / ﻿49.90083°N 3.62833°E﻿ / 49.90083; 3.62833",French victory[1][2][3][4][5][6][7][8][9],France,German Empire,Fifth Army,2nd Army,"10,000 casualties","7,000 casualties",8/29/1914,8/30/1914,{'casualties': [10000.0]},{'casualties': [7000.0]},{},{}
+201,Battle of Turtucaia,https://en.wikipedia.org/wiki/Battle_of_Turtucaia,2,6-Sep-16,"Turtucaia, Kingdom of Romania (now Tutrakan, Bulgaria)",Bulgarian victory,Bulgaria German Empire,Romania,"31 battalions:55,000","19 battalions (initially):39,00036 battalions ,73,000(end phase)4 river monitors8 gunboats","Dead or wounded:9,205[1]","Dead or wounded: 7,500[2]Taken POW: 480 officers and22,000–28,000 soldiers[3][4][5]",9/2/1916,9/6/1916,{},"{'taken': [7500.0], 'officers': [480.0], 'soldiers': [28000.0]}",{'battalions': [31.0]},"{'battalions': [19.0, 3900036.0], 'river': [4.0], 'gunboats': [8.0]}"
+202,Battle of the Ardennes,https://en.wikipedia.org/wiki/Battle_of_Ardennes,21,23-Aug-14,"Ardennes region, Belgian–French frontier50°15′N 5°40′E﻿ / ﻿50.250°N 5.667°E﻿ / 50.250; 5.667",German victory,France,Germany,Third Army Fourth Army,4th Army5th Army,"42,557","14,940",8/21/1914,8/23/1914,{},{},{},{}
+203,Battle of Muş,https://en.wikipedia.org/wiki/Battle_of_Mu%C5%9F,3-Aug-16,24-Aug-16,"Muş, Ottoman Empire",Russian victory[NB 1],Ottoman Empire,"Russian Empire
+
+Armenian volunteer units[1]","81,000[11]–120,000[12] men","50,000 men","56,000[12]–60,000 killed, wounded or captured[13][11]","20,000 killed, wounded and captured",8/3/1916,8/24/1916,{'killed': [60000.0]},{'killed': [20000.0]},"{'troops': [81000.0, 120000.0]}",{'troops': [50000.0]}
+204,Battle of Durazzo (1915),https://en.wikipedia.org/wiki/Battle_of_Durazzo_(1915),28,29-Dec-15,"Off Durazzo, Adriatic Sea",Allied victory,Italy   France   United Kingdom,Austria-Hungary,4 light cruisers  9  destroyers  1 submarine,1 light cruiser  5 destroyers  1 submarine,1 submarine sunk  1 light cruiser damaged,2 destroyers sunk  1 light cruiser damaged  1 destroyer damaged,12/28/1915,12/29/1915,"{'submarine': [1.0], 'light': [1.0]}","{'destroyers': [2.0], 'light': [1.0], 'destroyer': [1.0]}","{'light': [4.0], 'destroyers': [9.0], 'submarine': [1.0]}","{'light': [1.0], 'destroyers': [5.0], 'submarine': [1.0]}"
+205,Seventh Battle of the Isonzo,https://en.wikipedia.org/wiki/Seventh_Battle_of_the_Isonzo,14,17-Sep-16,"Gorizia, Italy",Italian tactical victory,Italy,Austria-Hungary,"240 battalions1,150 artillery pieces",150 battalions770 artillery pieces,"17,000–21,000","20,000[1]",9/14/1916,9/17/1916,{},{},"{'battalions': [240.0], 'artillery': [1150.0]}","{'battalions': [150.0], 'artillery': [770.0]}"
+206,Battle of Kanzan,https://en.wikipedia.org/wiki/Battle_of_Kanzan,June 1915 (the siege then continued for about six months),June 1915 (the siege then continued for about six months),"Jabal Kanzan, Al Ahsa, Arabia25°34′N 49°42′E﻿ / ﻿25.567°N 49.700°E﻿ / 25.567; 49.700",Ajman tribe victory   Death of Saad bin Abdul Rahman,Ajman tribe,Emirate of Nejd and Hasa,"<1,500","6,000",150,"1,500 of Al Ahsa
+
+900 of Nejd",6/1/1915,6/1/1915,{},"{'of': [1500.0, 900.0]}",{},{'troops': [6000.0]}
+207,Battle of Manzikert (1915),https://en.wikipedia.org/wiki/Battle_of_Manzikert_(1915),10-Jul,"26, 1915[1]","Malazgirt, Bitlis Vilayet, Ottoman Empire39°08′52″N 42°32′39″E﻿ / ﻿39.1477°N 42.5441°E﻿ / 39.1477; 42.5441",Ottoman victory[2][3],Russian Empire,Ottoman Empire,"22,000[1]","Third Army40,000[1]","7,000–10,000[1]1,000 captured[4]","6,000 captured[1]",7/10/1915,7/26/1915,{'captured': [100001000.0]},{'captured': [6000.0]},{'troops': [22000.0]},{}
+208,Battle of Tampere,https://en.wikipedia.org/wiki/Battle_of_Tampere,15-Mar,6 April 1918(3 weeks and 1 day),"Tampere, Finland",Finnish White victory,Finnish Whites Swedish Brigade,Finnish Reds,"16,000400 Swedish volunteers","14,000",820 killed,"2,000 killed or executed[1]  10,000–11,000 captured[1]",3/15/1918,4/6/1918,{'killed': [820.0]},"{'killed': [2000.0], 'captured': [11000.0]}",{'swedish': [16000400.0]},{'troops': [14000.0]}
+209,First Battle of Oituz,https://en.wikipedia.org/wiki/First_Battle_of_Oituz,12,27-Oct-16,"Border of Austria-Hungary and Romania (today in Bacău and Covasna counties, eastern Romania)",Romanian victory,Romania,Austria-Hungary Germany,,,,,10/12/1916,10/27/1916,{},{},{},{}
+210,Battle of Erzincan,https://en.wikipedia.org/wiki/Battle_of_Erzincan,2,25-Jul-16,"Erzincan, Erzurum Vilayet, Ottoman Empire",Russian victory,Russian Empire,Ottoman Empire,,,"12,000[1]","34,000, of them 17,000 captured[2]",7/2/1916,7/25/1916,{},"{'of': [34000.0], 'captured': [17000.0]}",{},{}
+211,Battle of Ad-Dakim,https://en.wikipedia.org/wiki/Battle_of_Ad-Dakim,"June, 1915",5-Jul-15,"Ad-Dakim, Lahej Sultanate, Aden Protectorate",Ottoman victory,"Ottoman Empire
+
+ Haushabi Sultanate","United Kingdom
+
+ India
+ Sultanate of Lahij",,,,,6/1/1915,7/5/1915,{},{},{},{}
+212,Battle of Gumbinnen,https://en.wikipedia.org/wiki/Battle_of_Gumbinnen,20 August [O.S. 7 August] 1914,20 August [O.S. 7 August] 1914,"Gumbinnen, East Prussia (now Gusev, Russia)54°36′N 22°12′E﻿ / ﻿54.600°N 22.200°E﻿ / 54.600; 22.200",Russian victory,German Empire,Russian Empire,"74,400 men224 machine guns and 408 guns[1]","63,800 total252 machine guns and 408 guns[2]","10,000[3] to 14,607[4]","6,200[3] to 18,839",8/20/1914,8/20/1914,{'to': [10000.0]},{'to': [6200.0]},"{'troops': [74400.0], 'machine': [224.0], 'guns': [408.0]}","{'total': [63800.0, 63800.0], 'machine': [252.0], 'guns': [408.0]}"
+213,First Battle of Przasnysz,https://en.wikipedia.org/wiki/First_Battle_of_Przasnysz,7-Feb,"28, 1915","Near Przasnysz, Congress Poland, Russian Empire (present-day Poland)",Russian victory  Germans fail plan to encircle Russians in Poland [1],German Empire,Russian Empire,"225,000 men[4]350 machine guns 750 guns","471,901 men[5] 636 machine guns 966 guns","60,000 casualties, including 14,000 POWs[6]58 cannons","40,000 casualties[7]",2/7/1915,2/28/1915,"{'casualties': [60000.0], 'pows': [14000.0], 'cannons': [58.0]}",{'casualties': [40000.0]},"{'troops': [225000.0], 'machine': [350.0], 'guns': [750.0]}","{'troops': [471901.0], 'machine': [636.0], 'guns': [966.0]}"
+214,Attack at Fromelles,https://en.wikipedia.org/wiki/Battle_of_Fromelles,19,20-Jul-16,"Fromelles, Nord, France50°36′22.5″N 2°51′16.9″E﻿ / ﻿50.606250°N 2.854694°E﻿ / 50.606250; 2.854694",German victory,"British Empire
+
+ Australia
+ United Kingdom",German Empire,"10,000–15,000","c. 30,000","7,080","1,600–2,000",7/19/1916,7/20/1916,{},{},{},{}
+215,Battle of Helsinki,https://en.wikipedia.org/wiki/Battle_of_Helsinki,12,13 April 1918(1 day),"Helsinki, Finland",German and White victory,German Empire Finnish Whites,Finnish Reds,"6,000 Germans2,000 Whites","1,500–2,000 in the combat units",54 Germans killed 23 Whites killed,"c. 400 killed or executed 4,000–6,000 captured",4/12/1918,4/13/1918,"{'germans': [54.0], 'whites': [23.0]}","{'killed': [400.0], 'captured': [6000.0]}","{'germans': [6000.0], 'whites': [2000.0]}","{'troops': [1500.0, 2000.0]}"
+216,Battle of Prunaru,https://en.wikipedia.org/wiki/Battle_of_Prunaru,28-Nov-16,28-Nov-16,"Prunaru, Teleorman County, Romania",See aftermath  217th Division halted Left flank of the Danube Army subsequently exposed,Romania,German Empire,,,700 captured20 guns,Unknown,11/28/1916,11/28/1916,"{'captured': [700.0], 'guns': [20.0]}",{},{},{}
+217,Second Battle of Artois,https://en.wikipedia.org/wiki/Second_Battle_of_Artois,9-May,18-Jun-15,"Artois, France50°30′N 2°45′E﻿ / ﻿50.500°N 2.750°E﻿ / 50.500; 2.750",See Aftermath section,"France   British Empire
+
+ Canada
+ India
+ United Kingdom",German Empire,9 French and British divisions (initial)  20 divisions (final),18 divisions (final),"French: 102,500  British: 27,809 (Aubers Ridge: 11,161, Festubert: 16,648)","Germany: 73,072",5/9/1915,6/18/1915,"{'british': [102500.0], 'festubert': [11161.0]}",{},"{'french': [9.0], 'divisions': [20.0]}",{'divisions': [18.0]}
+218,Battle of Mojkovac,https://en.wikipedia.org/wiki/Battle_of_Mojkovac,6,7-Jan-16,"Mojkovac, Kingdom of Montenegro42°58′N 19°35′E﻿ / ﻿42.96°N 19.58°E﻿ / 42.96; 19.58",Montenegrin victory,Montenegro,Austria-Hungary,"6,500 men25 cannons8 machine guns[1]","20,000 men45 cannons[1]","205 killed, wounded or missing[1]","700 killed, wounded or missing (224 killed)[1]",1/6/1916,1/7/1916,{'killed': [205.0]},"{'killed': [700.0, 224.0]}","{'troops': [6500.0], 'cannons': [25.0], 'machine': [8.0]}","{'troops': [20000.0], 'cannons': [45.0]}"
+219,Battle of Mughar Ridge,https://en.wikipedia.org/wiki/Battle_of_Mughar_Ridge,13-Nov-17,13-Nov-17,"Junction Station, Mutasarrifate of Jerusalem, now  Israel",British Empire victory,"British Empire
+
+ Australia
+ United Kingdom
+ New Zealand
+ India",Ottoman Empire German Empire,,,"1,188+","10,000 prisoners,100 guns",11/13/1917,11/13/1917,{},"{'prisoners': [10000.0], 'guns': [100.0]}",{},{}
+220,Battle of Galicia,https://en.wikipedia.org/wiki/Battle_of_Galicia,23-Aug,11-Sep-14,"Lemberg, Galicia (modern-day Lviv, Ukraine)49°51′00″N 24°01′00″E﻿ / ﻿49.8500°N 24.0167°E﻿ / 49.8500; 24.0167","Russian victory  Full results 45%-50% of all Austrian manpower on the Eastern Front was destroyed, Russia had captured a large territory into the Kingdom of Hungary[1][2][3]Russia's victory forced Austria to withdraw troops from the Serbian front, which eventually helped the Serbs win the campaign[4]Creation General Government of Galicia and Bukovina",Russian Empire,Austro-Hungarian Empire,"1,000,000[5] to 1,200,000","950,000","200,000–300,000:
+
+40,000 captured","324,000–420,000:
+
+100,000 dead
+220,000 wounded
+100,000–130,000 captured",8/23/1914,9/11/1914,{'captured': [40000.0]},"{'dead': [100000.0], 'wounded': [220000.0], 'captured': [130000.0]}",{'to': [1000000.0]},{'troops': [950000.0]}
+221,Battle of Ukoko,https://en.wikipedia.org/wiki/Battle_of_Ukoko,21-Sep-14,21-Sep-14,"Ukoko, southern German Kamerun",Allied victory,"British Empire France
+
+ French Equatorial Africa","Germany
+
+ German Kamerun",250[1],Unknown1 steamer1 armed launch,7 killed[1],20 killed[2]1 steamer sunk1 armed launch sunk,9/21/1914,9/21/1914,{'killed': [7.0]},"{'killed': [20.0], 'steamer': [1.0], 'armed': [1.0]}",{'troops': [250.0]},"{'steamer': [1.0], 'armed': [1.0]}"
+222,Battle of the Hills,https://en.wikipedia.org/wiki/Third_Battle_of_Champagne,17,20-Apr-17,"province of Champagne, France49°00′N 04°00′E﻿ / ﻿49.000°N 4.000°E﻿ / 49.000; 4.000",Inconclusive,France,Germany,13 divisions,17 divisions,"21,697","6,120 prisoners",4/17/1917,4/20/1917,{},{'prisoners': [6120.0]},{'divisions': [13.0]},{'divisions': [17.0]}
+223,Battle of Ruovesi,https://en.wikipedia.org/wiki/Battle_of_Ruovesi,5-Feb,19 March 1918(1 month and 2 weeks),"Ruovesi, Finland",Red/Soviet retreat,Finnish Whites,Finnish Reds Russia,800–900,300–400 Reds500–600 Russians,47 killed,61 Reds killed11+ Russians killed,2/5/1918,3/19/1918,{'killed': [47.0]},{'reds': [61.0]},{},"{'reds': [300.0, 400.0], 'russians': [500.0, 600.0]}"
+224,Battle of Dragoslavele,https://en.wikipedia.org/wiki/Battle_of_Dragoslavele,26,27-Oct-16,"Dragoslavele, Romania",Romanian victory,Romania,German Empire Austria-Hungary,,,Unknown,300 prisoners (27 October),10/26/1916,10/27/1916,{},"{'prisoners': [300.0], 'october': [27.0]}",{},{}
+225,Battle of Festubert,https://en.wikipedia.org/wiki/Battle_of_Festubert,15,25-May-15,"South of Neuve Chapelle, France50°32′38″N 2°44′10″E﻿ / ﻿50.54389°N 2.73611°E﻿ / 50.54389; 2.73611",German victory,"British Empire
+
+ Canada
+ India[1]
+ United Kingdom","German Empire
+
+ Bavaria
+ Prussia",6 divisions,3 divisions,"16,648","c. 5,000",5/15/1915,5/25/1915,{},{},{'divisions': [6.0]},{'divisions': [3.0]}
+226,Battle of Seray Mountain,https://en.wikipedia.org/wiki/Battle_of_Seray_Mountain,5-May-17,13 August 1917[3],"Mavana, Persia",Assyrian victory[4][3],"Assyrian volunteers
+
+Supporters:  Russian Empire [1] Qajar State[2]","Ottoman Empire
+
+5th Division[2]
+6th Division[2]","1,200[4]","Less than 6,000[4]",Unknown,Heavy24 officers captured[2]Mountain Cannon captured among other weapons[4],5/5/1917,8/13/1917,{},{'officers': [24.0]},{'troops': [1200.0]},{}
+227,Battle of Bakhmach,https://en.wikipedia.org/wiki/Battle_of_Bakhmach,8,13-Mar-18,"Bakhmach, now Ukraine",Czechoslovak Legion/Soviet victory,"Entente Powers:
+ Czechoslovak Legions
+
+
+ Soviet Russia",Central Powers: Germany,"Parts of the 6th Hanácký Regiment, the 7th Tatranský Regiment and the 4th Prokop Holý Regiment","224th Infantry Division, 91st Infantry Division","145 killed, 210 wounded, 41 missing","around 300 killed, hundreds wounded",3/8/1918,3/13/1918,"{'killed': [145.0], 'wounded': [210.0], 'missing': [41.0]}",{'killed': [300.0]},{},{}
+228,Affair of Khra,https://en.wikipedia.org/wiki/Battle_of_Chra,22-Aug-14,22-Aug-14,"River Khra (Chra), German Togoland7°10.24′N 1°09.52′E﻿ / ﻿7.17067°N 1.15867°E﻿ / 7.17067; 1.15867",Allied victory,"British Empire
+
+ Gold Coast
+ France
+
+ French Dahomey","Germany
+
+ Togoland",British: 300France: 158,German Empire: 460–560,Britain 31France: 44,German Empire: 13,8/22/1914,8/22/1914,{'france': [31.0]},{},{},{}
+229,Battle of Mărăști,https://en.wikipedia.org/wiki/Battle_of_M%C4%83r%C4%83%C8%99ti,22-Jul,1-Aug-17,"Mărăști, Eastern Romania",Romanian–Russian victory,Romania Russia,German Empire Austria-Hungary,56 infantry battalions14 cavalry squadrons228 batteries (52 heavy)12 air squadrons,28 infantry battalions36 cavalry squadrons142 batteries (6 heavy),"4,879 casualties(1,460 killed; 3,419 wounded or missing)","9,600 casualties(2,200 killed; 4,700 wounded or missing; 2,700 captured)",7/22/1917,8/1/1917,"{'casualties': [4879.0], 'killed': [1460.0], 'wounded': [3419.0]}","{'casualties': [9600.0], 'killed': [2200.0], 'wounded': [4700.0], 'captured': [2700.0]}","{'infantry': [56.0], 'cavalry': [14.0], 'batteries': [228.0], 'heavy': [52.0], 'air': [12.0]}","{'infantry': [28.0], 'cavalry': [36.0], 'batteries': [142.0], 'heavy': [6.0]}"
+230,Battle of Lone Pine,https://en.wikipedia.org/wiki/Battle_of_Lone_Pine,6,10-Aug-15,"Gallipoli, Ottoman Empire (present-day Turkey)",Allied victory,"British Empire
+
+ Australia
+ New Zealand",Ottoman Empire,"1 brigade, reinforced by 2 more battalions[1]","2 battalions, reinforced by 3 regiments[1][2]","2,277[3]","~5,000–7,000[3][4]",8/6/1915,8/10/1915,{},{},"{'brigade': [1.0], 'more': [2.0]}","{'battalions': [2.0], 'regiments': [3.0]}"
+231,First Battle of the Aisne,https://en.wikipedia.org/wiki/First_Battle_of_the_Aisne,13,28-Sep-14,"Aisne River, France49°26′N 3°40′E﻿ / ﻿49.433°N 3.667°E﻿ / 49.433; 3.667",Indecisive,France United Kingdom,German Empire,Fifth Army Sixth Army BEF,First Army Second Army Seventh Army,"Unknown  13,541 killed or wounded",Unknown,9/13/1914,9/28/1914,{'killed': [13541.0]},{},{},{}
+232,Battle of Kilimanjaro,https://en.wikipedia.org/wiki/Battle_of_Kilimanjaro,3-Nov-14,3-Nov-14,"Longido District, Arusha, German East Africa3°4′33″S 37°21′12″E﻿ / ﻿3.07583°S 37.35333°E﻿ / -3.07583; 37.35333",German victory,"German Empire
+
+ German East Africa","British Empire
+
+ India",686,"~1,500",109,312,11/3/1914,11/3/1914,{},{},{'troops': [686.0]},{'troops': [1500.0]}
+233,Battle of the Sambre (1918),https://en.wikipedia.org/wiki/Second_Battle_of_the_Sambre,4-Nov-18,4-Nov-18,"River Sambre, France",Allied victory,"British Empire
+
+ United Kingdom
+ Canada
+ New Zealand
+ France United States",German Empire,"17 divisions 11 divisions Unknown
+
+37 tanks",17th Army 2nd Army,Unknown,Unknown,11/4/1918,11/4/1918,{},{},"{'divisions': [17.0, 11.0], 'tanks': [37.0]}",{}
+234,Battle of San Matteo,https://en.wikipedia.org/wiki/Battle_of_San_Matteo,13-Aug,3-Sep-18,Punta San Matteo,Austro-Hungarian victory,Italy,Austria-Hungary,"307th and 308th Alpini Companies of the Battalion ""Monte Ortler""",150 Kaiserschützen (3rd KuK Kaiserjäger Regiment),10 killed,17 killed,8/13/1918,9/3/1918,{'killed': [10.0]},{'killed': [17.0]},{},{'kaisersch': [150.0]}
+235,Dagestan Campaign (1918),https://en.wikipedia.org/wiki/Dagestan_Campaign_(1918)#Battle_of_Tarkin_heights,1-Aug,20 September 1918 (51 days),Dagestan,First Phase: Russian White victorySecond Phase: Ottoman victory,,,,,,,8/1/1918,9/20/1918,{},{},{},{}
+236,Battle of Brassó (1916),https://en.wikipedia.org/wiki/Battle_of_Brass%C3%B3_(1916),7,9-Oct-16,"Brassó, Austria-Hungary (today Brașov, Romania)",Central Powers victory,Romania,German Empire Austria-Hungary,,,"Unknown total1,175 prisoners25 guns captured",Unknown,10/7/1916,10/9/1916,"{'total': [1175.0], 'guns': [25.0]}",{},{},{}
+237,Battle of Goychay,https://en.wikipedia.org/wiki/Battle_of_Goychay,27-Jun,1 July 1918  (4 days),"Goychay, Baku Governorate, Azerbaijan Democratic Republic40°39′11″N 47°44′26″E﻿ / ﻿40.65306°N 47.74056°E﻿ / 40.65306; 47.74056",Ottoman–Azerbaijani victory,Central Powers: Ottoman Empire Azerbaijan Georgian volunteers,"Bolsheviks: Baku Commune Russian SFSR
+
+
+Entente Powers: Armenian Revolutionary Federation United Kingdom
+
+
+White movement:  Cossacks","Islamic Army of the Caucasus 5,000   Less than 5,000[b]","Unknown  5,000   Unknown number of MI6 members",Unknown,Unknown,6/27/1918,7/1/1918,{},{},{'less': [5000.0]},"{'unknown': [5000.0], 'members': [6.0]}"
+238,Battle of Tanga,https://en.wikipedia.org/wiki/Battle_of_the_Bees,3,5-Nov-14,"Tanga, German East Africa5°04′00″S 39°06′00″E﻿ / ﻿5.06667°S 39.10000°E﻿ / -5.06667; 39.10000",German victory,"German Empire
+
+ German East Africa","British Empire
+
+ India","250 (Initially)750 (Reinforcements)Total:1,000","4,000 (Initially)5,000 (Reinforcements)1 Astraea-class cruiserTotal:9,000",16 Germans killed[1] 55 Askaris killed[1] 76 Germans & Askaris wounded[1],360 killed[2]487 wounded[2]148 missing[3],11/3/1914,11/5/1914,"{'germans': [16.0, 76.0], 'askaris': [55.0]}","{'killed': [360.0], 'wounded': [487.0], 'missing': [148.0]}",{'total': [1000.0]},"{'total': [9000.0], 'astraea': [1.0]}"
+239,Second Battle of the Jiu Valley,https://en.wikipedia.org/wiki/Second_Battle_of_the_Jiu_Valley,7,17-Nov-16,"Jiu Valley, Romania",German victory[1],Romania,German Empire Austria-Hungary,18 battalions,40 infantry battalions2 cavalry divisions,Unknown,UnknownErwin Rommel's Company (according to Rommel himself):[2]3 dead (including 1 officer)18 wounded1 heavy machine-gun destroyed,11/7/1916,11/17/1916,{},"{'dead': [3.0], 'officer': [1.0], 'wounded': [18.0], 'heavy': [1.0]}",{'battalions': [18.0]},"{'infantry': [40.0], 'cavalry': [2.0]}"
+240,Battle of Humin-Bolimów,https://en.wikipedia.org/wiki/Battle_of_Bolimov,14-Jan-15,28-Feb-15,"Near Bolimów, Congress Poland, Russian Empire (present-day Poland)",Inconclusive,German Empire,Russian Empire,"362,446 men[1]","527,000 men[2] 1,067 machine guns 2,756 guns","40,000[3]","40,073[4][3]",1/14/1915,2/28/1915,{},{},{'troops': [362446.0]},"{'troops': [527000.0], 'machine': [1067.0], 'guns': [2756.0]}"
+241,Battle of Kaymakchalan,https://en.wikipedia.org/wiki/Battle_of_Kajmakchalan,12,30-Sep-16,Kajmakčalan,Serbian victory[1],Serbia,Bulgaria,1st Army with main effort by Drina Division,"1st brigade of 3rd ""Balkan"" Infantry Division with the main effort by 11th ""Sliven"" Regiment","4,643 casualties[2][3][4] of which 3⁄4 belonging to the Drina Division","Soldiers: 1,876 dead
+5,941 wounded
+Officers: 51 dead
+126 wounded",9/12/1916,9/30/1916,"{'casualties': [4643.0], 'belonging': [4.0]}","{'dead': [1876.0, 51.0], 'wounded': [5941.0, 126.0]}",{},{}
+242,Battle of Pskov (1918),https://en.wikipedia.org/wiki/Battle_of_Pskov_(1918),23,24-Feb-18,"Pskov, Russia",German Victory,German Empire,Soviet Russia Latvian Riflemen,,,,,2/23/1918,2/24/1918,{},{},{},{}
+243,Battle of Lioma,https://en.wikipedia.org/wiki/Battle_of_Lioma,30,31 August 1918[1],"Lioma, Portuguese East Africa (present-day Mozambique)15°10′30″S 36°48′12″E﻿ / ﻿15.17500°S 36.80333°E﻿ / -15.17500; 36.80333",See Aftermath section,"German Empire
+
+ German East Africa","British Empire
+
+ Nyasaland
+ United Kingdom","1,600+[7]","c. 3,000","29 killed, 27 wounded, 34 missing, 5 captured (German claim)[9]222 killed, missing or captured (British claim)[9]","32 killed, 59 wounded, 15 missing among 1/1st KAR; casualties of other British battalions unreported[10]",8/30/1918,8/31/1918,"{'killed': [29.0, 222.0], 'wounded': [27.0], 'missing': [34.0], 'captured': [5.0]}","{'killed': [32.0], 'wounded': [59.0], 'missing': [15.0], 'st': [1.0]}",{},{}
+244,Battle of Galați,https://en.wikipedia.org/wiki/Battle_of_Gala%C8%9Bi,12,22-Jan-18,"Galați, Kingdom of Romania",Romanian victory; Russian troops disarmed,,,500 troops,"12,000 troops",Unknown,"Unknown, but Russian troops got disarmed",1/12/1918,1/22/1918,{},{},{'troops': [500.0]},{'troops': [12000.0]}
+245,Battle of Kraśnik,https://en.wikipedia.org/wiki/Battle_of_Kra%C5%9Bnik,23-Aug,"25, 1914","Kraśnik, Congress Poland, Russian Empire (present-day Poland)",Austro-Hungarian victory,Austria-Hungary,Russian Empire,144 infantry battalions71 cavalry squadrons354 guns[1],104 infantry battalions100 cavalry squadrons350 guns[1],"15,000","25,000Including 6,000 POW28 guns",8/23/1914,8/25/1914,{},"{'including': [25000.0], 'pow': [6000.0], 'guns': [28.0]}","{'infantry': [144.0], 'cavalry': [71.0], 'guns': [354.0]}","{'infantry': [104.0], 'cavalry': [100.0], 'guns': [350.0]}"
+246,Battle of Kirpen Island,https://en.wikipedia.org/wiki/Battle_of_Kirpen_Island,10-Dec-15,10-Dec-15,"off Kefken Island, Ottoman Empire, Black Sea",Russian victory,Russian Empire,Ottoman Empire,3 destroyers,2 gunboats,unknown,2 gunboats sunk,12/10/1915,12/10/1915,{},{'gunboats': [2.0]},{'destroyers': [3.0]},{'gunboats': [2.0]}
+247,Battle of Bita Paka,https://en.wikipedia.org/wiki/Battle_of_Bita_Paka,11-Sep-14,11-Sep-14,"Bita Paka, south of Kabakaul on New Pomerania, German New Guinea",Australian victory,Australia,"Germany
+
+
+ German New Guinea",5001 light cruiserseveral destroyers,61 Germans240 Melanesian police,7 killed5 wounded,"31 killed(1 German, 30 Melanese police)11 wounded(1 German, 10 Melanese police)75 captured",9/11/1914,9/11/1914,"{'killed': [7.0], 'wounded': [5.0]}","{'killed': [31.0], 'german': [1.0, 1.0], 'melanese': [30.0, 10.0], 'wounded': [11.0], 'captured': [75.0]}",{'light': [5001.0]},"{'germans': [61.0], 'melanesian': [240.0]}"
+248,Battle of the Vistula River,https://en.wikipedia.org/wiki/Battle_of_the_Vistula_River,29-Sep,31-Oct-14,"Congress Poland, Russian Empire(present-day Poland)",Russian victory[1],German Empire Austria-Hungary,"Russian Empire
+
+ Congress Poland","321,000[g]","470,000[3] to 494,600[h]","78,077 to 150,000[i]","65,000[10] to 148,864[11][j]",9/29/1914,10/31/1914,{'to': [78077.0]},{'to': [65000.0]},{'troops': [321000.0]},{'to': [470000.0]}
+249,Battle of the Eastern Carpathians,https://en.wikipedia.org/wiki/Battle_of_the_Eastern_Carpathians,13,29-Oct-16,"Eastern Carpathians, on the border between Romania and Austria-Hungary",Romanian victory,Romania,Austria-Hungary,,,Unknown,"168 killed635 wounded802 missing1,000 prisoners12 guns",10/13/1916,10/29/1916,{},"{'killed': [168.0], 'wounded': [635.0], 'missing': [802.0], 'prisoners': [1000.0], 'guns': [12.0]}",{},{}
+250,Battle of Imbros,https://en.wikipedia.org/wiki/Battle_of_Imbros,20-Jan-18,20-Jan-18,"Off Imbros, Aegean Sea",Allied victory,United Kingdom   Greece[1],Ottoman Empire   Germany,2 monitors  2 destroyers  12 aircraft,1 battlecruiser  2 light cruisers  4 destroyers  10 aircraft,139 killed  2 monitors sunk  1 aircraft destroyed  1 aircraft damaged,330 killed  172 captured  1 light cruiser sunk  1 battlecruiser disabled  1 destroyer damaged  3 aircraft destroyed,1/20/1918,1/20/1918,"{'killed': [139.0], 'monitors': [2.0], 'aircraft': [1.0, 1.0]}","{'killed': [330.0], 'captured': [172.0], 'light': [1.0], 'battlecruiser': [1.0], 'destroyer': [1.0], 'aircraft': [3.0]}","{'monitors': [2.0], 'destroyers': [2.0], 'aircraft': [12.0]}","{'battlecruiser': [1.0], 'light': [2.0], 'destroyers': [4.0], 'aircraft': [10.0]}"
+251,Battle of Koprukoy,https://en.wikipedia.org/wiki/Battle_of_Koprukoy,10,19-Jan-16,Erzurum,Russian victory[a][1],Russian Empire,Ottoman Empire,"85,000","65,000","10,000","22,000[1]5,000 POWs[1]",1/10/1916,1/19/1916,{},{'pows': [220005000.0]},{'troops': [85000.0]},{'troops': [65000.0]}
+252,Battle of Rautu,https://en.wikipedia.org/wiki/Battle_of_Rautu,21-Feb,"5 April 1918(1 month, 2 weeks and 1 day)","Rautu, Finland",White victory,Finnish Whites,Finnish Reds Soviet Russia,"2,000",2.700 Russians  850 Finnish Reds,270 killed,"860–1,200 killed in action or executed",2/21/1918,4/5/1918,{'killed': [270.0]},{'killed': [1200.0]},{'troops': [2000.0]},"{'russians': [2700.0], 'finnish': [850.0]}"
+253,Battle of Charleroi,https://en.wikipedia.org/wiki/Battle_of_Charleroi,21,23-Aug-14,"Near Charleroi, Belgium50°24′N 04°26′E﻿ / ﻿50.400°N 4.433°E﻿ / 50.400; 4.433",German victory,Germany,France,2nd Army3rd Army,Fifth Army,"11,000","14,275 (10,000 killed, 4,275 missing or wounded) [citation needed]",8/21/1914,8/23/1914,{},"{'killed': [10000.0], 'missing': [4275.0]}",{},{}
+254,Battle of Romani,https://en.wikipedia.org/wiki/Battle_of_Romani,3,5 August 1916(2 days),"East of the Suez Canal and north of IsmailiaSinai peninsula, Egypt30°59′31″N 32°38′53″E﻿ / ﻿30.992°N 32.648°E﻿ / 30.992; 32.648",British Empire victory,"British Empire
+
+ United Kingdom
+ India
+ Southern Rhodesia
+ Australia
+ New Zealand",Ottoman Empire German Empire Austria-Hungary,"14,000","16,000","1,130","9,200 including 4,000 prisoners",8/3/1916,8/5/1916,{},"{'including': [9200.0], 'prisoners': [4000.0]}",{'troops': [14000.0]},{'troops': [16000.0]}
+255,Atlantic U-boat campaign of World War I,https://en.wikipedia.org/wiki/First_Battle_of_the_Atlantic,8 August 1914,20 October 1918 (1914-08-08,Atlantic Ocean0°N 25°W﻿ / ﻿0°N 25°W﻿ / 0; -25,Allied victory,United Kingdom Canada France United States BrazilOther Allied navies,Germany,,,"4,000 ships[citation needed]8 million tons of shipping[citation needed]","178 U-boats[citation needed]5,000 men[citation needed]",8/8/1914,8/20/1914,"{'ships': [4000.0], 'million': [8.0]}","{'u': [178.0], 'men': [5000.0]}",{},{}
+256,Battle of Rawa,https://en.wikipedia.org/wiki/Battle_of_Rawa,3-Sep,"11, 1914","Near Rava-Ruska, Austrian Poland (present-day Ukraine)",Russian victory,Russian Empire,Austria-Hungary,,,"60,000 casualties","350,000[1]",9/3/1914,9/11/1914,{'casualties': [60000.0]},{},{},{}
+257,Battle of Binagadi,https://en.wikipedia.org/wiki/Battle_of_Binagadi,26-Aug-18,1-Sep-18,"Binəqədi, Baku, Azerbaijan",Ottoman–Azerbaijani victory,Ottoman Empire Azerbaijan,"Centrocaspian Dictatorship Dashnaktsutyun United Kingdom White Russians
+
+ Baku Commune Russian SFSR",,,,,8/26/1918,9/1/1918,{},{},{},{}
+258,Battle of Naulila,https://en.wikipedia.org/wiki/Battle_of_Naulila,18-Dec-14,18-Dec-14,"Naulila, Portuguese Angola17°11′46″S 14°41′03″E﻿ / ﻿17.19611°S 14.68417°E﻿ / -17.19611; 14.68417",German victory,Portuguese Angola,German South West Africa,580 Infantry  200 Cavalry,650 Infantry,Around 70,Around 30,12/18/1914,12/18/1914,{},{},"{'infantry': [580.0], 'cavalry': [200.0]}",{'infantry': [650.0]}
+259,Battle of Kowel,https://en.wikipedia.org/wiki/Battle_of_Kowel,28-Jul-16,8-Aug-16,Galicia,Central Powers victory,Austria-Hungary German Empire,Russian Empire,"12 divisions (23,000 infantry) and 11 Cavalry divisions","29 divisions (30,000 infantry), 12 Cavalry divisions and elements of the Imperial Guard","9,000","11,000 infantry and cavalry 
+
+30,000 guardsmen",7/28/1916,8/8/1916,{},"{'infantry': [11000.0], 'guardsmen': [30000.0]}","{'divisions': [12.0], 'infantry': [23000.0], 'cavalry': [11.0]}","{'divisions': [29.0], 'infantry': [30000.0], 'cavalry': [12.0]}"
+260,Battle of St. Quentin (1914),https://en.wikipedia.org/wiki/Battle_of_Guise,29,30-Aug-14,"Guise, France49°54′03″N 3°37′42″E﻿ / ﻿49.90083°N 3.62833°E﻿ / 49.90083; 3.62833",French victory[1][2][3][4][5][6][7][8][9],France,German Empire,Fifth Army,2nd Army,"10,000 casualties","7,000 casualties",8/29/1914,8/30/1914,{'casualties': [10000.0]},{'casualties': [7000.0]},{},{}
+261,Battle of Vilppula,https://en.wikipedia.org/wiki/Battle_of_Vilppula,31-Jan,"18 March 1918(1 month, 2 weeks and 4 days)","Vilppula and Ruovesi, Finland",White victory  Red retreat,Finnish Whites,Finnish Reds,"900–1,050","1,500–2,300",60,125,1/31/1918,3/18/1918,{},{},{},{}
+262,Battle of Passchendaele,https://en.wikipedia.org/wiki/Battle_of_Passchendaele,31-Jul,"10 November 1917(3 months, 1 week and 3 days)","Passchendaele, Ypres Salient, Belgium50°54′1″N 3°1′16″E﻿ / ﻿50.90028°N 3.02111°E﻿ / 50.90028; 3.02111﻿ (Passendale)",See Analysis section,"British Empire
+ United Kingdom
+ Canada
+ Australia
+ New Zealand
+ South Africa
+ India
+ Newfoundland
+ Rhodesia
+
+ France Belgium",Germany,50 divisions 6 divisions,77–83 divisions,"240,000–448,614(disputed, see Casualties section)","217,000–400,000including 24,065 prisoners (disputed, see Casualties section)",7/31/1917,11/10/1917,{},"{'including': [400000.0], 'prisoners': [24065.0]}","{'divisions': [50.0, 6.0]}","{'divisions': [77.0, 83.0]}"
+263,Second Battle of the Aisne,https://en.wikipedia.org/wiki/Second_Battle_of_the_Aisne,16-Apr,"9 May, 24","Between Soissons and Reims, France49°24′N 3°36′E﻿ / ﻿49.400°N 3.600°E﻿ / 49.400; 3.600",Inconclusive,France Russia,Germany,53 French divisions4 Russian divisions,38 divisions,"c. 187,000","c. 163,000",4/16/2024,5/9/2024,{},{},"{'french': [53.0], 'russian': [4.0]}",{'divisions': [38.0]}
+264,Battle of Seicheprey,https://en.wikipedia.org/wiki/Battle_of_Seicheprey,20,21-Apr-18,"Seicheprey, Meurthe-et-Moselle, France","Indecisive; Germans accomplished their tactical goal, Americans later retook the ground",German Empire,United States of America,,,about 150 killedabout 450 wounded and captured,81 killed424 wounded130 captured,4/20/1918,4/21/1918,"{'killedabout': [150.0], 'wounded': [450.0]}","{'killed': [81.0], 'wounded': [424.0], 'captured': [130.0]}",{},{}
+265,Morava Offensive,https://en.wikipedia.org/wiki/Battle_of_Morava,14-Oct-15,9-Nov-15,"front from Leskovac to Negotin, Serbia",Bulgarian victory,Bulgaria,Serbia,"First Army: 195,620 men
+116,569 rifleman
+108 machine guns
+422 cannons[1]","Second Army – 5 infantry divisions: 90,000 riflemen
+94 machine guns
+248 cannons[2]","1,906 killed
+10,637 wounded
+925 missing[3]","6,000 casualties",10/14/1915,11/9/1915,"{'killed': [1906.0], 'wounded': [10637.0], 'missing': [925.0]}",{'casualties': [6000.0]},"{'troops': [195620.0], 'rifleman': [116569.0], 'machine': [108.0], 'cannons': [422.0]}","{'infantry': [5.0], 'riflemen': [90000.0], 'machine': [94.0], 'cannons': [248.0]}"
+266,Battle of Suldouze,https://en.wikipedia.org/wiki/Battle_of_Suldouze,8,13-Apr-18,"Suldouze, Persia",Assyrian victory  The Turkish-Kurdish force retreated[2][1],Assyrian volunteers,Ottoman Empire Kurdish volunteers[1],"1,500 Horsemen[3]","8,000+[3]",300+ killed,"5,000+ killed[2]",4/8/1918,4/13/1918,{},{},{'horsemen': [1500.0]},{}
+267,Battle of Heligoland Bight (1914),https://en.wikipedia.org/wiki/Battle_of_Heligoland_Bight_(1914),28-Aug-14,28-Aug-14,"Heligoland Bight, North Sea54°11′N 7°31′E﻿ / ﻿54.19°N 7.51°E﻿ / 54.19; 7.51",British victory,United Kingdom,Germany,5 battlecruisers8 light cruisers33 destroyers8 submarines,6 light cruisers19 torpedo boats12 minesweepers,35 killed55 wounded1 light cruiser damaged3 destroyers damaged,712 killed149 wounded336 captured3 light cruisers sunk1 torpedo boat sunk3 light cruisers damaged3 torpedo boats damaged,8/28/1914,8/28/1914,"{'killed': [35.0], 'wounded': [55.0], 'light': [1.0], 'destroyers': [3.0]}","{'killed': [712.0], 'wounded': [149.0], 'captured': [336.0], 'light': [3.0, 3.0], 'torpedo': [1.0, 3.0]}","{'battlecruisers': [5.0], 'light': [8.0], 'destroyers': [33.0], 'submarines': [8.0]}","{'light': [6.0], 'torpedo': [19.0], 'minesweepers': [12.0]}"
+268,Battle of Kakamas,https://en.wikipedia.org/wiki/Battle_of_Kakamas,4-Feb-15,4-Feb-15,"Kakamas, South Africa28°45′30″S 20°37′20″E﻿ / ﻿28.75833°S 20.62222°E﻿ / -28.75833; 20.62222",South African victory,"Germany
+
+ German Southwest Africa",South Africa,Unknown,"6,000",7 killed16 wounded16 captured,2 killed,2/4/1915,2/4/1915,"{'killed': [7.0], 'wounded': [16.0], 'captured': [16.0]}",{'killed': [2.0]},{},{'troops': [6000.0]}
+269,Battle of El Herri,https://en.wikipedia.org/wiki/Battle_of_El_Herri,13-Nov-14,13-Nov-14,"El Herri, near Khénifra, Morocco",Zaian victory,France,Zaian Confederation,"43 officers and 1,187 men[1]","Estimated by the French at 5,000 tribesmen[2]",590 men and 33 officers killed[3]5 officers and 171 men wounded[3],At least 182 killed[4],11/13/1914,11/13/1914,"{'men': [590.0, 171.0], 'officers': [33.0, 5.0]}",{'killed': [182.0]},"{'officers': [43.0], 'troops': [1187.0]}",{'tribesmen': [5000.0]}
+270,Gas attacks at Hulluch,https://en.wikipedia.org/wiki/Battle_of_Hulluch,27,29-Apr-16,"Hulluch, France50°29′12″N 02°49′03″E﻿ / ﻿50.48667°N 2.81750°E﻿ / 50.48667; 2.81750",British victory,United Kingdom,German Empire,I Corps  12th (Eastern) Division  15th (Scottish) Division  16th (Irish) Division,II Royal Bavarian Corps  3rd Bavarian Division  4th Bavarian Division,"1,980 (1,260 gas casualties, 338 killed)","c. 1,500 gas casualties (data incomplete)",4/27/1916,4/29/1916,"{'gas': [1260.0], 'killed': [338.0]}",{'gas': [1500.0]},{},{}
+271,Battle of Vulcan Pass,https://en.wikipedia.org/wiki/Battle_of_Vulcan_Pass,21,22 September 1916(1 day),"Vulcan Pass, Austria-Hungary",German victory,Germany,Romania,,,17 killed83 wounded,526 Romanian soldiers captured,9/21/1916,9/22/1916,"{'killed': [17.0], 'wounded': [83.0]}",{'romanian': [526.0]},{},{}
+272,Battle of Gnila Lipa,https://en.wikipedia.org/wiki/Battle_of_Gnila_Lipa,26,30-Aug-14,"Kingdom of Galicia and Lodomeria, Austria-Hungary",Russian victory,Russian Empire,Austria-Hungary,"385,000+ men:[1]336 infantry battalions164 cavalry squadrons1.214 guns","322,000+ men:[1]282 infantry battalions133 cavalry squadrons718 guns",Light,"20,00070 guns[2]",8/26/1914,8/30/1914,{},{'guns': [2000070.0]},"{'infantry': [336.0], 'cavalry': [164.0], 'guns': [1214.0]}","{'infantry': [282.0], 'cavalry': [133.0], 'guns': [718.0]}"
+273,Battle of Havrincourt,https://en.wikipedia.org/wiki/Battle_of_Havrincourt,12-Sep-18,12-Sep-18,"Havrincourt, France50°06′43″N 03°05′13″E﻿ / ﻿50.11194°N 3.08694°E﻿ / 50.11194; 3.08694",British victory,"British Empire
+
+ United Kingdom
+ New Zealand",German Empire,3 divisions,4 divisions,Unknown,Unknown,9/12/1918,9/12/1918,{},{},{'divisions': [3.0]},{'divisions': [4.0]}
+274,Battle of the Selle,https://en.wikipedia.org/wiki/Battle_of_the_Selle,17,25-Oct-18,"Selle River, France",Allied victory,"British Empire
+
+ Canada
+ New Zealand
+ South Africa
+ United Kingdom
+ United States",German Empire,,,,,10/17/1918,10/25/1918,{},{},{},{}
+275,Battle of Arras (1914),https://en.wikipedia.org/wiki/Battle_of_Arras_(1914),1,4-Oct-14,"Arras, France50°17′23″N 2°46′51″E﻿ / ﻿50.28972°N 2.78083°E﻿ / 50.28972; 2.78083",Indecisive,French Republic,German Empire,Tenth Army,"Three corps of the 1st, 2nd and 7th armies",,,10/1/1914,10/4/1914,{},{},{},{}
+276,Battle of Amiens (1918),https://en.wikipedia.org/wiki/Battle_of_Amiens_(1918),8,12 August 1918 (major combat),"East of Amiens, Picardy, France49°53′38″N 2°17′39″E﻿ / ﻿49.89389°N 2.29417°E﻿ / 49.89389; 2.29417",Allied victory[1][2]  Start of Hundred Days Offensive,"British Empire
+
+ United Kingdom
+ Australia
+ Canada
+ France United States",German Empire,"23 active divisions
+1 reserve divisions
+1,104 aircraft[3]
+
+16 active divisions
+3 reserve divisions
+800 aircraft[4]
+
+1 active division","26 active divisions
+9 reserve divisions
+365 aircraft[3]","24,232[5][6]
+ 22,202[5][6]","45,000 killed or wounded[5]29,873 captured[5][6]",8/8/1918,8/12/1918,{},"{'killed': [45000.0], 'captured': [29873.0]}","{'active': [23.0, 16.0, 1.0], 'reserve': [1.0, 3.0], 'aircraft': [1104.0, 800.0]}","{'active': [26.0], 'reserve': [9.0], 'aircraft': [365.0]}"
+277,Battle of Durazzo (1918),https://en.wikipedia.org/wiki/Battle_of_Durazzo_(1918),2-Oct-18,2-Oct-18,"Durazzo, Albania, Adriatic Sea41°18′5″N 19°21′48″E﻿ / ﻿41.30139°N 19.36333°E﻿ / 41.30139; 19.36333",Allied victoryDurazzo evacuated by Austro-Hungarian forces,Allies: Italy Albania United Kingdom United States Australia,Austria-Hungary,:1 battleship3 armoured cruisers3 light cruisers7 destroyers8 torpedo boatsseveral MAS boatsnumerous aircraft:5 light cruisers14 destroyers:12 submarine chasers:2 destroyers,Land:3 shore batteriesSea:2 destroyers1 torpedo boat2 submarines1 hospital ship,5 light cruisers damaged1 destroyer damaged,1 steamer sunk2 destroyers damaged1 torpedo boat damaged2 submarines damaged2 steamers damaged3 shore batteries destroyed,10/2/1918,10/2/1918,"{'light': [5.0], 'destroyer': [1.0]}","{'steamer': [1.0], 'destroyers': [2.0], 'torpedo': [1.0], 'submarines': [2.0], 'steamers': [2.0], 'shore': [3.0]}","{'battleship': [1.0], 'armoured': [3.0], 'light': [3.0, 5.0], 'destroyers': [7.0, 14.0, 2.0], 'torpedo': [8.0], 'submarine': [12.0]}","{'shore': [3.0], 'destroyers': [2.0], 'torpedo': [1.0], 'submarines': [2.0], 'hospital': [1.0]}"
+278,Ninth Battle of the Isonzo,https://en.wikipedia.org/wiki/Ninth_Battle_of_the_Isonzo,31-Oct,4-Nov-16,"Soča valley, Slovenia",Austro-Hungarian victory,Italy,Austria-Hungary Germany,"225 battalions1,400 artillery pieces",150 battalions800 artillery pieces,"4,785 killed19,922 wounded9,217 missing or captured","2,382 killed12,028 wounded8,119 missing or captured",10/31/1916,11/4/1916,"{'killed': [4785.0], 'wounded': [19922.0], 'missing': [9217.0]}","{'killed': [2382.0], 'wounded': [12028.0], 'missing': [8119.0]}","{'battalions': [225.0], 'artillery': [1400.0]}","{'battalions': [150.0], 'artillery': [800.0]}"
+279,Battle of Namacurra,https://en.wikipedia.org/wiki/Battle_of_Namacurra,1-Jul,3-Jul-18,Portuguese Mozambique,German victory,Portugal British Empire,Germany,,,209 dead540 captured,Unknown,7/1/1918,7/3/1918,"{'dead': [209.0], 'captured': [540.0]}",{},{},{}
+280,Battle of Scimitar Hill,https://en.wikipedia.org/wiki/Battle_of_Scimitar_Hill,21-Aug-15,21-Aug-15,"Suvla, Gallipoli, Ottoman Empire",Ottoman victory,British Empire,Ottoman Empire,"11th and 29th divisions (14,300 men)[1]","12th Division 9th Division (6 Battalions)  6th Division(Reserve, did not engage) [2]","5,300[1]","2,600[3]",8/21/1915,8/21/1915,{},{},{'troops': [14300.0]},{'battalions': [6.0]}
+281,Ovče Pole Offensive,https://en.wikipedia.org/wiki/Battle_of_Ovche_Pole,14-Oct-15,15-Nov-15,"between Vranje and Berovo, then in Serbia",Bulgarian victory,Bulgaria,Serbia,"2nd Army: 100,247 men
+53,325 rifles
+52 machine guns
+182 cannons[1]","2 – 3 divisions:
+41,250 rifles
+33 machine guns
+78 cannons[1]",Heavy,Heavy,10/14/1915,11/15/1915,{},{},"{'troops': [100247.0], 'rifles': [53325.0], 'machine': [52.0], 'cannons': [182.0]}","{'divisions': [2.0, 3.0], 'rifles': [41250.0], 'machine': [33.0], 'cannons': [78.0]}"
+282,Battle of Lahti,https://en.wikipedia.org/wiki/Battle_of_Lahti,19-Apr,1 May 1918(1 week and 5 days),"Lahti, Finland",White victory,German Empire Finnish Whites,Finnish Reds,"800 Germans  3,000 Whites","800 members of the Lahti Red Guard  ~10,000 armed refugees",64 Germans killed  ~20 Whites killed,"at least 200 killed  ~30,000 captured[1]",4/19/1918,5/1/1918,"{'germans': [64.0], 'whites': [20.0]}","{'killed': [200.0], 'captured': [30000.0]}","{'germans': [800.0], 'whites': [3000.0]}","{'members': [800.0], 'armed': [10000.0]}"
+283,Second Battle of the Masurian Lakes,https://en.wikipedia.org/wiki/Second_Battle_of_the_Masurian_Lakes,7,28-Feb-15,"East Prussia, German Empire (present-day Poland)",German victory,Germany,Russia,"250,000[1] to 275,261[2]  400 machine guns  1082 guns","126,000[3][4] to 200,000[5]","20,000[6] to 31,827[7]","56,000[8][9][10] to 135,189[7]",2/7/1915,2/28/1915,{'to': [20000.0]},{'to': [56000.0]},"{'to': [250000.0], 'machine': [400.0], 'guns': [1082.0]}",{'to': [126000.0]}
+284,Battle of Cambrai (1918),https://en.wikipedia.org/wiki/Battle_of_Cambrai_(1918),8,10-Oct-18,"Cambrai, France50°10′36″N 3°14′08″E﻿ / ﻿50.1767°N 3.2356°E﻿ / 50.1767; 3.2356",Allied victory,"British Empire
+
+ United Kingdom
+ Canada
+ New Zealand",German Empire,"630,000 in 21 divisions 90,000 in 3 divisions 30,000 in 1 division 324 tanks","180,000","12,000","10,000",10/8/1918,10/10/1918,{},{},"{'troops': [630000.0, 90000.0, 30000.0], 'divisions': [21.0, 3.0], 'division': [1.0], 'tanks': [324.0]}",{'troops': [180000.0]}
+285,Battle of Doiran (1916),https://en.wikipedia.org/wiki/Battle_of_Doiran_(1916),9 August 1916 - 18 August 1916,9 August 1916 - 18 August 1916,"Lake Dojran, Kingdom of Serbia (present-day North Macedonia)",Bulgarian victory,Bulgaria,"France
+ United Kingdom
+ Kingdom of Italy",2nd Thracian Infantry Division,"3 divisions
+ 1 division
+45,000 men
+400 guns",851,"3,200 men",8/9/1916,8/18/1916,{},{'men': [3200.0]},{},"{'divisions': [3.0], 'division': [1.0], 'troops': [45000.0], 'guns': [400.0]}"
+286,Battle of Doiran (1917),https://en.wikipedia.org/wiki/Battle_of_Doiran_(1917),22-Apr-17,9-May-17,"Lake Dojran, (present-day North Macedonia)",Bulgarian victory,Bulgaria,United Kingdom,"1 Division:
+30,000 men
+147 guns
+35 mortars
+130 machine guns[1]","3 Divisions:
+43,000 men
+160 guns
+110 mortars
+440 machine guns[2]","2,000 men","12,000 men",4/22/1917,5/9/1917,{'men': [2000.0]},{'men': [12000.0]},"{'division': [1.0], 'troops': [30000.0], 'guns': [147.0], 'mortars': [35.0], 'machine': [130.0]}","{'divisions': [3.0], 'troops': [43000.0], 'guns': [160.0], 'mortars': [110.0], 'machine': [440.0]}"
+287,Battle of Mołotków,https://en.wikipedia.org/wiki/Battle_of_Mo%C5%82otk%C3%B3w,29-Oct-14,29-Oct-14,"Mołotków, Kingdom of Galicia and Lodomeria",Russian victory,Austria-Hungary(Polish Legions),Russian Empire,,,200 killed300 wounded400 captured,100 killed,10/29/1914,10/29/1914,"{'killed': [200.0], 'wounded': [300.0], 'captured': [400.0]}",{'killed': [100.0]},{},{}
+288,Battle of Sharqat,https://en.wikipedia.org/wiki/Battle_of_Sharqat,23-Oct,"30, 1918","North of Baghdad, present-day Iraq",British–Indian–Assyrian victory[1],"British Empire
+
+ India
+ Assyrian volunteers",Ottoman Empire,"2 infantry divisions, 2 cavalry brigades","""Tigris Group"" (Dicle Grubu) of Ottoman Sixth Army; five infantry regiments and one rifle regiment[2]","1,800","11,322[citation needed]–13,000[2] POW with many more wounded and killed[citation needed]",10/23/1918,10/30/1918,{},{'pow': [13000.0]},"{'infantry': [2.0], 'cavalry': [2.0]}",{}
+289,Battle of St Quentin Canal,https://en.wikipedia.org/wiki/Battle_of_St_Quentin_Canal,29-Sep,10-Oct-18,"Hindenburg Line, France49°58′30″N 3°13′54″E﻿ / ﻿49.97500°N 3.23167°E﻿ / 49.97500; 3.23167",Allied victory,"United Kingdom
+
+ Australia
+ United States",Germany,32 divisions: 30 British Empire; two American divisions[1],39 divisions[a],"8,802 (partial)[3][4] 13,182[5]  2,577[6]","36,000 POW[7]",9/29/1918,10/10/1918,{},{'pow': [36000.0]},"{'divisions': [32.0], 'british': [30.0]}",{'divisions': [39.0]}
+290,Battle of Trekkopjes,https://en.wikipedia.org/wiki/Battle_of_Trekkopjes,26-Apr-15,26-Apr-15,"Trekkopjes, German Southwest Africa22°17′33″S 15°06′02″E﻿ / ﻿22.29250°S 15.10056°E﻿ / -22.29250; 15.10056",South African victory,"Germany
+
+ German Southwest Africa",South Africa,"700–1,5002 field guns","1,3509 armoured cars",14 killed14 wounded13 captured[1],8 killed34 wounded[1],4/26/1915,4/26/1915,"{'killed': [14.0], 'wounded': [14.0], 'captured': [13.0]}","{'killed': [8.0], 'wounded': [34.0]}","{'field': [700.0, 15002.0]}",{'armoured': [13509.0]}
+291,First Battle of Gaza,https://en.wikipedia.org/wiki/First_Battle_of_Gaza,26-Mar-17,26-Mar-17,"Gaza, southern Palestine",Ottoman victory,"British Empire
+
+ Canada
+ British India
+ Australia
+ New Zealand
+ United Kingdom",Ottoman Empire German Empire Austria-Hungary,"31,000","19,000","523 killed2,932 wounded512 missing","16 dead or wounded, 41 missing 300 killed, 750 wounded, 600 missing",3/26/1917,3/26/1917,"{'killed': [523.0], 'wounded': [2932.0], 'missing': [512.0]}","{'dead': [16.0], 'missing': [41.0, 600.0], 'killed': [300.0], 'wounded': [750.0]}",{'troops': [31000.0]},{'troops': [19000.0]}
+292,Battle of Jarrab,https://en.wikipedia.org/wiki/Battle_of_Jarrab,24 January 1915[1],24 January 1915[1],"Jarrab Lake, North of town of Al Majma'ah, Arabia",Jabal Shammar victory   Change of course of the Arab revolt,Jabal ShammarSupported by:  Ottoman Empire,Nejd and HasaSupported by: British Empire,"1,500–1,800","2,000",Few,600 killed,1/24/1915,1/24/1915,{},{'killed': [600.0]},{},{'troops': [2000.0]}
+293,Battle of Stallupönen,https://en.wikipedia.org/wiki/Battle_of_Stallup%C3%B6nen,17 August [O.S. 4 August] 1914,17 August [O.S. 4 August] 1914,"Stallupönen, East Prussia (now Nesterov, Russia)",Russian victory[1][2],German Empire,Russian Empire,"18,000[3]","17,000[4][a]","1,500","6,905[6][7]",8/17/1914,8/17/1914,{},{},{'troops': [18000.0]},{'troops': [17000.0]}
+294,Battle of Shaiba,https://en.wikipedia.org/wiki/Battle_of_Shaiba,12,14-Apr-15,"Shaiba, Southern Iraq30°24′0.000″N 47°37′59.999″E﻿ / ﻿30.40000000°N 47.63333306°E﻿ / 30.40000000; 47.63333306",British-Indian victory,"British Empire
+
+ India","Ottoman Empire
+
+Al-Muntafiq","6,156","18,000","1,570","2,435",4/12/1915,4/14/1915,{},{},{'troops': [6156.0]},{'troops': [18000.0]}
+295,Battle of Ctesiphon (1915),https://en.wikipedia.org/wiki/Battle_of_Ctesiphon_(1915),22-Nov-15,25-Nov-15,"Ctesiphon, present-day Iraq33°5′37″N 44°34′0.001″E﻿ / ﻿33.09361°N 44.56666694°E﻿ / 33.09361; 44.56666694",Inconclusive,"British Empire
+
+ India",Ottoman Empire,"11,000 troops
+2 warships","18,000–20,000 troops
+52 guns","4,600[1][2]","6,200[2][3] to 9,500[1]",11/22/1915,11/25/1915,{},{'to': [6200.0]},"{'troops': [11000.0], 'warships': [2.0]}","{'troops': [18000.0, 20000.0], 'guns': [52.0]}"
+296,Battle of the Nek,https://en.wikipedia.org/wiki/Battle_of_the_Nek,7-Aug-15,7-Aug-15,"Gallipoli, Ottoman Empire",Ottoman victory,"British Empire
+
+ Australia
+ United Kingdom",Ottoman Empire,600,Unknown,372 killed and wounded,At least 12,8/7/1915,8/7/1915,{'killed': [372.0]},{},{'troops': [600.0]},{}
+297,Second Battle of Cobadin,https://en.wikipedia.org/wiki/Second_Battle_of_Cobadin,19,25-Oct-16,"Rasova, Cobadin, Cernavodă; Romania",Central Powers victory,Bulgaria German Empire Ottoman Empire,Romania Russian Empire,"65 battalions and 28 squadrons; 60,207 riflemen 18 battalions; 11,374 riflemen 13 battalions Total: 96 battalions and 28 squadrons; 71,581+ riflemen [1]",71 battalions and 8 squadrons 45 battalions and 32 squadrons Total: 116 battalions and 40 squadrons[1],"11,575+[2] 5,432 [2] Unknown
+
+Total: 17,007+ [2]","Heavy including 6,700 captured (from 19 to 21 October alone)[3]",10/19/1916,10/25/1916,"{'total': [17007.0], 'unknown': [5432.0]}","{'captured': [6700.0], 'to': [19.0], 'october': [21.0]}","{'total': [96.0], 'battalions': [65.0, 18.0, 13.0, 96.0], 'squadrons': [28.0, 28.0], 'riflemen': [60207.0, 11374.0]}","{'total': [116.0], 'battalions': [71.0, 45.0, 116.0], 'squadrons': [8.0, 32.0, 40.0]}"
+298,Battle of Sevastopol (1918),https://en.wikipedia.org/wiki/Battle_of_Sevastopol_(1918),19-Apr-18,1-May-18,"Sevastopol, Russian Empire",German-Ukrainian victory,Germany Ukraine,Bolsheviks,,,,,4/19/1918,5/1/1918,{},{},{},{}
+299,Battle of Messines (1914),https://en.wikipedia.org/wiki/Battle_of_Messines_(1914),12-Oct,2-Nov-14,Messines50°46′00″N 02°54′00″E﻿ / ﻿50.76667°N 2.90000°E﻿ / 50.76667; 2.90000,Inconclusive,"British Empire
+
+ British India
+ France",German Empire,,,,,10/12/1914,11/2/1914,{},{},{},{}
+300,Battle of the Strait of Otranto (1917),https://en.wikipedia.org/wiki/Battle_of_the_Strait_of_Otranto_(1917),15-May-17,15-May-17,"Strait of Otranto, Adriatic Sea",Indecisive,Austria–Hungary   Germany,Italy   United Kingdom   France,1 armored cruiser  3 light cruisers  4 destroyers  3 submarines,2 light cruisers  10 destroyers  1 seaplane carrier 47 drifters,2 light cruisers damaged,1 light cruiser damaged  2 destroyers sunk  1 destroyer damaged  14 drifters sunk  4 drifters damaged  1 cargo ship sunk  1 cargo ship damaged,5/15/1917,5/15/1917,{'light': [2.0]},"{'light': [1.0], 'destroyers': [2.0], 'destroyer': [1.0], 'drifters': [14.0, 4.0], 'cargo': [1.0, 1.0]}","{'armored': [1.0], 'light': [3.0], 'destroyers': [4.0], 'submarines': [3.0]}","{'light': [2.0], 'destroyers': [10.0], 'seaplane': [1.0], 'drifters': [47.0]}"
+301,Battle of Lorraine,https://en.wikipedia.org/wiki/Battle_of_Lorraine,14,25-Aug-14,Lorraine48°48′N 06°43′E﻿ / ﻿48.800°N 6.717°E﻿ / 48.800; 6.717,German victory,Germany,France,6th Army,Second Army,,,8/14/1914,8/25/1914,{},{},{},{}
+302,Fourth Battle of the Isonzo,https://en.wikipedia.org/wiki/Fourth_Battle_of_the_Isonzo,10-Nov,2-Dec-15,"Soča/Isonzo river, western Slovenia",Italian victory  Italian offensive suspended[1] Conquest of important entrenchments,Italy,Austria-Hungary,"370 battalions1,374 guns",155 battalions626 guns,"49,500 (7,500 dead)","32,100 (4,000 dead)",11/10/1915,12/2/1915,{'dead': [7500.0]},{'dead': [4000.0]},"{'battalions': [370.0], 'guns': [1374.0]}","{'battalions': [155.0], 'guns': [626.0]}"
+303,Battle of Varkaus,https://en.wikipedia.org/wiki/Battle_of_Varkaus,19,21 February 1918(2 days),"Varkaus, Finland",White victory,Finnish Whites,Finnish Reds,"c. 1,000","c. 1,200 (150 armed)",12 killed,c. 20 killed 180+ executed,2/19/1918,2/21/1918,{'killed': [12.0]},{'killed': [20.0]},{},{'armed': [150.0]}
+304,Battle of Mont Sorrel,https://en.wikipedia.org/wiki/Battle_of_Mont_Sorrel,2,13-Jun-16,"Mont Sorrel, east of Ypres, Belgium50°49′38″N 02°56′31″E﻿ / ﻿50.82722°N 2.94194°E﻿ / 50.82722; 2.94194",Inconclusive,"British Empire
+
+ Canada
+ United Kingdom","German Empire
+
+ Kingdom of Bavaria",2 Canadian divisions1 British division,3 divisions,"8,430","5,765[1]",6/2/1916,6/13/1916,{},{},"{'canadian': [2.0], 'british': [1.0]}",{'divisions': [3.0]}
+305,Battle of Armentières,https://en.wikipedia.org/wiki/Battle_of_Armenti%C3%A8res,13-Oct,2-Nov-14,"Armentières, France50°41′17″N 02°52′52″E﻿ / ﻿50.68806°N 2.88111°E﻿ / 50.68806; 2.88111",Inconclusive,France British Empire,Germany,"2 divisions, one brigadeConneau Cavalry Corps",5 divisions,"5,779","11,300",10/13/1914,11/2/1914,{},{},{'divisions': [2.0]},{'divisions': [5.0]}
+306,Battle of Broken Hill,https://en.wikipedia.org/wiki/Battle_of_Broken_Hill,1-Jan-15,1-Jan-15,"Broken Hill, Australia",,,,,,,,1/1/1915,1/1/1915,{},{},{},{}
+307,Battle of Vittorio Veneto,https://en.wikipedia.org/wiki/Battle_of_Vittorio_Veneto,24-Oct,4-Nov-18,"Vittorio, Kingdom of Italy45°57′21″N 12°20′49″E﻿ / ﻿45.95583°N 12.34694°E﻿ / 45.95583; 12.34694",Italian victory[1][2][3]  Collapse of the Austro-Hungarian Empire[4][5][6],Italy  United Kingdom  France  United States,Austria-Hungary,"57 divisions:[7]
+
+ 1,415,000 in 52 divisions
+ ≈40,000 in 3 divisions
+ 25,000 in 2 divisions
+ 1,200 in one regiment
+Total : 1,486,200
+
+7,700 guns600 aircraft","61 divisions:
+
+ 1,800,000[7]6,145 guns","40,917 38,000
+
+7,000 killed
+23,000 wounded
+8,000 missing and captured
+ 2,139 778 8","528,000[8]30,000 killed50,000 wounded448,000 captured5,000+ artillery pieces captured",10/24/1918,11/4/1918,"{'killed': [7000.0], 'wounded': [23000.0], 'missing': [8000.0]}","{'killed': [52800030000.0], 'wounded': [50000.0], 'captured': [448000.0]}","{'total': [1486200.0], 'divisions': [57.0, 52.0, 3.0, 2.0], 'troops': [1415000.0, 40000.0, 25000.0, 1200.0], 'guns': [7700.0], 'aircraft': [600.0]}","{'divisions': [61.0], 'guns': [18000006145.0]}"
+308,Battle of Mecca (1916),https://en.wikipedia.org/wiki/Battle_of_Mecca_(1916),10-Jun,4-Jul-16,"Mecca, Hejaz Vilayet, Ottoman Empire",Arab Victory,Arab rebels,Ottoman Empire,"5,000","1,000[1]",,,6/10/1916,7/4/1916,{},{},{'troops': [5000.0]},{'troops': [1000.0]}
